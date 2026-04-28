@@ -131,7 +131,12 @@
       display: flex;
       gap: 7px;
       flex-wrap: wrap;
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+      scrollbar-width: none;
     }
+
+    .cats::-webkit-scrollbar { display: none; }
 
     .cat-btn {
       padding: 6px 15px;
@@ -345,11 +350,49 @@
     footer a { color: var(--mid); text-decoration: none; }
     footer a:hover { text-decoration: underline; }
 
+    /* ── FLOATING WHATSAPP (mobile) ── */
+    .fab-wa {
+      position: fixed;
+      bottom: 18px;
+      right: 18px;
+      width: 56px;
+      height: 56px;
+      background: var(--whatsapp);
+      color: white;
+      border-radius: 50%;
+      display: none;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 6px 18px rgba(0,0,0,0.25);
+      z-index: 200;
+      text-decoration: none;
+      transition: transform 0.15s;
+    }
+
+    .fab-wa:hover, .fab-wa:active { transform: scale(1.08); }
+
     /* ── RESPONSIVE ── */
+    @media (max-width: 760px) {
+      .controls-inner { gap: 10px; }
+      .search-wrap { min-width: 100%; }
+      .cats {
+        flex-wrap: nowrap;
+        margin: 0 -16px;
+        padding: 0 16px 2px;
+      }
+      .grid { grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 16px; }
+    }
+
     @media (max-width: 600px) {
       .hero { padding: 36px 16px 32px; }
+      .hero p { font-size: 15px; }
       .controls { padding: 10px 16px; }
       .main { padding: 24px 16px 40px; }
+      .fab-wa { display: flex; }
+      .grid { grid-template-columns: 1fr; gap: 14px; }
+      .card-img { aspect-ratio: 16/10; }
+      .card-name { font-size: 16px; }
+      footer { padding-bottom: 86px; }
     }
   </style>
 </head>
@@ -386,6 +429,11 @@
 <footer>
   Contacto: <a href="https://wa.me/5491160432525" target="_blank">+54 11 6043-2525</a>
 </footer>
+
+<!-- FLOATING WHATSAPP (mobile only) -->
+<a class="fab-wa" href="https://wa.me/5491160432525?text=Hola!%20Vi%20su%20lista%20de%20artículos%20en%20venta%20y%20quería%20consultar." target="_blank" aria-label="Consultar por WhatsApp">
+  <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+</a>
 
 <script>
 // ─────────────────────────────────────────────
@@ -486,6 +534,171 @@ const ITEMS = [
     imagen: "https://http2.mlstatic.com/D_NQ_603597-MLA110507877089_042026-OO.webp",
     url: "https://www.mercadolibre.com.ar/bambu-lab-x1-carbon-combo-ams--impresora-3d-filamento/up/MLAU3736639620"
   },
+  {
+    id: 8,
+    nombre: "Lámpara Xiaomi Mi Computer Monitor Light Bar — Nueva",
+    descripcion: "Barra de luz LED para monitor con temperatura de color ajustable 2700–6500K, control inalámbrico 2.4 GHz, montaje magnético sin tornillos, alimentación USB Type-C. 270 lúmenes, IRC Ra95, sin reflejo en pantalla. Sin estrenar, en caja.",
+    precio: null,
+    condicion: "Nuevo",
+    categoria: "Tecnología",
+    vendido: false,
+    imagen: "https://www.xmpow.com/cdn/shop/files/8d627a5fedd22bbe877719363fb35c42_1800x1800.jpg",
+    url: "https://www.mi.com/global/product/mi-computer-monitor-light-bar/"
+  },
+  {
+    id: 9,
+    nombre: "Lámpara Xiaomi Mi Computer Monitor Light Bar — Usada",
+    descripcion: "Barra de luz LED para monitor con temperatura de color ajustable 2700–6500K, control inalámbrico 2.4 GHz, montaje magnético sin tornillos, alimentación USB Type-C. 270 lúmenes, IRC Ra95, sin reflejo en pantalla. Funcionando perfectamente, con uso normal.",
+    precio: null,
+    condicion: "Como nuevo",
+    categoria: "Tecnología",
+    vendido: false,
+    imagen: "https://www.xmpow.com/cdn/shop/files/8d627a5fedd22bbe877719363fb35c42_1800x1800.jpg",
+    url: "https://www.mi.com/global/product/mi-computer-monitor-light-bar/"
+  },
+  {
+    id: 10,
+    nombre: "ENHET Bolsa colada con ruedas — IKEA",
+    descripcion: "Bolsa de 80 litros con tapa y ruedas, dos compartimentos para separar ropa por color. Color antracita. Con uso.",
+    precio: null,
+    condicion: "Buen estado",
+    categoria: "Hogar",
+    vendido: false,
+    imagen: "images/enhet-bolsa.jpg",
+    url: "https://www.ikea.com/es/es/p/enhet-bolsa-colada-con-ruedas-antracita-40516105/"
+  },
+  {
+    id: 11,
+    nombre: "UTSÅDD Casa gatos ratán + Rascador IKEA (combo)",
+    descripcion: "Casa de ratán tejido a mano con patas elevadas y manija. Se vende junto con rascador de sisal y yute (sin estrenar). La casa está con uso, el rascador es nuevo.",
+    precio: null,
+    condicion: "Buen estado",
+    categoria: "Mascotas",
+    vendido: false,
+    imagen: "images/utsadd-casa-gatos.jpg",
+    url: "https://www.ikea.com/es/es/p/utsadd-casa-gatos-ratan-90570883/"
+  },
+  {
+    id: 12,
+    nombre: "FJÄLLBO Estantería negra — IKEA",
+    descripcion: "Estantería industrial de metal y madera maciza, 100×136 cm, cuatro niveles. Estilo rústico-industrial, patas ajustables para suelos irregulares.",
+    precio: null,
+    condicion: "Como nuevo",
+    categoria: "Muebles",
+    vendido: false,
+    imagen: "images/fjallbo-estanteria.jpg",
+    url: "https://www.ikea.com/es/es/p/fjallbo-estanteria-negro-70339291/"
+  },
+  {
+    id: 13,
+    nombre: "STOCKHOLM Mueble TV chapa nogal — IKEA",
+    descripcion: "Mueble TV bajo con chapa de nogal y patas de fresno macizo, 160×40×50 cm. Puertas abatibles, gestión de cables integrada, estantes ajustables.",
+    precio: { ars: null, usd: null, eur: 399 },
+    condicion: "Como nuevo",
+    categoria: "Muebles",
+    vendido: false,
+    imagen: null,
+    url: "https://www.ikea.com/es/es/p/stockholm-mueble-tv-chapa-nogal-60239715/"
+  },
+  {
+    id: 14,
+    nombre: "LAUTERS Lámpara de pie fresno/blanco — IKEA",
+    descripcion: "Lámpara de pie con pantalla de tela de PET reciclado y base de madera de fresno macizo. Altura ajustable 119–151 cm. Requiere bombilla E27.",
+    precio: null,
+    condicion: "Como nuevo",
+    categoria: "Iluminación",
+    vendido: false,
+    imagen: "images/lauters-lampara.jpg",
+    url: "https://www.ikea.com/es/es/p/lauters-lampara-pie-fresno-blanco-30405042/"
+  },
+  {
+    id: 15,
+    nombre: "SKURUP Flexo de trabajo negro (x2) + kit TRÅDFRI — IKEA",
+    descripcion: "Dos flexos de trabajo con cuello flexible y pantalla cónica en negro. Se venden con kit TRÅDFRI de regulación inalámbrica (bombillas LED regulables + mando incluidos). Precio por el set completo.",
+    precio: null,
+    condicion: "Como nuevo",
+    categoria: "Iluminación",
+    vendido: false,
+    imagen: "images/skurup-flexo.jpg",
+    url: "https://www.ikea.com/es/es/p/skurup-lampara-flexo-trabajo-negro-80516778/"
+  },
+  {
+    id: 16,
+    nombre: "Mesa recibidora industrial hierro y chapa",
+    descripcion: "Mesa recibidora estilo industrial de hierro y chapa con dos estantes. Estructura de caño estructural, soldaduras prolijas, acabado negro satinado con pintura epóxi al horno.",
+    precio: null,
+    condicion: "Como nuevo",
+    categoria: "Muebles",
+    vendido: false,
+    imagen: "images/mesa-recibidora.jpg",
+    url: "https://www.mercadolibre.com.ar/mesa-recibidora-industrial-en-hierro-y-chapa/up/MLAU3154616218"
+  },
+  {
+    id: 17,
+    nombre: "Mesa de luz Paraíso telescópica (x2)",
+    descripcion: "Mesa de luz de madera maciza Paraíso con guías telescópicas. Se venden de a dos por separado, consultar precio por unidad.",
+    precio: null,
+    condicion: "Como nuevo",
+    categoria: "Muebles",
+    vendido: false,
+    imagen: "images/mesa-luz-paraiso.jpg",
+    url: "https://www.mercadolibre.com.ar/mesa-de-luz-paraiso-ctelescopicas-palermo-envio-gratis/up/MLAU240084914"
+  },
+  {
+    id: 18,
+    nombre: "Espejo de pie escandinavo madera maciza",
+    descripcion: "Espejo de pie estilo nórdico con marco de madera maciza. Diseño minimalista de líneas limpias, ideal para dormitorio o living.",
+    precio: null,
+    condicion: "Como nuevo",
+    categoria: "Hogar",
+    vendido: false,
+    imagen: null,
+    url: "https://www.mercadolibre.com.ar/espejo-de-pie-escandinavo-nordico-madera-maciza/up/MLAU235395916"
+  },
+  {
+    id: 19,
+    nombre: "Combo x2 Velador Ches Gioluce negro",
+    descripcion: "Set de dos veladores de mesa modernos con estructura de metal negro y pantalla de arpillera oscura. 220 V, compatible con LED. Ideales para mesas de noche.",
+    precio: null,
+    condicion: "Como nuevo",
+    categoria: "Iluminación",
+    vendido: false,
+    imagen: "images/velador-ches.webp",
+    url: "https://www.mercadolibre.com.ar/combo-x2-lampara-velador-ches-moderno-mesa-dormitorio-negro-pantalla-arpillera-oscura-gioluce/p/MLA27280973"
+  },
+  {
+    id: 20,
+    nombre: "Set x3 canastos organizadores seagrass",
+    descripcion: "Juego de tres canastos decorativos de fibra natural seagrass en tamaños distintos. Multiusos: ropa, juguetes, accesorios.",
+    precio: null,
+    condicion: "Como nuevo",
+    categoria: "Hogar",
+    vendido: false,
+    imagen: null,
+    url: "https://www.mercadolibre.com.ar/set-x-3-canastos-organizadores-decorativos-seagrass-multiuso/up/MLAU3188595542"
+  },
+  {
+    id: 21,
+    nombre: "Mueble sobre inodoro Dielfe SIE060 (x2)",
+    descripcion: "Estantería sobre inodoro de 165×60 cm con tres estantes. Estilo industrial: combinación de roble y caño negro. Fácil montaje. Se venden por separado, consultar precio por unidad.",
+    precio: null,
+    condicion: "Como nuevo",
+    categoria: "Baño",
+    vendido: false,
+    imagen: "images/mueble-inodoro.png",
+    url: "https://www.mercadolibre.com.ar/mueble-sobre-inodoro-bano-3-estantes-165x60-cms-dielfe-sie60/up/MLAU244723521"
+  },
+  {
+    id: 22,
+    nombre: "Escritorio industrial hierro y madera 120×60 cm (x2)",
+    descripcion: "Escritorio estilo industrial de 120×60 cm con estructura de hierro y tablero de madera. Marco de caño negro con pintura epóxi, tablero de pino o araucaria. Se venden por separado.",
+    precio: null,
+    condicion: "Como nuevo",
+    categoria: "Oficina",
+    vendido: false,
+    imagen: null,
+    url: "https://www.mercadolibre.com.ar/escritorio-industrial-hierro-y-madera-120x60-cm--negro/up/MLAU3128888744"
+  },
 ];
 
 // ─────────────────────────────────────────────
@@ -566,7 +779,7 @@ function render() {
 
   document.getElementById("grid").innerHTML = filtered.map(item => {
     const imgContent = item.imagen
-      ? `<img src="${item.imagen}" alt="${item.nombre}" loading="lazy">`
+      ? `<img src="${item.imagen}" alt="${item.nombre}" loading="lazy" onerror="this.replaceWith(Object.assign(document.createElement('span'),{textContent:'📦'}))">`
       : "📦";
     return `
       <div class="card${item.vendido ? " sold" : ""}">
