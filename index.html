@@ -294,6 +294,12 @@
       color: white;
     }
 
+    .price.consultar {
+      background: #fff8e1;
+      border-color: #ffe082;
+      color: #a06000;
+    }
+
     .wa-btn {
       margin-top: 12px;
       display: flex;
@@ -436,6 +442,39 @@ const ITEMS = [
     imagen: "https://www.lg.com/content/dam/channel/wcms/de/images/washer-dryers/wt1210bbf/gallery/2010-02.jpg",
     url: "https://www.lg.com/de/waeschepflege/washtower/wt1210bbf/"
   },
+  {
+    id: 4,
+    nombre: "Silla Steelcase Gesture — Negra con apoyacabeza",
+    descripcion: "Silla ergonómica de alto rendimiento con brazos 360°, respaldo contorneado y reposacabezas ajustable. Color negro, marco negro. Ideal para largas jornadas de trabajo.",
+    precio: null,
+    condicion: "Como nuevo",
+    categoria: "Oficina",
+    vendido: false,
+    imagen: "https://productvisualization.steelcase.com/prod/threekit_stage/66/66c615da5e654d6ba13b670303813f4f/112c31be-f69f-4d42-a090-8ea8b24b37d6.png",
+    url: "https://store.steelcase.com/seating/ergonomic-chairs/gesture-with-headrest"
+  },
+  {
+    id: 5,
+    nombre: "Silla Steelcase Gesture — Blanca con apoyacabeza",
+    descripcion: "Silla ergonómica de alto rendimiento con brazos 360°, respaldo contorneado y reposacabezas ajustable. Color blanco cálido, marco platino. Ideal para largas jornadas de trabajo.",
+    precio: null,
+    condicion: "Como nuevo",
+    categoria: "Oficina",
+    vendido: false,
+    imagen: "https://productvisualization.steelcase.com/prod/threekit_stage/66/66c615da5e654d6ba13b670303813f4f/d69180e0-a360-4314-b2fc-9e3f6adedf01.png",
+    url: "https://store.steelcase.com/seating/ergonomic-chairs/gesture-with-headrest"
+  },
+  {
+    id: 6,
+    nombre: "Escritorio eléctrico IKEA BEKANT (x2)",
+    descripcion: "Escritorio regulable en altura eléctrico, pasás de sentado a parado con un botón. Color blanco. Se venden por separado, USD 250 c/u.",
+    precio: { ars: null, usd: 250, eur: null },
+    condicion: "Como nuevo",
+    categoria: "Oficina",
+    vendido: false,
+    imagen: "https://www.ikea.com/us/en/images/products/bekant-desk-sit-stand-white__0798455_PE767230_S5.JPG",
+    url: "https://www.ikea.com/us/en/p/bekant-desk-sit-stand-white-s69022537/"
+  },
 ];
 
 // ─────────────────────────────────────────────
@@ -468,13 +507,15 @@ function waHref(item) {
 }
 
 function renderPrices(precio) {
-  if (!precio) return "";
+  if (!precio) return `<div class="card-prices"><span class="price consultar">Precio a consultar</span></div>`;
   const tags = Object.entries(precio)
     .filter(([, v]) => v != null)
     .map(([k, v], i) =>
       `<span class="price${i === 0 ? " main-price" : ""}">${FMT[k](v)}</span>`
     );
-  return tags.length ? `<div class="card-prices">${tags.join("")}</div>` : "";
+  return tags.length
+    ? `<div class="card-prices">${tags.join("")}</div>`
+    : `<div class="card-prices"><span class="price consultar">Precio a consultar</span></div>`;
 }
 
 function renderCats() {
