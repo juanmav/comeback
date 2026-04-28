@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nos vamos a Barcelona — Todo en venta</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --accent: #e63946;
+      --dark: #1d3557;
+      --mid: #457b9d;
+      --light-bg: #f8f9fa;
+      --card-bg: #ffffff;
+      --text: #212529;
+      --muted: #6c757d;
+      --border: #e9ecef;
+      --whatsapp: #25d366;
+      --radius: 12px;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background: var(--light-bg);
+      color: var(--text);
+      min-height: 100vh;
+    }
+
+    /* ── HERO ── */
+    .hero {
+      background: linear-gradient(135deg, var(--dark) 0%, var(--mid) 100%);
+      color: white;
+      padding: 52px 24px 44px;
+      text-align: center;
+    }
+
+    .hero-badge {
+      display: inline-block;
+      background: rgba(255,255,255,0.15);
+      border: 1px solid rgba(255,255,255,0.25);
+      border-radius: 999px;
+      padding: 5px 18px;
+      font-size: 13px;
+      letter-spacing: 0.4px;
+      margin-bottom: 18px;
+    }
+
+    .hero h1 {
+      font-size: clamp(28px, 5vw, 52px);
+      font-weight: 700;
+      line-height: 1.1;
+      margin-bottom: 14px;
+    }
+
+    .hero p {
+      font-size: 16px;
+      opacity: 0.85;
+      max-width: 480px;
+      margin: 0 auto 28px;
+      line-height: 1.65;
+    }
+
+    .hero-wa {
+      display: inline-flex;
+      align-items: center;
+      gap: 9px;
+      background: var(--whatsapp);
+      color: white;
+      text-decoration: none;
+      padding: 11px 22px;
+      border-radius: 999px;
+      font-size: 14px;
+      font-weight: 600;
+      transition: opacity 0.2s, transform 0.15s;
+    }
+
+    .hero-wa:hover { opacity: 0.92; transform: scale(1.02); }
+
+    /* ── CONTROLS ── */
+    .controls {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: white;
+      border-bottom: 1px solid var(--border);
+      padding: 12px 24px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+    }
+
+    .controls-inner {
+      max-width: 1120px;
+      margin: 0 auto;
+      display: flex;
+      gap: 12px;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    .search-wrap {
+      flex: 1;
+      min-width: 200px;
+      position: relative;
+    }
+
+    .search-wrap svg {
+      position: absolute;
+      left: 11px;
+      top: 50%;
+      transform: translateY(-50%);
+      color: var(--muted);
+      pointer-events: none;
+    }
+
+    .search-wrap input {
+      width: 100%;
+      padding: 9px 12px 9px 36px;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      font-size: 14px;
+      font-family: inherit;
+      outline: none;
+      transition: border-color 0.15s;
+    }
+
+    .search-wrap input:focus { border-color: var(--mid); }
+
+    .cats {
+      display: flex;
+      gap: 7px;
+      flex-wrap: wrap;
+    }
+
+    .cat-btn {
+      padding: 6px 15px;
+      border: 1px solid var(--border);
+      border-radius: 999px;
+      background: white;
+      font-size: 13px;
+      font-family: inherit;
+      cursor: pointer;
+      transition: all 0.15s;
+      white-space: nowrap;
+    }
+
+    .cat-btn:hover { border-color: var(--mid); color: var(--mid); }
+
+    .cat-btn.active {
+      background: var(--dark);
+      border-color: var(--dark);
+      color: white;
+    }
+
+    /* ── MAIN ── */
+    .main {
+      max-width: 1120px;
+      margin: 0 auto;
+      padding: 32px 24px 48px;
+    }
+
+    .grid-meta {
+      font-size: 14px;
+      color: var(--muted);
+      margin-bottom: 22px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(268px, 1fr));
+      gap: 20px;
+    }
+
+    /* ── CARD ── */
+    .card {
+      background: var(--card-bg);
+      border-radius: var(--radius);
+      border: 1px solid var(--border);
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+
+    .card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 10px 28px rgba(0,0,0,0.09);
+    }
+
+    .card.sold { opacity: 0.55; }
+
+    .card-img {
+      width: 100%;
+      aspect-ratio: 4/3;
+      background: #edf0f3;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 48px;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .card-img img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .badge-sold {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      background: var(--accent);
+      color: white;
+      font-size: 11px;
+      font-weight: 700;
+      padding: 3px 10px;
+      border-radius: 999px;
+      letter-spacing: 0.4px;
+    }
+
+    .badge-cond {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      background: rgba(29,53,87,0.82);
+      color: white;
+      font-size: 11px;
+      font-weight: 500;
+      padding: 3px 10px;
+      border-radius: 999px;
+    }
+
+    .card-body {
+      padding: 16px;
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+
+    .card-cat {
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 0.9px;
+      color: var(--muted);
+    }
+
+    .card-name {
+      font-size: 17px;
+      font-weight: 600;
+      line-height: 1.3;
+    }
+
+    .card-desc {
+      font-size: 13px;
+      color: var(--muted);
+      line-height: 1.55;
+      flex: 1;
+    }
+
+    .card-link {
+      font-size: 12px;
+      color: var(--mid);
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+    }
+
+    .card-link:hover { text-decoration: underline; }
+
+    .card-prices {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin-top: 4px;
+    }
+
+    .price {
+      background: var(--light-bg);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      padding: 3px 10px;
+      font-size: 13px;
+      font-weight: 600;
+    }
+
+    .price.main-price {
+      background: var(--dark);
+      border-color: var(--dark);
+      color: white;
+    }
+
+    .wa-btn {
+      margin-top: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      background: var(--whatsapp);
+      color: white;
+      text-decoration: none;
+      padding: 10px;
+      border-radius: 8px;
+      font-size: 14px;
+      font-weight: 600;
+      font-family: inherit;
+      border: none;
+      cursor: pointer;
+      transition: opacity 0.2s;
+      width: 100%;
+    }
+
+    .wa-btn:hover { opacity: 0.9; }
+    .wa-btn.disabled { background: #c8c8c8; cursor: default; pointer-events: none; }
+
+    /* ── EMPTY ── */
+    .empty {
+      grid-column: 1/-1;
+      text-align: center;
+      padding: 64px 24px;
+      color: var(--muted);
+    }
+
+    .empty .icon { font-size: 52px; margin-bottom: 14px; }
+
+    /* ── FOOTER ── */
+    footer {
+      border-top: 1px solid var(--border);
+      padding: 28px 24px;
+      text-align: center;
+      font-size: 13px;
+      color: var(--muted);
+    }
+
+    footer a { color: var(--mid); text-decoration: none; }
+    footer a:hover { text-decoration: underline; }
+
+    /* ── RESPONSIVE ── */
+    @media (max-width: 600px) {
+      .hero { padding: 36px 16px 32px; }
+      .controls { padding: 10px 16px; }
+      .main { padding: 24px 16px 40px; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- HERO -->
+<header class="hero">
+  <div class="hero-badge">✈️ Nos vamos a Barcelona</div>
+  <h1>Todo tiene que irse</h1>
+  <p>Vendemos todo antes de emigrar. Artículos en excelente estado y a buen precio. ¡Escribinos!</p>
+  <a class="hero-wa" href="https://wa.me/5491160432525?text=Hola!%20Vi%20su%20lista%20de%20artículos%20en%20venta%20y%20quería%20consultar." target="_blank">
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+    Consultar por WhatsApp
+  </a>
+</header>
+
+<!-- CONTROLS -->
+<div class="controls">
+  <div class="controls-inner">
+    <div class="search-wrap">
+      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+      <input type="text" id="searchInput" placeholder="Buscar artículo..." oninput="render()">
+    </div>
+    <div class="cats" id="catBtns"></div>
+  </div>
+</div>
+
+<!-- MAIN -->
+<main class="main">
+  <div class="grid-meta" id="meta"></div>
+  <div class="grid" id="grid"></div>
+</main>
+
+<footer>
+  Contacto: <a href="https://wa.me/5491160432525" target="_blank">+54 11 6043-2525</a>
+</footer>
+
+<script>
+// ─────────────────────────────────────────────
+// CONFIGURACIÓN
+// ─────────────────────────────────────────────
+const WA = "5491160432525";
+
+// ─────────────────────────────────────────────
+// ARTÍCULOS — editá esta lista para actualizar
+// ─────────────────────────────────────────────
+// Estructura de cada artículo:
+// {
+//   id:         número único
+//   nombre:     string
+//   descripcion: string (opcional)
+//   precio:     { ars: número, usd: número, eur: número }  — usá null para omitir
+//   condicion:  "Nuevo" | "Como nuevo" | "Buen estado" | "Regular" | "A reparar"
+//   categoria:  string  (para filtrar)
+//   vendido:    true | false
+//   imagen:     URL string o null
+// }
+
+const ITEMS = [
+  {
+    id: 1,
+    nombre: "Lavavajillas LG DF365FPS",
+    descripcion: "14 cubiertos, tecnología QuadWash™ y TrueSteam™, apertura automática de puerta, Wi-Fi ThinQ™. Eficiencia energética clase B. Sin estrenar.",
+    precio: { ars: null, usd: null, eur: 799 },
+    condicion: "Nuevo",
+    categoria: "Electrodomésticos",
+    vendido: false,
+    imagen: "https://www.lg.com/content/dam/channel/wcms/pt/images/maquinas-de-lavar-loica/df365fps_apzqpor_eept_pt_c/gallery/large01.jpg",
+    url: "https://www.lg.com/pt/maquinas-de-lavar-loica/df365fps/"
+  },
+  {
+    id: 2,
+    nombre: "Heladera Samsung RS70F64KETEF",
+    descripcion: "Side-by-side americano de 640 litros con SpaceMax™, dispensador de agua y hielo integrado, Wi-Fi SmartThings e IA para ahorro energético. Sin estrenar.",
+    precio: { ars: null, usd: null, eur: 1267 },
+    condicion: "Nuevo",
+    categoria: "Electrodomésticos",
+    vendido: false,
+    imagen: "https://images.samsung.com/is/image/samsung/p6pim/fr/rs70f64ketef/gallery/fr-rs90f-basic-548144-rs70f64ketef-552019179?$1164_776_PNG$",
+    url: "https://www.samsung.com/fr/refrigerators/side-by-side/refrigerator-sbs-rs90f-basic-640l-silver-rs70f64ketef/"
+  },
+  {
+    id: 3,
+    nombre: "Lavasecadora LG WT1210BBF WashTower",
+    descripcion: "Torre todo-en-uno: lavadora 12 kg (clase A) + secadora 10 kg en columna negra. TurboWash360™, Smart Pairing y bomba de calor inverter. Sin estrenar.",
+    precio: { ars: null, usd: null, eur: 1789 },
+    condicion: "Nuevo",
+    categoria: "Electrodomésticos",
+    vendido: false,
+    imagen: "https://www.lg.com/content/dam/channel/wcms/de/images/washer-dryers/wt1210bbf/gallery/2010-02.jpg",
+    url: "https://www.lg.com/de/waeschepflege/washtower/wt1210bbf/"
+  },
+];
+
+// ─────────────────────────────────────────────
+// LÓGICA (no hace falta tocar nada de acá abajo)
+// ─────────────────────────────────────────────
+
+const COND_DOT = {
+  "Nuevo": "🟢",
+  "Como nuevo": "🟢",
+  "Buen estado": "🟡",
+  "Regular": "🟠",
+  "A reparar": "🔴",
+};
+
+const FMT = {
+  ars: v => `$ ${v.toLocaleString("es-AR")}`,
+  usd: v => `USD ${v.toLocaleString("en-US")}`,
+  eur: v => `€ ${v.toLocaleString("es-ES")}`,
+};
+
+let activeCat = "Todos";
+
+function categories() {
+  return ["Todos", ...new Set(ITEMS.map(i => i.categoria).filter(Boolean).sort())];
+}
+
+function waHref(item) {
+  const txt = encodeURIComponent(`Hola! Me interesa "${item.nombre}" que vi en su lista. ¿Está disponible?`);
+  return `https://wa.me/${WA}?text=${txt}`;
+}
+
+function renderPrices(precio) {
+  if (!precio) return "";
+  const tags = Object.entries(precio)
+    .filter(([, v]) => v != null)
+    .map(([k, v], i) =>
+      `<span class="price${i === 0 ? " main-price" : ""}">${FMT[k](v)}</span>`
+    );
+  return tags.length ? `<div class="card-prices">${tags.join("")}</div>` : "";
+}
+
+function renderCats() {
+  document.getElementById("catBtns").innerHTML = categories().map(c =>
+    `<button class="cat-btn${c === activeCat ? " active" : ""}" onclick="setcat('${c}')">${c}</button>`
+  ).join("");
+}
+
+function setcat(c) { activeCat = c; render(); }
+
+function render() {
+  renderCats();
+  const q = document.getElementById("searchInput").value.toLowerCase().trim();
+
+  const filtered = ITEMS.filter(item => {
+    const matchCat = activeCat === "Todos" || item.categoria === activeCat;
+    const matchQ = !q ||
+      item.nombre.toLowerCase().includes(q) ||
+      (item.descripcion || "").toLowerCase().includes(q) ||
+      (item.categoria || "").toLowerCase().includes(q);
+    return matchCat && matchQ;
+  });
+
+  const avail = filtered.filter(i => !i.vendido).length;
+  document.getElementById("meta").textContent =
+    `${avail} artículo${avail !== 1 ? "s" : ""} disponible${avail !== 1 ? "s" : ""}` +
+    (filtered.length > avail ? ` · ${filtered.length - avail} vendido${filtered.length - avail !== 1 ? "s" : ""}` : "");
+
+  if (filtered.length === 0) {
+    document.getElementById("grid").innerHTML = `
+      <div class="empty">
+        <div class="icon">🔍</div>
+        <p>No hay artículos que coincidan con esa búsqueda.</p>
+      </div>`;
+    return;
+  }
+
+  document.getElementById("grid").innerHTML = filtered.map(item => {
+    const imgContent = item.imagen
+      ? `<img src="${item.imagen}" alt="${item.nombre}" loading="lazy">`
+      : "📦";
+    return `
+      <div class="card${item.vendido ? " sold" : ""}">
+        <div class="card-img">
+          ${imgContent}
+          ${item.vendido ? `<span class="badge-sold">VENDIDO</span>` : ""}
+          ${item.condicion ? `<span class="badge-cond">${COND_DOT[item.condicion] || ""} ${item.condicion}</span>` : ""}
+        </div>
+        <div class="card-body">
+          ${item.categoria ? `<div class="card-cat">${item.categoria}</div>` : ""}
+          <div class="card-name">${item.nombre}</div>
+          ${item.descripcion ? `<div class="card-desc">${item.descripcion}</div>` : ""}
+          ${item.url ? `<a class="card-link" href="${item.url}" target="_blank">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+            Ver ficha técnica oficial
+          </a>` : ""}
+          ${renderPrices(item.precio)}
+          ${item.vendido
+            ? `<span class="wa-btn disabled">Vendido</span>`
+            : `<a class="wa-btn" href="${waHref(item)}" target="_blank">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+                Consultar por WhatsApp
+              </a>`
+          }
+        </div>
+      </div>`;
+  }).join("");
+}
+
+render();
+</script>
+</body>
+</html>
