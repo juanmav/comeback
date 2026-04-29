@@ -394,6 +394,60 @@
       .card-name { font-size: 16px; }
       footer { padding-bottom: 86px; }
     }
+
+    /* ── Carousel ── */
+    .card-img { cursor: zoom-in; }
+    .card-img .slide { display: none; width: 100%; height: 100%; object-fit: cover; }
+    .card-img .slide.active { display: block; }
+    .car-btn {
+      position: absolute; top: 50%; transform: translateY(-50%);
+      background: rgba(0,0,0,.48); color: #fff; border: none;
+      width: 30px; height: 30px; border-radius: 50%; font-size: 14px;
+      cursor: pointer; display: flex; align-items: center; justify-content: center;
+      opacity: 0; transition: opacity .15s; z-index: 2;
+    }
+    .card-img:hover .car-btn { opacity: 1; }
+    .car-prev { left: 6px; }
+    .car-next { right: 6px; }
+    .car-dots {
+      position: absolute; bottom: 8px; left: 50%; transform: translateX(-50%);
+      display: flex; gap: 5px; z-index: 2;
+    }
+    .car-dot {
+      width: 7px; height: 7px; border-radius: 50%;
+      background: rgba(255,255,255,.5); cursor: pointer; transition: background .15s;
+    }
+    .car-dot.active { background: #fff; }
+
+    /* ── Lightbox ── */
+    #lb {
+      display: none; position: fixed; inset: 0; z-index: 900;
+      background: rgba(0,0,0,.88); align-items: center; justify-content: center;
+      cursor: zoom-out;
+    }
+    #lb.open { display: flex; }
+    #lb-img {
+      max-width: 92vw; max-height: 90vh; object-fit: contain;
+      border-radius: 8px; cursor: default;
+    }
+    .lb-close {
+      position: absolute; top: 14px; right: 18px;
+      color: #fff; font-size: 28px; cursor: pointer;
+      background: none; border: none; line-height: 1; padding: 4px;
+    }
+    .lb-arrow {
+      position: absolute; top: 50%; transform: translateY(-50%);
+      background: rgba(255,255,255,.15); color: #fff; border: none;
+      width: 44px; height: 44px; border-radius: 50%; font-size: 20px;
+      cursor: pointer; display: flex; align-items: center; justify-content: center;
+    }
+    .lb-arrow:hover { background: rgba(255,255,255,.28); }
+    #lb-prev { left: 14px; }
+    #lb-next { right: 14px; }
+    .lb-count {
+      position: absolute; bottom: 16px; left: 50%; transform: translateX(-50%);
+      color: rgba(255,255,255,.65); font-size: 13px; letter-spacing: .5px;
+    }
   </style>
 </head>
 <body>
@@ -434,6 +488,15 @@
 <a class="fab-wa" href="https://wa.me/5491160432525?text=Hola!%20Vi%20su%20lista%20de%20artículos%20en%20venta%20y%20quería%20consultar." target="_blank" aria-label="Consultar por WhatsApp">
   <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
 </a>
+
+<!-- LIGHTBOX -->
+<div id="lb" onclick="if(event.target===this)closeLb()">
+  <button class="lb-close" onclick="closeLb()">✕</button>
+  <button class="lb-arrow" id="lb-prev" onclick="event.stopPropagation();lbNav(-1)">❮</button>
+  <img id="lb-img" src="" alt="" onclick="event.stopPropagation()">
+  <button class="lb-arrow" id="lb-next" onclick="event.stopPropagation();lbNav(1)">❯</button>
+  <div class="lb-count" id="lb-count"></div>
+</div>
 
 <script>
 // ─────────────────────────────────────────────
@@ -597,7 +660,7 @@ const ITEMS = [
     condicion: "Como nuevo",
     categoria: "Muebles",
     vendido: false,
-    imagen: "images/stockholm_rack_tv_2.jpg",
+    imagen: ["images/stockholm_rack_tv_2.jpg", "images/stockholm_rack_tv.jpg"],
     url: "https://www.ikea.com/es/es/p/stockholm-mueble-tv-chapa-nogal-60239715/"
   },
   {
@@ -652,7 +715,7 @@ const ITEMS = [
     condicion: "Como nuevo",
     categoria: "Hogar",
     vendido: false,
-    imagen: "images/espejo_escandinavo_1.png",
+    imagen: ["images/espejo_escandinavo_1.png", "images/espejo_escandinavo_2.png"],
     url: "https://www.mercadolibre.com.ar/espejo-de-pie-escandinavo-nordico-madera-maciza/up/MLAU235395916"
   },
   {
@@ -674,7 +737,7 @@ const ITEMS = [
     condicion: "Como nuevo",
     categoria: "Hogar",
     vendido: false,
-    imagen: "images/canasto_decorativo_1.png",
+    imagen: ["images/canasto_decorativo_1.png", "images/canasto_decorativo_2.png"],
     url: "https://www.mercadolibre.com.ar/set-x-3-canastos-organizadores-decorativos-seagrass-multiuso/up/MLAU3188595542"
   },
   {
@@ -696,7 +759,7 @@ const ITEMS = [
     condicion: "Como nuevo",
     categoria: "Oficina",
     vendido: false,
-    imagen: "images/escritorio_industrial_1.webp",
+    imagen: ["images/escritorio_industrial_1.webp", "images/escritorio_industrial_2.webp", "images/escritorio_industrial_3.webp"],
     url: "https://www.mercadolibre.com.ar/escritorio-industrial-hierro-y-madera-120x60-cm--negro/up/MLAU3128888744"
   },
   {
@@ -707,7 +770,7 @@ const ITEMS = [
     condicion: "Como nuevo",
     categoria: "Música",
     vendido: false,
-    imagen: "images/roland_drum_set_1.jpg",
+    imagen: ["images/roland_drum_set_1.jpg", "images/roland_drum_set_2.jpg", "images/roland_drum_set_3.jpg", "images/roland_drum_set_4.jpg"],
     url: "https://www.roland.com/es/products/td-17kvx2/"
   },
   {
@@ -783,6 +846,49 @@ function renderCats() {
 
 function setcat(c) { activeCat = c; render(); }
 
+function carNav(e, btn, delta) {
+  e.stopPropagation();
+  const wrap = btn.closest('.card-img');
+  const slides = [...wrap.querySelectorAll('.slide')];
+  const dots = [...wrap.querySelectorAll('.car-dot')];
+  const cur = slides.findIndex(s => s.classList.contains('active'));
+  const next = (cur + delta + slides.length) % slides.length;
+  slides[cur].classList.remove('active'); slides[next].classList.add('active');
+  if (dots.length) { dots[cur].classList.remove('active'); dots[next].classList.add('active'); }
+}
+function carDot(e, dot, idx) {
+  e.stopPropagation();
+  const wrap = dot.closest('.card-img');
+  [...wrap.querySelectorAll('.slide')].forEach((s, i) => s.classList.toggle('active', i === idx));
+  [...wrap.querySelectorAll('.car-dot')].forEach((d, i) => d.classList.toggle('active', i === idx));
+}
+let lbImgs = [], lbIdx = 0;
+function openLb(wrap) {
+  const raw = wrap.dataset.images;
+  lbImgs = raw ? JSON.parse(raw) : [wrap.querySelector('.slide.active, img').src];
+  lbIdx = raw ? [...wrap.querySelectorAll('.slide')].findIndex(s => s.classList.contains('active')) : 0;
+  if (lbIdx < 0) lbIdx = 0;
+  _showLb();
+  document.getElementById('lb').classList.add('open');
+  document.body.style.overflow = 'hidden';
+}
+function closeLb() {
+  document.getElementById('lb').classList.remove('open');
+  document.body.style.overflow = '';
+}
+function lbNav(delta) {
+  lbIdx = (lbIdx + delta + lbImgs.length) % lbImgs.length;
+  _showLb();
+}
+function _showLb() {
+  document.getElementById('lb-img').src = lbImgs[lbIdx];
+  const multi = lbImgs.length > 1;
+  document.getElementById('lb-prev').style.display = multi ? '' : 'none';
+  document.getElementById('lb-next').style.display = multi ? '' : 'none';
+  document.getElementById('lb-count').textContent = multi ? `${lbIdx + 1} / ${lbImgs.length}` : '';
+}
+document.addEventListener('keydown', e => { if (e.key === 'Escape') closeLb(); });
+
 function render() {
   renderCats();
   const q = document.getElementById("searchInput").value.toLowerCase().trim();
@@ -811,12 +917,19 @@ function render() {
   }
 
   document.getElementById("grid").innerHTML = filtered.map(item => {
-    const imgContent = item.imagen
-      ? `<img src="${item.imagen}" alt="${item.nombre}" loading="lazy" onerror="this.replaceWith(Object.assign(document.createElement('span'),{textContent:'📦'}))">`
-      : "📦";
+    const imgs = Array.isArray(item.imagen) ? item.imagen : (item.imagen ? [item.imagen] : []);
+    const imgsAttr = imgs.length > 1 ? ` data-images='${JSON.stringify(imgs)}'` : '';
+    const imgContent = imgs.length
+      ? imgs.map((src, i) =>
+          `<img src="${src}" alt="${item.nombre}" loading="lazy" class="slide${i === 0 ? ' active' : ''}" onerror="this.classList.add('img-err')">`
+        ).join('') +
+        (imgs.length > 1
+          ? `<button class="car-btn car-prev" onclick="carNav(event,this,-1)">❮</button><button class="car-btn car-next" onclick="carNav(event,this,1)">❯</button><div class="car-dots">${imgs.map((_, i) => `<span class="car-dot${i === 0 ? ' active' : ''}" onclick="carDot(event,this,${i})"></span>`).join('')}</div>`
+          : '')
+      : '📦';
     return `
       <div class="card${item.vendido ? " sold" : ""}">
-        <div class="card-img">
+        <div class="card-img"${imgsAttr} onclick="openLb(this)">
           ${imgContent}
           ${item.vendido ? `<span class="badge-sold">VENDIDO</span>` : ""}
           ${item.condicion ? `<span class="badge-cond">${COND_DOT[item.condicion] || ""} ${item.condicion}</span>` : ""}
