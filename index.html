@@ -226,6 +226,19 @@
       letter-spacing: 0.4px;
     }
 
+    .badge-reservado {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      background: #f59e0b;
+      color: white;
+      font-size: 11px;
+      font-weight: 700;
+      padding: 3px 10px;
+      border-radius: 999px;
+      letter-spacing: 0.4px;
+    }
+
     .badge-cond {
       position: absolute;
       top: 10px;
@@ -704,6 +717,7 @@ const ITEMS = [
     condicion: "Como nuevo",
     categoria: "Muebles",
     vendido: false,
+    reservado: true,
     imagen: ["images/mesa-luz-paraiso.png", "images/mesa-luz-paraiso-2.png"],
     url: "https://www.mercadolibre.com.ar/mesa-de-luz-paraiso-ctelescopicas-palermo-envio-gratis/up/MLAU240084914"
   },
@@ -1222,6 +1236,7 @@ const ITEMS = [
     condicion: "Buen estado",
     categoria: "Herramientas",
     vendido: false,
+    reservado: true,
     imagen: "https://m.media-amazon.com/images/I/51a+Ovlu4dL._AC_SX679_.jpg",
     url: "https://www.amazon.es/dp/B019EJ7C08"
   },
@@ -1244,6 +1259,7 @@ const ITEMS = [
     condicion: "Buen estado",
     categoria: "Hogar",
     vendido: false,
+    reservado: true,
     imagen: "https://m.media-amazon.com/images/I/51jLVC3DB-L._AC_SX679_.jpg",
     url: "https://www.amazon.es/dp/B0B3MJ73X6"
   },
@@ -1603,7 +1619,7 @@ function render() {
       <div class="card${item.vendido ? " sold" : ""}">
         <div class="card-img"${imgsAttr} onclick="openLb(this)">
           ${imgContent}
-          ${item.vendido ? `<span class="badge-sold">VENDIDO</span>` : ""}
+          ${item.vendido ? `<span class="badge-sold">VENDIDO</span>` : item.reservado ? `<span class="badge-reservado">RESERVADO</span>` : ""}
           ${item.condicion ? `<span class="badge-cond">${COND_DOT[item.condicion] || ""} ${item.condicion}</span>` : ""}
         </div>
         <div class="card-body">
