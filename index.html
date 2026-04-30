@@ -239,6 +239,18 @@
       letter-spacing: 0.4px;
     }
 
+    .badge-entrega {
+      position: absolute;
+      bottom: 0; left: 0; right: 0;
+      background: rgba(109, 40, 217, 0.82);
+      color: white;
+      font-size: 10px;
+      font-weight: 600;
+      padding: 5px 10px;
+      text-align: center;
+      letter-spacing: 0.2px;
+    }
+
     .badge-cond {
       position: absolute;
       top: 10px;
@@ -574,6 +586,7 @@ const ITEMS = [
     condicion: "Como nuevo",
     categoria: "Oficina",
     vendido: false,
+    entregaTardia: true,
     imagen: ["https://productvisualization.steelcase.com/prod/threekit_stage/66/66c615da5e654d6ba13b670303813f4f/112c31be-f69f-4d42-a090-8ea8b24b37d6.png", "images/steelcase-measures.jpg"],
     url: "https://store.steelcase.com/seating/ergonomic-chairs/gesture-with-headrest"
   },
@@ -585,6 +598,7 @@ const ITEMS = [
     condicion: "Como nuevo",
     categoria: "Oficina",
     vendido: false,
+    entregaTardia: true,
     imagen: ["https://productvisualization.steelcase.com/prod/threekit_stage/66/66c615da5e654d6ba13b670303813f4f/d69180e0-a360-4314-b2fc-9e3f6adedf01.png", "images/steelcase-measures.jpg"],
     url: "https://store.steelcase.com/seating/ergonomic-chairs/gesture-with-headrest"
   },
@@ -596,6 +610,8 @@ const ITEMS = [
     condicion: "Como nuevo",
     categoria: "Oficina",
     vendido: false,
+    reservado: true,
+    entregaTardia: true,
     imagen: "https://m.media-amazon.com/images/I/51YteKLUfmL._AC_SL1500_.jpg",
     url: "https://www.amazon.de/-/en/BEKANT-White-Stained-Veneer-Black/dp/B0BW8V8Q4Z"
   },
@@ -828,6 +844,7 @@ const ITEMS = [
     condicion: "Como nuevo",
     categoria: "Muebles",
     vendido: false,
+    entregaTardia: true,
     imagen: ["images/rack-petiribi.jpeg", "images/rack-petiribi-2.jpeg", "images/rack-petiribi-3.jpeg"],
     url: null
   },
@@ -850,6 +867,7 @@ const ITEMS = [
     condicion: "Como nuevo",
     categoria: "Muebles",
     vendido: false,
+    entregaTardia: true,
     imagen: ["images/comoda.jpeg", "images/comoda-2.jpeg"],
     url: null
   },
@@ -1632,6 +1650,7 @@ function render() {
           ${imgContent}
           ${item.vendido ? `<span class="badge-sold">VENDIDO</span>` : item.reservado ? `<span class="badge-reservado">RESERVADO</span>` : ""}
           ${item.condicion ? `<span class="badge-cond">${COND_DOT[item.condicion] || ""} ${item.condicion}</span>` : ""}
+          ${item.entregaTardia ? `<div class="badge-entrega">📦 Entrega tardía · A acordar con el vendedor</div>` : ""}
         </div>
         <div class="card-body">
           ${item.categoria ? `<div class="card-cat">${item.categoria}</div>` : ""}
