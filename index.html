@@ -1650,7 +1650,7 @@ function render() {
           ${imgContent}
           ${item.vendido ? `<span class="badge-sold">VENDIDO</span>` : item.reservado ? `<span class="badge-reservado">RESERVADO</span>` : ""}
           ${item.condicion ? `<span class="badge-cond">${COND_DOT[item.condicion] || ""} ${item.condicion}</span>` : ""}
-          ${item.entregaTardia ? `<div class="badge-entrega">📦 Entrega tardía · A acordar con el vendedor</div>` : ""}
+          ${item.entregaTardia && !item.reservado ? `<div class="badge-entrega">📦 Entrega tardía · A acordar con el vendedor</div>` : ""}
         </div>
         <div class="card-body">
           ${item.categoria ? `<div class="card-cat">${item.categoria}</div>` : ""}
