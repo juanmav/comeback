@@ -26,3 +26,20 @@
 | Seña | — |
 | Entrega | — |
 | Notas | — |
+
+---
+
+## Ariel
+**Fecha:** 2026-04-30
+
+| ID | Producto | Precio ARS | Reservado |
+|----|---------|-----------|-----------|
+| 6 | Escritorio eléctrico IKEA BEKANT (x2) - Precio Por Unidad | $357.500 c/u · $715.000 total | ✅ |
+
+**Total: $715.000 ARS** (2 unidades)
+
+| Estado | — |
+|--------|---|
+| Seña | — |
+| Entrega | — |
+| Notas | — |
