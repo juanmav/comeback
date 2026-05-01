@@ -43,6 +43,44 @@ When the user provides a product reference, search for the official page and a d
 
 The number is hardcoded as `const WA = "5491160432525"` (Argentine format, no `+` or spaces). Each card's button pre-fills the message: *"Hola! Me interesa "[nombre]" que vi en su lista. ¿Está disponible?"*
 
+## Item flags
+
+Beyond the base schema, items support these optional boolean flags:
+
+```js
+reservado: true,      // shows RESERVADO badge, disables WhatsApp button
+vendido: true,        // shows VENDIDO badge, greys out card
+entregaTardia: true,  // shows "Entrega tardía · A acordar" chip (hidden when reservado)
+```
+
+## Reservations tracker (reservas.md)
+
+`reservas.md` is an internal file — **never deploy it to the web**, it's for tracking only.
+
+### Structure
+
+One `##` section per buyer. Each section has:
+1. A table with columns `ID | Producto | Precio ARS | Reservado`
+2. A **Total** line summing all items
+3. A status table with rows: Seña, Entrega, Notas
+
+### Rules
+
+- **ID** must match the `id` field in the `ITEMS` array — always cross-reference.
+- When a reservation is added, set `reservado: true` on the corresponding item(s) in `index.html` and push to the web.
+- When splitting a multi-unit item (e.g. "(x2)"), create a new entry with the next available ID, update both `index.html` and `reservas.md`.
+- **Totals must be recalculated** whenever items are added, removed, or repriced in a section.
+- Include context notes in the buyer header when relevant (e.g. "vía Anibal", "novia de Carlitos").
+
+### Current buyers
+
+| Comprador | Ítems | Total |
+|-----------|-------|-------|
+| Anibal | 13 | $887.500 |
+| Ariel | 2 (BEKANT x2) | $715.000 |
+| Amira (novia de Carlitos, vía Anibal) | 2 | $178.700 |
+| Ruben | 5 | $332.900 |
+
 ## Architecture notes
 
 Everything is self-contained in `index.html`:
