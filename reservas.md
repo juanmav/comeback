@@ -61,3 +61,20 @@
 | Seña | — |
 | Entrega | — |
 | Notas | — |
+
+---
+
+## Ruben
+**Fecha:** 2026-05-01
+
+| ID | Producto | Precio ARS | Reservado |
+|----|---------|-----------|-----------|
+| 88 | Mueble sobre inodoro Dielfe SIE060 | $142.000 | ✅ |
+
+**Total: $142.000 ARS**
+
+| Estado | — |
+|--------|---|
+| Seña | — |
+| Entrega | — |
+| Notas | — |
