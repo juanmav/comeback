@@ -52,9 +52,9 @@
 | ID | Producto | Precio ARS | Reservado |
 |----|---------|-----------|-----------|
 | 17 | Mesa de luz Paraíso telescópica (x2) | $165.000 | ✅ |
-| 85 | Martillo Perforador Bosch GBH 220 720W | $233.500 | ✅ |
+| 64 | Alyco Orange Martillo de Carpintero 450 g con Mango de Fibra de Vidrio Ergonómico | $13.700 | ✅ |
 
-**Total: $398.500 ARS**
+**Total: $178.700 ARS**
 
 | Estado | — |
 |--------|---|
