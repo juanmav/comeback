@@ -43,3 +43,21 @@
 | Seña | — |
 | Entrega | — |
 | Notas | — |
+
+---
+
+## Amira (novia de Carlitos, vía Anibal)
+**Fecha:** 2026-05-01
+
+| ID | Producto | Precio ARS | Reservado |
+|----|---------|-----------|-----------|
+| 17 | Mesa de luz Paraíso telescópica (x2) | $165.000 | ✅ |
+| 85 | Martillo Perforador Bosch GBH 220 720W | $233.500 | ✅ |
+
+**Total: $398.500 ARS**
+
+| Estado | — |
+|--------|---|
+| Seña | — |
+| Entrega | — |
+| Notas | — |
