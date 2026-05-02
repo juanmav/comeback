@@ -356,6 +356,33 @@
     .wa-btn:hover { opacity: 0.9; }
     .wa-btn.disabled { background: #c8c8c8; cursor: default; pointer-events: none; }
 
+    .share-btn {
+      margin-top: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      background: transparent;
+      color: var(--mid);
+      border: 1px solid var(--border);
+      padding: 8px;
+      border-radius: 8px;
+      font-size: 13px;
+      font-weight: 600;
+      font-family: inherit;
+      cursor: pointer;
+      width: 100%;
+      transition: background 0.15s, border-color 0.15s;
+    }
+    .share-btn:hover { background: var(--light-bg); border-color: var(--mid); }
+    .share-btn.copied { background: #e6f7ec; border-color: #34a853; color: #1e7c3a; }
+
+    .card.shared-target { animation: shared-flash 2.2s ease-out; }
+    @keyframes shared-flash {
+      0%   { box-shadow: 0 0 0 3px var(--whatsapp); }
+      100% { box-shadow: none; }
+    }
+
     /* ── EMPTY ── */
     .empty {
       grid-column: 1/-1;
@@ -1874,6 +1901,37 @@ function renderCats() {
 
 function setcat(c) { activeCat = c; render(); }
 
+function syncURL() {
+  const p = new URLSearchParams();
+  if (activeCat && activeCat !== "Todos") p.set("cat", activeCat);
+  const q = document.getElementById("searchInput").value.trim();
+  if (q) p.set("q", q);
+  const qs = p.toString();
+  history.replaceState(null, "", qs ? `?${qs}` : location.pathname);
+}
+
+async function shareItem(e, id) {
+  e.stopPropagation();
+  const item = ITEMS.find(i => i.id === id);
+  if (!item) return;
+  const url = `${location.origin}${location.pathname}?id=${id}`;
+  const btn = e.currentTarget;
+  try {
+    if (navigator.share) {
+      await navigator.share({ title: item.nombre, url });
+      return;
+    }
+    await navigator.clipboard.writeText(url);
+    const orig = btn.innerHTML;
+    btn.classList.add("copied");
+    btn.innerHTML = "✓ Link copiado";
+    setTimeout(() => { btn.classList.remove("copied"); btn.innerHTML = orig; }, 1600);
+  } catch (err) {
+    if (err.name === "AbortError") return;
+    prompt("Copiá este link:", url);
+  }
+}
+
 function carNav(e, btn, delta) {
   e.stopPropagation();
   const wrap = btn.closest('.card-img');
@@ -1918,6 +1976,7 @@ function _showLb() {
 document.addEventListener('keydown', e => { if (e.key === 'Escape') closeLb(); });
 
 function render() {
+  syncURL();
   renderCats();
   const q = document.getElementById("searchInput").value.toLowerCase().trim();
 
@@ -1956,7 +2015,7 @@ function render() {
           : '')
       : '📦';
     return `
-      <div class="card${item.vendido ? " sold" : ""}">
+      <div class="card${item.vendido ? " sold" : ""}" data-id="${item.id}">
         <div class="card-img"${imgsAttr} onclick="openLb(this)">
           ${imgContent}
           ${item.vendido ? `<span class="badge-sold">VENDIDO</span>` : item.reservado ? `<span class="badge-reservado">RESERVADO</span>` : ""}
@@ -1981,12 +2040,39 @@ function render() {
                 Consultar por WhatsApp
               </a>`
           }
+          <button class="share-btn" onclick="shareItem(event, ${item.id})">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg>
+            Compartir
+          </button>
         </div>
       </div>`;
   }).join("");
 }
 
+function scrollToSharedItem() {
+  const id = new URLSearchParams(location.search).get("id");
+  if (!id) return;
+  const card = document.querySelector(`.card[data-id="${id}"]`);
+  if (!card) return;
+  card.scrollIntoView({ behavior: "smooth", block: "center" });
+  card.classList.add("shared-target");
+  setTimeout(() => card.classList.remove("shared-target"), 2400);
+}
+
+(function initFromURL() {
+  const p = new URLSearchParams(location.search);
+  const sharedId = p.get("id");
+  if (sharedId) {
+    activeCat = "Todos";
+  } else {
+    const cat = p.get("cat");
+    const q = p.get("q");
+    if (cat && categories().includes(cat)) activeCat = cat;
+    if (q) document.getElementById("searchInput").value = q;
+  }
+})();
 render();
+scrollToSharedItem();
 </script>
 </body>
 </html>
