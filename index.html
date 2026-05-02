@@ -2049,8 +2049,7 @@ function render() {
   }).join("");
 }
 
-function scrollToSharedItem() {
-  const id = new URLSearchParams(location.search).get("id");
+function scrollToSharedItem(id) {
   if (!id) return;
   const card = document.querySelector(`.card[data-id="${id}"]`);
   if (!card) return;
@@ -2059,7 +2058,7 @@ function scrollToSharedItem() {
   setTimeout(() => card.classList.remove("shared-target"), 2400);
 }
 
-(function initFromURL() {
+const _sharedId = (function initFromURL() {
   const p = new URLSearchParams(location.search);
   const sharedId = p.get("id");
   if (sharedId) {
@@ -2070,9 +2069,10 @@ function scrollToSharedItem() {
     if (cat && categories().includes(cat)) activeCat = cat;
     if (q) document.getElementById("searchInput").value = q;
   }
+  return sharedId;
 })();
 render();
-scrollToSharedItem();
+scrollToSharedItem(_sharedId);
 </script>
 </body>
 </html>
