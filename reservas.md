@@ -35,8 +35,9 @@
 | ID | Producto | Precio ARS | Reservado |
 |----|---------|-----------|-----------|
 | 6 | Escritorio eléctrico IKEA BEKANT (x2) - Precio Por Unidad | $357.500 c/u · $715.000 total | ✅ |
+| 7 | Bambu Lab X1 Carbon (X1C) Combo + AMS | $2.000.000 | ✅ |
 
-**Total: $715.000 ARS** (2 unidades)
+**Total: $2.715.000 ARS**
 
 | Estado | — |
 |--------|---|
