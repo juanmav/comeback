@@ -54,8 +54,9 @@
 |----|---------|-----------|-----------|
 | 17 | Mesa de luz Paraíso telescópica (x2) | $165.000 | ✅ |
 | 64 | Alyco Orange Martillo de Carpintero 450 g con Mango de Fibra de Vidrio Ergonómico | $13.700 | ✅ |
+| 110 | Proscenic M7 PRO Robot Aspirador + Estación de Vaciado Automático — Combo | $281.534 | ✅ |
 
-**Total: $178.700 ARS**
+**Total: $460.234 ARS**
 
 | Estado | — |
 |--------|---|
