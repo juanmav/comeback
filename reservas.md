@@ -94,8 +94,9 @@
 | 67 | Multiherramienta 16 en 1 para Camping con Hacha y Cuchillo de Supervivencia | $28.500 | ✅ |
 | 68 | Fire-Maple Cocina Portátil Plegable de Acero Inoxidable para Camping y Picnic | $33.000 | ✅ |
 | 69 | Lifesystems Cerillas Impermeables y Resistentes al Viento, Pack de 25 en Contenedor Sellado | $14.300 | ✅ |
+| 115 | FORCLAZ Bastón Telescópico de Trekking MT500 — Ajuste Rápido (Verde musgo) | $19.000 | ✅ |
 
-**Total: $75.800 ARS**
+**Total: $94.800 ARS**
 
 | Estado | — |
 |--------|---|
