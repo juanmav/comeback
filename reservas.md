@@ -83,3 +83,40 @@
 | Seña | — |
 | Entrega | — |
 | Notas | — |
+
+---
+
+## Romi
+**Fecha:** 2026-05-03
+
+| ID | Producto | Precio ARS | Reservado |
+|----|---------|-----------|-----------|
+| 67 | Multiherramienta 16 en 1 para Camping con Hacha y Cuchillo de Supervivencia | $28.500 | ✅ |
+| 68 | Fire-Maple Cocina Portátil Plegable de Acero Inoxidable para Camping y Picnic | $33.000 | ✅ |
+| 69 | Lifesystems Cerillas Impermeables y Resistentes al Viento, Pack de 25 en Contenedor Sellado | $14.300 | ✅ |
+
+**Total: $75.800 ARS**
+
+| Estado | — |
+|--------|---|
+| Seña | — |
+| Entrega | — |
+| Notas | — |
+
+---
+
+## Norma Romero
+**Fecha:** 2026-05-03
+
+| ID | Producto | Precio ARS | Reservado |
+|----|---------|-----------|-----------|
+| 114 | Sillón esquinero en L con camastro — Tela hidrorepelente taupe | $1.000.000 | ✅ |
+| 14 | LAUTERS Lámpara de pie fresno/blanco — IKEA | $99.000 | ✅ |
+
+**Total: $1.099.000 ARS**
+
+| Estado | — |
+|--------|---|
+| Seña | — |
+| Entrega | — |
+| Notas | — |
