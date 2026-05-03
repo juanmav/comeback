@@ -4,7 +4,9 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## What this is
 
-A single-file static sale page (`index.html`) for listing items for sale before the owners move to Barcelona. No build step, no dependencies, no framework — just vanilla HTML/CSS/JS served via GitHub Pages at **https://juanmav.github.io/comeback/**.
+A single-file static sale page (`index.html`) for listing items for sale before the owners move to Barcelona. No build step, no dependencies, no framework — just vanilla HTML/CSS/JS served via GitHub Pages.
+
+**Custom domain:** [adios.com.ar](https://adios.com.ar) (configured via `CNAME` file). Also accessible at the GitHub Pages default URL https://juanmav.github.io/comeback/.
 
 ## Deploying changes
 
