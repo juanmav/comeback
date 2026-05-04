@@ -80,6 +80,8 @@ One `##` section per buyer. Each section has:
 | Ariel | 2 (BEKANT x2) | $715.000 |
 | Amira (novia de Carlitos, vía Anibal) | 2 | $178.700 |
 | Ruben | 5 | $332.900 |
+| Norma Romero | 2 | $1.099.000 |
+| Romi | 4 | $94.800 |
 
 ## Architecture notes
 
