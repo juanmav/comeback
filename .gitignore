@@ -1,0 +1,4 @@
+.idea/
+.playwright-cli/
+.claude/
+*.yaml
