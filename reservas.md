@@ -18,6 +18,7 @@
 | 78 | FOFNON Bebedero Fuente de Agua de Acero Inoxidable 3,2 L para Gatos y Perros, Silencioso | $46.500 | ✅ |
 | 80 | Invision Brazo Articulado para Monitor MX200, Pantallas 19-32, VESA 75/100 mm | $35.800 | ✅ |
 | 84 | Muaket Báscula de Precisión Digital 0,1 g/50 g con Pesas de Calibración, Pinzas y Platillo | $20.500 | ✅ |
+| 9 | Lámpara Xiaomi Mi Computer Monitor Light Bar — Usada | $0 (atención) | ✅ |
 
 **Total: $887.500 ARS**
 
@@ -25,7 +26,7 @@
 |--------|---|
 | Seña | — |
 | Entrega | — |
-| Notas | — |
+| Notas | Lámpara Xiaomi usada (id 9) va de regalo — atención. |
 
 ---
 
