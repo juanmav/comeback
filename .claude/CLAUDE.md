@@ -78,7 +78,7 @@ One `##` section per buyer. Each section has:
 
 | Comprador | Ítems | Total |
 |-----------|-------|-------|
-| Anibal | 13 | $887.500 |
+| Anibal | 12 | $859.000 |
 | Ariel | 2 (BEKANT x2) | $715.000 |
 | Amira (novia de Carlitos, vía Anibal) | 2 | $178.700 |
 | Ruben | 5 | $332.900 |
