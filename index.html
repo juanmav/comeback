@@ -2107,14 +2107,15 @@ document.addEventListener('keydown', e => { if (e.key === 'Escape') closeLb(); }
 function render() {
   syncURL();
   renderCats();
-  const q = document.getElementById("searchInput").value.toLowerCase().trim();
+  const norm = s => s.normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase();
+  const q = norm(document.getElementById("searchInput").value.trim());
 
   const filtered = ITEMS.filter(item => {
     const matchCat = activeCat === "Todos" || item.categoria === activeCat;
     const matchQ = !q ||
-      item.nombre.toLowerCase().includes(q) ||
-      (item.descripcion || "").toLowerCase().includes(q) ||
-      (item.categoria || "").toLowerCase().includes(q);
+      norm(item.nombre).includes(q) ||
+      norm(item.descripcion || "").includes(q) ||
+      norm(item.categoria || "").includes(q);
     return matchCat && matchQ;
   });
 
