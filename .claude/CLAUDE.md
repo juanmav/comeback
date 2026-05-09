@@ -87,6 +87,24 @@ One `##` section per buyer. Each section has:
 
 When the user provides product URLs to add as items, **always use `playwright-cli`** to scrape them — Amazon and most e-commerce sites block WebFetch because they render prices and images via JavaScript.
 
+### MercadoLibre — usar Chrome MCP obligatoriamente
+
+MercadoLibre bloquea playwright con 403 (bot detection). Para cualquier URL de `mercadolibre.com.ar`:
+
+1. **Usar `mcp__claude-in-chrome__*`** en lugar de playwright-cli.
+2. Verificar que Chrome esté corriendo: `ps aux | grep /opt/google/chrome/chrome | grep -v grep`
+3. Si Chrome no está corriendo, iniciarlo: `google-chrome --new-window &` y esperar ~4 segundos.
+4. Si Chrome estaba corriendo con playwright (perfil bloqueado) y el MCP no conecta, reiniciarlo:
+   ```bash
+   pkill -TERM -f "/opt/google/chrome/chrome"
+   sleep 3
+   google-chrome --new-window &
+   sleep 4
+   ```
+5. Conectar con `mcp__claude-in-chrome__tabs_context_mcp`, crear tab, navegar y extraer con `mcp__claude-in-chrome__javascript_tool`.
+
+Para imágenes de ML, preferir URLs con sufijo `-O.webp` o `-O.jpg` (full res) en lugar de `-R.webp` (thumbnail). Usar `D_NQ_NP_` sobre `D_Q_NP_` cuando esté disponible.
+
 ```bash
 # Check if available
 which playwright-cli || npx playwright-cli --version
