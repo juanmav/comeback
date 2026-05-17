@@ -2093,9 +2093,10 @@ function renderPrices(precio) {
 }
 
 function renderCats() {
+  const tomados = `<button class="cat-btn${activeCat === "__tomados__" ? " active" : ""}" onclick="setcat('__tomados__')">Reservados / Vendidos</button>`;
   document.getElementById("catBtns").innerHTML = categories().map(c =>
     `<button class="cat-btn${c === activeCat ? " active" : ""}" onclick="setcat('${c}')">${c}</button>`
-  ).join("");
+  ).join("") + tomados;
 }
 
 function setcat(c) { activeCat = c; render(); }
@@ -2181,7 +2182,9 @@ function render() {
   const q = norm(document.getElementById("searchInput").value.trim());
 
   const filtered = ITEMS.filter(item => {
-    const matchCat = activeCat === "Todos" || item.categoria === activeCat;
+    const matchCat = activeCat === "Todos" || activeCat === "__tomados__"
+      ? activeCat === "__tomados__" ? (item.vendido || item.reservado) : true
+      : item.categoria === activeCat;
     const matchQ = !q ||
       norm(item.nombre).includes(q) ||
       norm(item.descripcion || "").includes(q) ||
@@ -2269,7 +2272,7 @@ const _sharedId = (function initFromURL() {
   } else {
     const cat = p.get("cat");
     const q = p.get("q");
-    if (cat && categories().includes(cat)) activeCat = cat;
+    if (cat && (cat === "__tomados__" || categories().includes(cat))) activeCat = cat;
     if (q) document.getElementById("searchInput").value = q;
   }
   return sharedId;
