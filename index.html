@@ -2187,6 +2187,9 @@ function render() {
       norm(item.descripcion || "").includes(q) ||
       norm(item.categoria || "").includes(q);
     return matchCat && matchQ;
+  }).sort((a, b) => {
+    const rank = i => i.vendido ? 2 : i.reservado ? 1 : 0;
+    return rank(a) - rank(b);
   });
 
   const avail = filtered.filter(i => !i.vendido).length;
