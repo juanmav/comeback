@@ -139,7 +139,7 @@
 | 45 | Ergosolid Brazo Soporte Monitor 17–30" VESA 75/100 Giratorio | $48.900 | ✅ | — | — |
 | 46 | Duronic DML2 Bandeja VESA para Portátil/Tablet hasta 8 kg | $27.700 | ✅ | ✅ | — |
 | 112 | Amazon Basics Reposapiés 39 × 30 × 8,5 cm Negro | $24.470 | ✅ | — | — |
-| 57 | GIOTOHUN Comedero Automático para Gatos | $53.400 | ✅ | — | — |
+| 57 | GIOTOHUN Comedero Automático para Gatos | $53.400 | ✅ | ✅ | — |
 
 **Total: $534.462 ARS**
 
