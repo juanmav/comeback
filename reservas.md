@@ -36,8 +36,9 @@
 |----|---------|-----------|-----------|---------------|-----------|
 | 6 | Escritorio eléctrico IKEA BEKANT (x2) - Precio Por Unidad | $357.500 c/u · $715.000 total | ✅ | ✅ | — |
 | 7 | Bambu Lab X1 Carbon (X1C) Combo + AMS | $2.000.000 | ✅ | — | — |
+| 129 | Heladera No Frost Hisense RB3P422NEB 417L Negra | $1.299.000 | ✅ | ✅ | — |
 
-**Total: $2.715.000 ARS**
+**Total: $4.014.000 ARS**
 
 | Estado | — |
 |--------|---|
