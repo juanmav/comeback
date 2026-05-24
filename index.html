@@ -583,6 +583,7 @@ const ITEMS = [
     condicion: "Nuevo",
     categoria: "Electrodomésticos",
     vendido: false,
+    destacado: true,
     imagen: "https://www.lg.com/content/dam/channel/wcms/pt/images/maquinas-de-lavar-loica/df365fps_apzqpor_eept_pt_c/gallery/large01.jpg",
     url: "https://www.lg.com/es/lavavajillas/df365fps/"
   },
@@ -594,6 +595,7 @@ const ITEMS = [
     condicion: "Nuevo",
     categoria: "Electrodomésticos",
     vendido: false,
+    destacado: true,
     imagen: "https://images.samsung.com/is/image/samsung/p6pim/fr/rs70f64ketef/gallery/fr-rs90f-basic-548144-rs70f64ketef-552019179?$1164_776_PNG$",
     url: "https://www.samsung.com/es/refrigerators/side-by-side/refrigerator-sbs-rs90f-basic-640l-silver-rs70f64ketef/"
   },
@@ -605,6 +607,7 @@ const ITEMS = [
     condicion: "Nuevo",
     categoria: "Electrodomésticos",
     vendido: false,
+    destacado: true,
     imagen: "https://www.lg.com/content/dam/channel/wcms/de/images/washer-dryers/wt1210bbf/gallery/2010-02.jpg",
     url: "https://shop.lg.com.ar/torre-de-lavado-lg-wk14bs6/p?idsku=159"
   },
@@ -616,6 +619,7 @@ const ITEMS = [
     condicion: "Como nuevo",
     categoria: "Oficina",
     vendido: false,
+    destacado: true,
     entregaTardia: true,
     imagen: ["https://productvisualization.steelcase.com/prod/threekit_stage/66/66c615da5e654d6ba13b670303813f4f/112c31be-f69f-4d42-a090-8ea8b24b37d6.png", "images/steelcase-measures.jpg"],
     url: "https://store.steelcase.com/seating/ergonomic-chairs/gesture-with-headrest"
@@ -628,6 +632,7 @@ const ITEMS = [
     condicion: "Como nuevo",
     categoria: "Oficina",
     vendido: false,
+    destacado: true,
     entregaTardia: true,
     imagen: ["https://productvisualization.steelcase.com/prod/threekit_stage/66/66c615da5e654d6ba13b670303813f4f/d69180e0-a360-4314-b2fc-9e3f6adedf01.png", "images/steelcase-measures.jpg"],
     url: "https://store.steelcase.com/seating/ergonomic-chairs/gesture-with-headrest"
@@ -848,6 +853,7 @@ const ITEMS = [
     condicion: "Como nuevo",
     categoria: "Música",
     vendido: false,
+    destacado: true,
     imagen: ["images/roland_drum_set_1.jpg", "images/roland_drum_set_2.jpg", "images/roland_drum_set_3.jpg", "images/roland_drum_set_4.jpg"],
     url: "https://www.roland.com/global/products/td-17kv2/"
   },
@@ -2058,6 +2064,7 @@ const ITEMS = [
     condicion: "Buen estado",
     categoria: "Electrodomésticos",
     vendido: false,
+    destacado: true,
     entregaTardia: true,
     imagen: "https://http2.mlstatic.com/D_NQ_NP_938735-MLU72645541226_112023-O.webp",
     url: "https://www.mercadolibre.com.ar/up/MLAU369006534"
@@ -2216,8 +2223,11 @@ function render() {
       norm(item.categoria || "").includes(q);
     return matchCat && matchQ;
   }).sort((a, b) => {
-    const rank = i => i.vendido ? 2 : i.reservado ? 1 : 0;
-    return rank(a) - rank(b);
+    const rank = i => i.vendido ? 3 : i.reservado ? 2 : i.destacado ? 0 : 1;
+    const r = rank(a) - rank(b);
+    if (r !== 0) return r;
+    if (a.destacado && b.destacado) return (b.precio.ars || 0) - (a.precio.ars || 0);
+    return 0;
   });
 
   const avail = filtered.filter(i => !i.vendido).length;
