@@ -18,8 +18,9 @@
 | 80 | Invision Brazo Articulado para Monitor MX200, Pantallas 19-32, VESA 75/100 mm | $35.800 | ✅ | — | ✅ |
 | 84 | Muaket Báscula de Precisión Digital 0,1 g/50 g con Pesas de Calibración, Pinzas y Platillo | $20.500 | ✅ | — | ✅ |
 | 9 | Lámpara Xiaomi Mi Computer Monitor Light Bar — Usada | $0 (atención) | ✅ | ✅ | — |
+| 134 | Escritorio eléctrico IKEA BEKANT | $357.500 | ✅ | ✅ | — |
 
-**Total: $859.000 ARS**
+**Total: $1.216.500 ARS**
 
 | Estado | — |
 |--------|---|
@@ -140,8 +141,9 @@
 | 46 | Duronic DML2 Bandeja VESA para Portátil/Tablet hasta 8 kg | $27.700 | ✅ | ✅ | — |
 | 112 | Amazon Basics Reposapiés 39 × 30 × 8,5 cm Negro | $24.470 | ✅ | — | — |
 | 57 | GIOTOHUN Comedero Automático para Gatos | $53.400 | ✅ | ✅ | — |
+| 6 | Escritorio eléctrico IKEA BEKANT | $357.500 | ✅ | ✅ | — |
 
-**Total: $534.462 ARS**
+**Total: $891.962 ARS**
 
 | Estado | — |
 |--------|---|
