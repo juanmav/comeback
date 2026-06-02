@@ -36,9 +36,9 @@
 | ID | Producto | Precio ARS | Reservado | Entrega tardía | Entregado |
 |----|---------|-----------|-----------|---------------|-----------|
 | 7 | Bambu Lab X1 Carbon (X1C) Combo + AMS | $2.000.000 | ✅ | — | — |
-| 129 | Heladera No Frost Hisense RB3P422NEB 417L Negra | $1.299.000 | ✅ | ✅ | — |
+| 132 | Lavarropas Hisense WFQP8014T 8kg 1400RPM Inverter | $350.000 | ✅ | ✅ | — |
 
-**Total: $3.299.000 ARS**
+**Total: $2.350.000 ARS**
 
 | Estado | — |
 |--------|---|
