@@ -97,8 +97,9 @@
 | 68 | Fire-Maple Cocina Portátil Plegable de Acero Inoxidable para Camping y Picnic | $33.000 | ✅ | — | — |
 | 69 | Lifesystems Cerillas Impermeables y Resistentes al Viento, Pack de 25 en Contenedor Sellado | $14.300 | ✅ | — | — |
 | 115 | FORCLAZ Bastón Telescópico de Trekking MT500 — Ajuste Rápido (Verde musgo) | $19.000 | ✅ | — | — |
+| 71 | TOMSHOO Colchoneta Autohinchable para Camping con Almohada, Bomba de Pie y 2 Mosquetones | $68.800 | ✅ | — | — |
 
-**Total: $94.800 ARS**
+**Total: $163.600 ARS**
 
 | Estado | — |
 |--------|---|
@@ -113,10 +114,9 @@
 
 | ID | Producto | Precio ARS | Reservado | Entrega tardía | Entregado |
 |----|---------|-----------|-----------|---------------|-----------|
-| 114 | Sillón esquinero en L con camastro — Tela hidrorepelente taupe | $1.000.000 | ✅ | ✅ | — |
 | 14 | LAUTERS Lámpara de pie fresno/blanco — IKEA | $99.000 | ✅ | ✅ | — |
 
-**Total: $1.099.000 ARS**
+**Total: $99.000 ARS**
 
 | Estado | — |
 |--------|---|
@@ -132,7 +132,6 @@
 | ID | Producto | Precio ARS | Reservado | Entrega tardía | Entregado |
 |----|---------|-----------|-----------|---------------|-----------|
 | 97 | Cecotec Aspirador de Tapicerías Conga 4000 Carpet&Spot Clean | $90.046 | ✅ | — | — |
-| 71 | TOMSHOO Colchoneta Autohinchable para Camping con Almohada, Bomba de Pie y 2 Mosquetones | $68.800 | ✅ | — | — |
 | 116 | FORCLAZ Bastón Telescópico de Trekking MT500 — Ajuste Rápido (Verde musgo) | $19.000 | ✅ | — | — |
 | 120 | G-Fitness Mancuerna Hexagonal Engomada 2,5 kg — Par (x2) | $50.000 | ✅ | — | — |
 | 30 | Bosch Nivel Láser de Líneas Cruzadas Quigo Verde + Trípode | $127.700 | ✅ | — | — |
@@ -143,7 +142,7 @@
 | 57 | GIOTOHUN Comedero Automático para Gatos | $53.400 | ✅ | ✅ | — |
 | 6 | Escritorio eléctrico IKEA BEKANT | $357.500 | ✅ | ✅ | — |
 
-**Total: $891.962 ARS**
+**Total: $823.162 ARS**
 
 | Estado | — |
 |--------|---|
