@@ -147,6 +147,6 @@
 
 | Estado | — |
 |--------|---|
-| Seña | — |
+| Seña | $360.116 ARS |
 | Entrega | — |
-| Notas | — |
+| Notas | Saldo pendiente: $409.646 ARS. |
