@@ -52,7 +52,7 @@ Beyond the base schema, items support these optional boolean flags:
 ```js
 reservado: true,      // shows RESERVADO badge, disables WhatsApp button
 vendido: true,        // shows VENDIDO badge, greys out card
-entregaTardia: true,  // shows "Entrega tardía · A acordar" chip (hidden when reservado)
+entregaTardia: true,  // shows "Entrega tardía · aprox. 7 al 21 de septiembre" chip (hidden when reservado)
 ```
 
 ## Reservations tracker (reservas.md)
