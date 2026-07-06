@@ -99,6 +99,7 @@
 | 115 | FORCLAZ Bastón Telescópico de Trekking MT500 — Ajuste Rápido (Verde musgo) | $19.000 | ✅ | — | — |
 | 71 | TOMSHOO Colchoneta Autohinchable para Camping con Almohada, Bomba de Pie y 2 Mosquetones | $68.800 | ✅ | — | — |
 | 11 | UTSÅDD Casa gatos ratán + Rascador IKEA (combo) | $0 (atención) | ✅ | ✅ | — |
+| 57 | GIOTOHUN Comedero Automático para Gatos | $0 (atención) | ✅ | ✅ | — |
 
 **Total: $163.600 ARS**
 
@@ -106,7 +107,7 @@
 |--------|---|
 | Seña | — |
 | Entrega | — |
-| Notas | Casa gatos UTSÅDD (id 11) va de regalo — atención. |
+| Notas | Casa gatos UTSÅDD (id 11) y comedero GIOTOHUN (id 57) van de regalo — atención. |
 
 ---
 
@@ -140,10 +141,9 @@
 | 45 | Ergosolid Brazo Soporte Monitor 17–30" VESA 75/100 Giratorio | $48.900 | ✅ | — | — |
 | 46 | Duronic DML2 Bandeja VESA para Portátil/Tablet hasta 8 kg | $27.700 | ✅ | ✅ | — |
 | 112 | Amazon Basics Reposapiés 39 × 30 × 8,5 cm Negro | $24.470 | ✅ | — | — |
-| 57 | GIOTOHUN Comedero Automático para Gatos | $53.400 | ✅ | ✅ | — |
 | 6 | Escritorio eléctrico IKEA BEKANT | $357.500 | ✅ | ✅ | — |
 
-**Total: $823.162 ARS**
+**Total: $769.762 ARS**
 
 | Estado | — |
 |--------|---|
