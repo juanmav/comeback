@@ -73,12 +73,11 @@
 | ID | Producto | Precio ARS | Reservado | Entrega tardía | Entregado |
 |----|---------|-----------|-----------|---------------|-----------|
 | 88 | Mueble sobre inodoro Dielfe SIE060 | $142.000 | ✅ | — | — |
-| 11 | UTSÅDD Casa gatos ratán + Rascador IKEA (combo) | $51.000 | ✅ | ✅ | — |
 | 42 | Kynup Calibre Digital Acero Inoxidable 200 mm | $37.500 | ✅ | — | — |
 | 44 | Multímetro Digital TRUE RMS 2000 Cuentas NCV | $19.600 | ✅ | — | — |
 | 87 | Lámpara Banquero Bronce con Pantalla de Vidrio Verde — Velador Apto LED | $82.800 | ✅ | — | — |
 
-**Total: $332.900 ARS**
+**Total: $281.900 ARS**
 
 | Estado | — |
 |--------|---|
@@ -98,6 +97,7 @@
 | 69 | Lifesystems Cerillas Impermeables y Resistentes al Viento, Pack de 25 en Contenedor Sellado | $14.300 | ✅ | — | — |
 | 115 | FORCLAZ Bastón Telescópico de Trekking MT500 — Ajuste Rápido (Verde musgo) | $19.000 | ✅ | — | — |
 | 71 | TOMSHOO Colchoneta Autohinchable para Camping con Almohada, Bomba de Pie y 2 Mosquetones | $68.800 | ✅ | — | — |
+| 11 | UTSÅDD Casa gatos ratán + Rascador IKEA (combo) | $0 (atención) | ✅ | ✅ | — |
 
 **Total: $163.600 ARS**
 
@@ -105,7 +105,7 @@
 |--------|---|
 | Seña | — |
 | Entrega | — |
-| Notas | — |
+| Notas | Casa gatos UTSÅDD (id 11) va de regalo — atención. |
 
 ---
 
