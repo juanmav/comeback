@@ -150,3 +150,39 @@
 | Seña | $360.116 ARS |
 | Entrega | — |
 | Notas | Saldo pendiente: $409.646 ARS. |
+
+---
+
+## Lorena Conca
+**Fecha:** 2026-07-07
+
+| ID | Producto | Precio ARS | Reservado | Entrega tardía | Entregado |
+|----|---------|-----------|-----------|---------------|-----------|
+| 135 | SUNLU Filament Dryer Box S1 Plus — Secador de Filamento para Impresión 3D | $46.000 | ✅ | — | — |
+| 8 | Lámpara Xiaomi Mi Computer Monitor Light Bar — Nueva | $96.308 | ✅ | — | — |
+| 118 | Puff Artesanal de Fibras Naturales — Tejido Trenzado 50 cm | $65.000 | ✅ | — | — |
+
+**Total: $207.308 ARS**
+
+| Estado | — |
+|--------|---|
+| Seña | — |
+| Entrega | — |
+| Notas | — |
+
+---
+
+## Franco
+**Fecha:** 2026-07-07
+
+| ID | Producto | Precio ARS | Reservado | Entrega tardía | Entregado |
+|----|---------|-----------|-----------|---------------|-----------|
+| 4 | Silla Steelcase Gesture — Negra con apoyacabeza | $1.500.000 | ✅ | ✅ | — |
+
+**Total: $1.500.000 ARS**
+
+| Estado | — |
+|--------|---|
+| Seña | — |
+| Entrega | — |
+| Notas | — |
