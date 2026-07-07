@@ -186,3 +186,20 @@
 | Seña | — |
 | Entrega | — |
 | Notas | — |
+
+---
+
+## Manish
+**Fecha:** 2026-07-07
+
+| ID | Producto | Precio ARS | Reservado | Entrega tardía | Entregado |
+|----|---------|-----------|-----------|---------------|-----------|
+| 70 | KingCamp Manta de Camping Ultraligera e Impermeable con Bolsa de Transporte Integrada | $39.900 | ✅ | — | — |
+
+**Total: $39.900 ARS**
+
+| Estado | — |
+|--------|---|
+| Seña | — |
+| Entrega | — |
+| Notas | — |
