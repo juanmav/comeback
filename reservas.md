@@ -88,7 +88,7 @@
 
 ---
 
-## Romi
+## Romi (Manish)
 **Fecha:** 2026-05-03
 
 | ID | Producto | Precio ARS | Reservado | Entrega tardía | Entregado |
@@ -100,14 +100,15 @@
 | 71 | TOMSHOO Colchoneta Autohinchable para Camping con Almohada, Bomba de Pie y 2 Mosquetones | $68.800 | ✅ | — | — |
 | 11 | UTSÅDD Casa gatos ratán + Rascador IKEA (combo) | $0 (atención) | ✅ | ✅ | — |
 | 57 | GIOTOHUN Comedero Automático para Gatos | $0 (atención) | ✅ | ✅ | — |
+| 70 | KingCamp Manta de Camping Ultraligera e Impermeable con Bolsa de Transporte Integrada | $39.900 | ✅ | — | — |
 
-**Total: $163.600 ARS**
+**Total: $203.500 ARS**
 
 | Estado | — |
 |--------|---|
 | Seña | — |
 | Entrega | — |
-| Notas | Casa gatos UTSÅDD (id 11) y comedero GIOTOHUN (id 57) van de regalo — atención. |
+| Notas | Romi y Manish son la misma persona. Casa gatos UTSÅDD (id 11) y comedero GIOTOHUN (id 57) van de regalo — atención. |
 
 ---
 
@@ -180,23 +181,6 @@
 | 4 | Silla Steelcase Gesture — Negra con apoyacabeza | $1.500.000 | ✅ | ✅ | — |
 
 **Total: $1.500.000 ARS**
-
-| Estado | — |
-|--------|---|
-| Seña | — |
-| Entrega | — |
-| Notas | — |
-
----
-
-## Manish
-**Fecha:** 2026-07-07
-
-| ID | Producto | Precio ARS | Reservado | Entrega tardía | Entregado |
-|----|---------|-----------|-----------|---------------|-----------|
-| 70 | KingCamp Manta de Camping Ultraligera e Impermeable con Bolsa de Transporte Integrada | $39.900 | ✅ | — | — |
-
-**Total: $39.900 ARS**
 
 | Estado | — |
 |--------|---|
