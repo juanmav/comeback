@@ -133,14 +133,14 @@
 
 | ID | Producto | Precio ARS | Reservado | Entrega tardía | Entregado |
 |----|---------|-----------|-----------|---------------|-----------|
-| 97 | Cecotec Aspirador de Tapicerías Conga 4000 Carpet&Spot Clean | $90.046 | ✅ | — | — |
-| 116 | FORCLAZ Bastón Telescópico de Trekking MT500 — Ajuste Rápido (Verde musgo) | $19.000 | ✅ | — | — |
-| 120 | G-Fitness Mancuerna Hexagonal Engomada 2,5 kg — Par (x2) | $50.000 | ✅ | — | — |
-| 30 | Bosch Nivel Láser de Líneas Cruzadas Quigo Verde + Trípode | $127.700 | ✅ | — | — |
+| 97 | Cecotec Aspirador de Tapicerías Conga 4000 Carpet&Spot Clean | $90.046 | ✅ | — | ✅ |
+| 116 | FORCLAZ Bastón Telescópico de Trekking MT500 — Ajuste Rápido (Verde musgo) | $19.000 | ✅ | — | ✅ |
+| 120 | G-Fitness Mancuerna Hexagonal Engomada 2,5 kg — Par (x2) | $50.000 | ✅ | — | ✅ |
+| 30 | Bosch Nivel Láser de Líneas Cruzadas Quigo Verde + Trípode | $127.700 | ✅ | — | ✅ |
 | 113 | LONZOTH Soporte Cuello de Cisne para Smartphone | $24.446 | ✅ | ✅ | — |
-| 45 | Ergosolid Brazo Soporte Monitor 17–30" VESA 75/100 Giratorio | $48.900 | ✅ | — | — |
+| 45 | Ergosolid Brazo Soporte Monitor 17–30" VESA 75/100 Giratorio | $48.900 | ✅ | — | ✅ |
 | 46 | Duronic DML2 Bandeja VESA para Portátil/Tablet hasta 8 kg | $27.700 | ✅ | ✅ | — |
-| 112 | Amazon Basics Reposapiés 39 × 30 × 8,5 cm Negro | $24.470 | ✅ | — | — |
+| 112 | Amazon Basics Reposapiés 39 × 30 × 8,5 cm Negro | $24.470 | ✅ | — | ✅ |
 | 6 | Escritorio eléctrico IKEA BEKANT | $357.500 | ✅ | ✅ | — |
 
 **Total: $769.762 ARS**
