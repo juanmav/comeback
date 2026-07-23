@@ -2182,6 +2182,14 @@ const FMT = {
 
 let activeCat = "Todos";
 
+const CAT_ICONS = {
+  "Cultivo Indoor": "🌱",
+};
+
+function catLabel(c) {
+  return CAT_ICONS[c] ? `${CAT_ICONS[c]} ${c}` : c;
+}
+
 function categories() {
   return ["Todos", ...new Set(ITEMS.map(i => i.categoria).filter(Boolean).sort())];
 }
@@ -2206,7 +2214,7 @@ function renderPrices(precio) {
 function renderCats() {
   const tomados = `<button class="cat-btn${activeCat === "__tomados__" ? " active" : ""}" onclick="setcat('__tomados__')">Reservados / Vendidos</button>`;
   document.getElementById("catBtns").innerHTML = categories().map(c =>
-    `<button class="cat-btn${c === activeCat ? " active" : ""}" onclick="setcat('${c}')">${c}</button>`
+    `<button class="cat-btn${c === activeCat ? " active" : ""}" onclick="setcat('${c}')">${catLabel(c)}</button>`
   ).join("") + tomados;
 }
 
@@ -2342,7 +2350,7 @@ function render() {
           ${item.condicion ? `<span class="badge-cond">${COND_DOT[item.condicion] || ""} ${item.condicion}</span>` : ""}
 </div>
         <div class="card-body">
-          ${item.categoria ? `<div class="card-cat">${item.categoria}</div>` : ""}
+          ${item.categoria ? `<div class="card-cat">${catLabel(item.categoria)}</div>` : ""}
           <div class="card-name">${item.nombre}</div>
           ${item.entregaTardia && !item.reservado ? `<span class="badge-entrega">📦 Entrega tardía · aprox. 7 al 21 de septiembre</span>` : ""}
           ${item.descripcion ? `<div class="card-desc">${item.descripcion}</div>` : ""}
