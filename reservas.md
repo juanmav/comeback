@@ -171,6 +171,23 @@
 
 ---
 
+## Marcelo
+**Fecha:** 2026-07-23
+
+| ID | Producto | Precio ARS | Reservado | Entrega tardía | Entregado |
+|----|---------|-----------|-----------|---------------|-----------|
+| 53 | Cecotec Conga Rockstar Micro 15000 Clean&Car | $48.900 | ✅ | — | — |
+
+**Total: $48.900 ARS**
+
+| Estado | — |
+|--------|---|
+| Seña | $48.900 ARS (pagado completo) |
+| Entrega | — |
+| Notas | Vendido y pagado. |
+
+---
+
 ## Lorena Conca
 **Fecha:** 2026-07-07
 
