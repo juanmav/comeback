@@ -37,15 +37,32 @@
 |----|---------|-----------|-----------|---------------|-----------|
 | 7 | Bambu Lab X1 Carbon (X1C) Combo + AMS | $2.000.000 | ✅ | — | ✅ |
 | 132 | Lavarropas Hisense WFQP8014T 8kg 1400RPM Inverter | $350.000 | ✅ | ✅ | — |
-| 2 | Heladera Samsung RS70F64KETEF | $2.000.000 | ✅ | — | — |
 
-**Total: $4.350.000 ARS**
+**Total: $2.350.000 ARS**
 
 | Estado | — |
 |--------|---|
 | Seña | — |
 | Entrega | — |
 | Notas | — |
+
+---
+
+## Hugo (suegro de Ariel)
+**Fecha:** 2026-07-23
+
+| ID | Producto | Precio ARS | Reservado | Entrega tardía | Entregado |
+|----|---------|-----------|-----------|---------------|-----------|
+| 2 | Heladera Samsung RS70F64KETEF | $2.000.000 | ✅ | — | — |
+| 131 | Smart TV LG OLED Evo 55" 4K ThinQ AI OLED55C3PSA | $1.100.000 | ✅ | ✅ | — |
+
+**Total: $3.100.000 ARS**
+
+| Estado | — |
+|--------|---|
+| Seña | — |
+| Entrega | — |
+| Notas | Heladera movida desde la reserva de Ariel. |
 
 ---
 
