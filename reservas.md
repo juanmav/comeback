@@ -221,3 +221,21 @@
 | Seña | — |
 | Entrega | — |
 | Notas | — |
+
+---
+
+## Yanina
+**Fecha:** 2026-07-24
+
+| ID | Producto | Precio ARS | Reservado | Entrega tardía | Entregado |
+|----|---------|-----------|-----------|---------------|-----------|
+| 19 | Combo x2 Velador Ches Gioluce negro | $53.999 | ✅ | ✅ | — |
+| 114 | Sillón esquinero en L con camastro — Tela hidrorepelente taupe | $750.000 | ✅ | ✅ | — |
+
+**Total: $803.999 ARS**
+
+| Estado | — |
+|--------|---|
+| Seña | — |
+| Entrega | — |
+| Notas | — |
