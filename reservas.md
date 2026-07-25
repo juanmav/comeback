@@ -224,6 +224,25 @@
 
 ---
 
+## Diego
+**Fecha:** 2026-07-25
+
+| ID | Producto | Precio ARS | Reservado | Entrega tardía | Entregado |
+|----|---------|-----------|-----------|---------------|-----------|
+| 76 | Mobvoi Cinta de Caminar Compacta para Escritorio 2,25 CV, 1-6 km/h, Capacidad 120 kg | $171.200 | ✅ | — | — |
+| 25 | Roland RH-5 — Auriculares de monitoreo | $55.400 | ✅ | — | — |
+| 106 | Bosch Set de Brocas HSS-G para Metal | $13.465 | ✅ | — | — |
+
+**Total: $200.000 ARS**
+
+| Estado | — |
+|--------|---|
+| Seña | — |
+| Entrega | — |
+| Notas | Vendidos los 3 ítems en paquete por $200.000 (precio de lista: $240.065). Marcados como vendidos en la web. |
+
+---
+
 ## Yanina
 **Fecha:** 2026-07-24
 
