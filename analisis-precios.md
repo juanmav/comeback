@@ -107,6 +107,39 @@ Nota: por las rebajas aplicadas en la pasada 21–40, tres items ya ajustados (q
 - **Ajustes aplicados el 26/07/2026 en los 7 items** (caros + levemente caros): mancuernas $45.000 · Songmics $65.000 · tostadora $55.000 · WOLTU x2 $80.000 · HP M111a $85.000 · estación soldadura $55.000 · Milcea $45.000. Además se subió el **Jabra Speak 510 de $90.000 a $110.000** (estaba muy barato vs. nuevo $250k+). Neto: −$231.912.
 - Mismo patrón que en 21–40: los items chicos de Amazon España convertidos de EUR (mancuernas no, pero Songmics, WOLTU) y los electrodomésticos usados (tostadora al 92% del nuevo) quedaron a precio de producto nuevo local. Las herramientas japonesas SUIZAN, en cambio, están bien: el importado exacto en ML cuesta 50–100% más.
 
+## Puestos 61–80 (analizados el 26/07/2026)
+
+Nota: en este rango reaparecen 2 items ya ajustados en la pasada 41–60 (massage gun Milcea y mancuernas G-Fitness, ambos ahora a $45.000) — no se re-analizan. Quedan 18 items nuevos, todos entre $27.700 y $54.000.
+
+| ID | Item | Precio actual | Referencia mercado | Veredicto | Sugerido |
+|----|------|--------------|--------------------|-----------|----------|
+| 126 | Gadnic Q-Pelu quitapelusas (como nuevo) | $50.000 | Nuevo Gadnic en ML $8.500–$15.000 (es marca local barata) | ❌ Muy caro (3–5x el nuevo) | **$12.000** |
+| 10 | ENHET bolsa colada con ruedas IKEA (buen estado) | $54.000 | Cestos/carros de ropa con ruedas nuevos locales mayormente $10.000–$30.000; IKEA EU ~€25 | ❌ Caro | **$25.000** |
+| 41 | SEEKONE mini pistola de calor 350 W (como nuevo) | $27.700 | Genérica nueva ML $13.500–$17.499 | ❌ Caro (60% sobre nueva local) | **$18.000** |
+| 72 | Medisana AC 900 masajeador (buen estado) | $51.300 | Masajeadores anticelulíticos nuevos ML $33.000–$100.000 (genéricos ~$45k) | ⚠️ Levemente caro (precio de nuevo genérico) | **$35.000** |
+| 133 | Ergosolid brazo monitor 17–30" (como nuevo) | $48.900 | Gadnic SP2100 gas 17–32" nuevo $53.199; genéricos nuevos $25.000–$40.000 | ⚠️ Levemente caro (92% del equivalente nuevo) | **$35.000** |
+| 102 | SHARDOR espumador de leche 4 en 1 (buen estado) | $45.280 | Espumadores eléctricos nuevos ML $44.700–$74.900 | ⚠️ Levemente caro (precio de nuevo entry) | **$30.000** |
+| 62 | Sistema de riego con temporizador digital (buen estado) | $41.100 | Timers nuevos: básicos $7.400–$17.000, premium (Gardena/Hunter) $35.000–$80.000 | ⚠️ Levemente caro (precio de nuevo mid) | **$25.000** |
+| 108 | Russell Hobbs Victory hervidor 1 L (buen estado) | $40.396 | Pavas eléctricas buenas nuevas $40.000–$52.500 (Philips HD9350 $52.499) | ⚠️ Levemente caro (precio de nueva ATMA/Liliana) | **$28.000** |
+| 86 | Xiaomi Mi Smart Scale 2 (buen estado) | $37.000 | Nueva ML ~$40.000–$55.000 (variante oficial sin stock) | ⚠️ Levemente caro (~80% del nuevo) | **$27.000** |
+| 36 | SUIZAN Flush Cut 120 mm (como nuevo) | $53.500 | Patrón SUIZAN: importada exacta en ML cuesta 2x+ (Dozuki $165.380) | ✅ OK | — |
+| 105 | LOOK KEO 3 Classic pedales (buen estado) | $45.892 | Nuevos EU €40–55; importados AR estimados $90.000–$130.000 | ✅ OK (~40–50% del nuevo) | — |
+| 63 | Cecotec EnergySilence 3000 Pro 40 cm (buen estado) | $43.400 | Nuevo EU €38,79–€44,90; industriales 16" locales nuevos $50.000–$70.000 | ✅ OK (borderline) | — |
+| 103 | SONGMICS puff almacenaje con patas (buen estado) | $42.097 | Puffs baúl nuevos ML desde <$80.000 (chicos $25.000–$50.000) | ✅ OK | — |
+| 117 | Lámpara de pie bambú (buen estado) | $40.800 | Artesanales nuevas ML $47.890–$93.100 | ✅ OK | — |
+| 31 | Bosch MM 3 pinza universal (como nuevo) | $35.900 | Sin mercado local directo; nicho Bosch EU ~€28 | ✅ OK (nicho) | — |
+| 100 | Moleskine Classic XL cuadriculado (buen estado) | $30.138 | Originales nuevos ML $35.000–$100.000 (Classic XL típico $60k+) | ✅ OK | — |
+| 81 | OMRON X2 Basic tensiómetro (buen estado) | $34.200 | OMRON nuevos ML $78.584–$121.000 (HEM-7142 $99.900) | 💰 Barato (~35% del nuevo) | podría pedirse $50k |
+| 65 | Philips HD2581 tostadora 2 ranuras (buen estado) | $28.500 | Nueva exacta ML $149.999 (Chrome, HD2581/10) | 💰 Muy barata (19% del nuevo) | podría pedirse $60–75k |
+
+### Resumen 61–80
+
+- **Caros: 3 items** — quitapelusas Gadnic (el peor desalineado de todo el listado: 3–5x el precio de nuevo), bolsa ENHET y mini pistola SEEKONE. Sugerido: de $131.700 a $55.000 (−$76.700, −58%).
+- **Levemente caros: 6 items** — Medisana AC 900, brazo Ergosolid, espumador SHARDOR, riego con temporizador, hervidor Russell Hobbs y balanza Xiaomi. Sugerido: de $263.976 a $180.000 (−$83.976, −32%).
+- **OK: 7 items** · **Baratos: 2 items** (OMRON X2 y tostadora Philips, esta última al 19% del precio de nueva).
+- Ajuste total sugerido si se aplica todo: **−$160.676** (de $395.676 a $235.000 en los 9 items).
+- Patrón nuevo en este tramo: aparecen items de marca local barata (Gadnic) o genéricos donde el precio convertido de EUR quedó absurdo — el quitapelusas a $50.000 cuesta 5x el mismo producto nuevo en ML. En cambio los importados de marca (LOOK, SUIZAN, OMRON, Philips) siguen OK o directamente baratos.
+
 ## Fuentes principales
 
 - MercadoLibre AR (scraping Chrome): heladera Hisense, Roland TD-17, Steelcase Gesture, WashTower, Jet 60, Odyssey G6, Makita RT0700C.
@@ -116,6 +149,7 @@ Nota: por las rebajas aplicadas en la pasada 21–40, tres items ya ajustados (q
 - La Muebleria Online / Tavola / ArteDelta: petiribi (racks $1.24–1.47M, cómodas $1.15–1.23M, banquetas $196–500k).
 - Megatone: Hisense $1.499.999.
 - Fuentes 21–40: Pastalinda oficial $157.549 · narex.ar set PROFI $251.073 · FullH4rd Gigabyte GS27QC $359.494 · Carestino Murcia $339.999 · Philips/Frávega Avent $199.999 · Garmin AR $334.799–$371.999 · Arrichetta/Comeros UPS $236.062–$266.169 · Abrafer/ML Bosch GBH 220 $251.257–$299.999 · ML/delmundo SF1000 importado $551.999 · Dielfe (ML mirrors) $55.913–$113.225.
+- Fuentes 61–80: ML directo (Chrome): tostadora Philips HD2581/10 nueva $149.999 · mini pistola de calor genérica $17.499. Web/ML search: quitapelusas Gadnic $8.500–$15.000 · Gadnic SP2100 brazo monitor $53.199 · OMRON HEM-7142 $99.900 / HEM-7122 $121.000 · pavas guía ProductosVirales (ATMA $40.739, Philips HD9350 $52.499) · mini pistola Artística Laferrere $13.500 · Cecotec idealo €38,79 · LOOK KEO Classic 3 EU €40–55. Los listados ML siguieron soft-bloqueados; balanza Xiaomi y masajeador quedaron con rango web (páginas de producto sin oferta activa).
 - Fuentes 41–60: ML directo (Chrome): silla Roma nueva $123.675 · SUIZAN Dozuki importada $165.380. Web: mancuernas hex 5 kg High Performance $30.500 / ML desde $18.983 · Tramontina 40 L Safgol $68.740–$82.296 · Tostapane oficial Pastalinda $92.861–$109.249 · HP M111a GamingCity $142.104 / FullH4rd $160.650 / Microhard $160.550 · cajón pliométrico Deporar fenólico $133.056 / MDF $147.675 · SHARPAL 127N delmundo $209.999 · mesas recibidoras ML $53.600–$172.900 · massage guns ML desde $28.979 · Jabra Speak 510 ML $250.000–$450.000 · Inissia usadas ML $70.000–$180.000. ML volvió a soft-bloquear los listados (páginas de producto sí funcionaron).
 
 > Nota: MercadoLibre aplicó rate-limiting durante el scraping; Braun 9517S, Lansinoh y lavavajillas LG quedaron con referencia web en lugar de ML directo.
