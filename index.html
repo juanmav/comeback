@@ -158,6 +158,23 @@
       color: white;
     }
 
+    .sort-select {
+      padding: 8px 30px 8px 12px;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      font-size: 13px;
+      font-family: inherit;
+      color: inherit;
+      background: white url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='10' height='6' viewBox='0 0 10 6'><path d='M1 1l4 4 4-4' fill='none' stroke='%23888' stroke-width='1.6' stroke-linecap='round' stroke-linejoin='round'/></svg>") no-repeat right 11px center;
+      appearance: none;
+      -webkit-appearance: none;
+      cursor: pointer;
+      outline: none;
+      transition: border-color 0.15s;
+    }
+
+    .sort-select:focus, .sort-select:hover { border-color: var(--mid); }
+
     /* ── MAIN ── */
     .main {
       max-width: 1120px;
@@ -526,6 +543,12 @@
       <input type="text" id="searchInput" placeholder="Buscar artículo..." oninput="render()">
     </div>
     <div class="cats" id="catBtns"></div>
+    <select id="sortSelect" class="sort-select" onchange="render()" aria-label="Ordenar por">
+      <option value="destacados">Destacados primero</option>
+      <option value="precio-desc">Precio: mayor a menor</option>
+      <option value="precio-asc">Precio: menor a mayor</option>
+      <option value="sin-destacar">Sin destacar primero</option>
+    </select>
   </div>
 </div>
 
@@ -2416,9 +2439,27 @@ function render() {
       norm(item.categoria || "").includes(q);
     return matchCat && matchQ;
   }).sort((a, b) => {
-    const rank = i => i.vendido ? 3 : i.reservado ? 2 : i.destacado ? 0 : 1;
+    const rank = i => i.vendido ? 3 : i.reservado ? 2 : 1;
     const r = rank(a) - rank(b);
     if (r !== 0) return r;
+
+    const sortMode = document.getElementById("sortSelect").value;
+    // Precio comparable en ARS (cotización aproximada, solo para ordenar)
+    const precioArs = i =>
+      i.precio.ars ?? (i.precio.usd != null ? i.precio.usd * 1550
+        : i.precio.eur != null ? i.precio.eur * 1800 : null);
+
+    if (sortMode === "precio-desc" || sortMode === "precio-asc") {
+      const pa = precioArs(a), pb = precioArs(b);
+      if (pa == null && pb == null) return 0;
+      if (pa == null) return 1;   // "Precio a consultar" siempre al final
+      if (pb == null) return -1;
+      return sortMode === "precio-asc" ? pa - pb : pb - pa;
+    }
+
+    const dir = sortMode === "sin-destacar" ? -1 : 1;
+    const d = ((b.destacado ? 1 : 0) - (a.destacado ? 1 : 0)) * dir;
+    if (d !== 0) return d;
     if (a.destacado && b.destacado) return (b.precio.ars || 0) - (a.precio.ars || 0);
     return 0;
   });
