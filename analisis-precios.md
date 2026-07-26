@@ -74,6 +74,38 @@ El puesto 21 es el sacaleches Lansinoh, ya ajustado a $250.000 en la pasada ante
 - **Ajustes aplicados el 26/07/2026 en los 11 items** (caros + levemente caros): pava $95.000 · Rowenta $60.000 · qeedo $110.000 · Bosch GBH 220 $150.000 · Dielfe $90.000 · Coavas x2 $180.000 · espejo $170.000 · Narex $180.000 · humidificador SF $140.000 · carpa SF $130.000 · FJÄLLBO $130.000.
 - Patrón repetido: los electrodomésticos usados precificados por conversión EUR (pava, plancha, mesa camping) quedaron por encima del precio de producto nuevo local. La plancha Rowenta además es 110V — muy difícil de vender a ese precio en AR.
 
+## Puestos 41–60 (analizados el 26/07/2026)
+
+Nota: por las rebajas aplicadas en la pasada 21–40, tres items ya ajustados (qeedo $110.000, Dielfe $90.000, pava Pastalinda $95.000) reaparecen en este rango — no se re-analizan. Quedan 17 items nuevos.
+
+| ID | Item | Precio actual | Referencia mercado | Veredicto | Sugerido |
+|----|------|--------------|--------------------|-----------|----------|
+| 121 | G-Fitness mancuernas hex 5 kg par (como nuevo) | $110.000 | Nuevas $18.983–$30.500 c/u (ML/High Performance) → par nuevo $38.000–$61.000 | ❌ Caro — casi el doble del par nuevo | **$45.000** |
+| 79 | Songmics cubo pedal inox 54 L, 3 cubos (buen estado) | $109.200 | Tramontina inox 40 L reciclaje nuevo $68.740–$82.296 (Safgol) | ❌ Caro — sobre precio de nuevo local | **$65.000** |
+| 130 | Tostadora Pastalinda Tostapane negra (buen estado) | $90.600 | Nueva oficial $92.861–$109.249 (Pastalinda) | ❌ Caro — 92% del precio de nueva | **$55.000** |
+| 60 | WOLTU mesitas de noche roble x2 (buen estado) | $115.200 | Mesitas nórdicas nuevas locales desde ~$72.057 c/u, opciones bastante más baratas | ⚠️ Levemente caro (precio de par nuevo local) | **$80.000** |
+| 136 | HP LaserJet M111a (buen estado) | $100.000 | Nueva exacta $142.104 (GamingCity)–$160.650 (FullH4rd) | ⚠️ Levemente caro (70% del nuevo más barato) | **$85.000** |
+| 98 | Estación de soldadura 60W LED (buen estado) | $86.912 | ML: genéricas nuevas mayoría <$100.000 (Yihua 936 45W y similares $50–70k) | ⚠️ Levemente caro (precio de nueva genérica) | **$55.000** |
+| 119 | Milcea massage gun + maletín (como nuevo) | $70.000 | Genéricas nuevas ML desde $28.979; marcas conocidas $100k+ | ⚠️ Levemente caro (marca genérica Amazon) | **$45.000** |
+| 33 | SUIZAN Dozuki 240 mm (como nuevo) | $108.400 | Misma marca nueva importada ML $165.380 | ✅ OK (66% del importado) | — |
+| 58 | Nespresso Inissia reacondicionada (buen estado) | $101.600 | Usadas ML $70.000–$180.000 | ✅ OK | — |
+| 137 | HP LaserJet Pro M15w WiFi (buen estado) | $101.000 | Discontinuada; sucesora WiFi (M111w) nueva >$160k; usadas ML rango amplio | ✅ OK (~63% de nueva equivalente) | — |
+| 122 | Cajón pliométrico 50×60×70 (como nuevo) | $90.000 | Nuevo fenólico mismas medidas $133.056 (Deporar) | ✅ OK (68% del nuevo) | — |
+| 38 | SHARPAL 156N diamante 325/1200 (como nuevo) | $86.400 | SHARPAL 127N (modelo comparable) nueva ML $209.999 | ✅ OK (importado exacto mucho más caro) | — |
+| 16 | Mesa recibidora industrial hierro (como nuevo) | $85.000 | Nuevas locales $53.600–$172.900 (ML) | ✅ OK | — |
+| 37 | SUIZAN Ryoba 240 mm (como nuevo) | $84.500 | Ryobas genéricas nuevas $45–52k; SUIZAN importada nueva estimada >$120k (Dozuki $165.380) | ✅ OK | — |
+| 143 | Silla de comer Mega Baby Roma (buen estado) | $74.000 | Nueva ML $123.675 | ✅ OK (60% del nuevo) | — |
+| 35 | SUIZAN Kanna 42 mm (como nuevo) | $63.300 | Sin oferta local directa; SUIZAN importada con markup 2x+ sobre Amazon EU (€38,80) | ✅ OK | — |
+| 107 | Jabra Speak 510 (buen estado) | $90.000 | Nuevo ML $250.000–$450.000 | 💰 Barato (~30% del nuevo) | podría pedirse $150k |
+
+### Resumen 41–60
+
+- **Caros: 3 items** — mancuernas G-Fitness, cubo Songmics 54 L y tostadora Pastalinda. Sugerido: de $309.800 a $165.000 (−$144.800, −47%).
+- **Levemente caros: 4 items** — mesitas WOLTU, HP M111a, estación de soldadura y massage gun Milcea. Sugerido: de $372.112 a $265.000 (−$107.112, −29%).
+- **OK: 9 items** · **Barato: 1 item** (Jabra Speak 510, se podría pedir bastante más).
+- Ajuste total sugerido si se aplica todo: **−$251.912** (de $681.912 a $430.000 en los 7 items).
+- Mismo patrón que en 21–40: los items chicos de Amazon España convertidos de EUR (mancuernas no, pero Songmics, WOLTU) y los electrodomésticos usados (tostadora al 92% del nuevo) quedaron a precio de producto nuevo local. Las herramientas japonesas SUIZAN, en cambio, están bien: el importado exacto en ML cuesta 50–100% más.
+
 ## Fuentes principales
 
 - MercadoLibre AR (scraping Chrome): heladera Hisense, Roland TD-17, Steelcase Gesture, WashTower, Jet 60, Odyssey G6, Makita RT0700C.
@@ -83,6 +115,7 @@ El puesto 21 es el sacaleches Lansinoh, ya ajustado a $250.000 en la pasada ante
 - La Muebleria Online / Tavola / ArteDelta: petiribi (racks $1.24–1.47M, cómodas $1.15–1.23M, banquetas $196–500k).
 - Megatone: Hisense $1.499.999.
 - Fuentes 21–40: Pastalinda oficial $157.549 · narex.ar set PROFI $251.073 · FullH4rd Gigabyte GS27QC $359.494 · Carestino Murcia $339.999 · Philips/Frávega Avent $199.999 · Garmin AR $334.799–$371.999 · Arrichetta/Comeros UPS $236.062–$266.169 · Abrafer/ML Bosch GBH 220 $251.257–$299.999 · ML/delmundo SF1000 importado $551.999 · Dielfe (ML mirrors) $55.913–$113.225.
+- Fuentes 41–60: ML directo (Chrome): silla Roma nueva $123.675 · SUIZAN Dozuki importada $165.380. Web: mancuernas hex 5 kg High Performance $30.500 / ML desde $18.983 · Tramontina 40 L Safgol $68.740–$82.296 · Tostapane oficial Pastalinda $92.861–$109.249 · HP M111a GamingCity $142.104 / FullH4rd $160.650 / Microhard $160.550 · cajón pliométrico Deporar fenólico $133.056 / MDF $147.675 · SHARPAL 127N delmundo $209.999 · mesas recibidoras ML $53.600–$172.900 · massage guns ML desde $28.979 · Jabra Speak 510 ML $250.000–$450.000 · Inissia usadas ML $70.000–$180.000. ML volvió a soft-bloquear los listados (páginas de producto sí funcionaron).
 
 > Nota: MercadoLibre aplicó rate-limiting durante el scraping; Braun 9517S, Lansinoh y lavavajillas LG quedaron con referencia web en lugar de ML directo.
 >
