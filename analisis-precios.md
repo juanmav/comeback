@@ -104,6 +104,7 @@ Nota: por las rebajas aplicadas en la pasada 21–40, tres items ya ajustados (q
 - **Levemente caros: 4 items** — mesitas WOLTU, HP M111a, estación de soldadura y massage gun Milcea. Sugerido: de $372.112 a $265.000 (−$107.112, −29%).
 - **OK: 9 items** · **Barato: 1 item** (Jabra Speak 510, se podría pedir bastante más).
 - Ajuste total sugerido si se aplica todo: **−$251.912** (de $681.912 a $430.000 en los 7 items).
+- **Ajustes aplicados el 26/07/2026 en los 7 items** (caros + levemente caros): mancuernas $45.000 · Songmics $65.000 · tostadora $55.000 · WOLTU x2 $80.000 · HP M111a $85.000 · estación soldadura $55.000 · Milcea $45.000. Además se subió el **Jabra Speak 510 de $90.000 a $110.000** (estaba muy barato vs. nuevo $250k+). Neto: −$231.912.
 - Mismo patrón que en 21–40: los items chicos de Amazon España convertidos de EUR (mancuernas no, pero Songmics, WOLTU) y los electrodomésticos usados (tostadora al 92% del nuevo) quedaron a precio de producto nuevo local. Las herramientas japonesas SUIZAN, en cambio, están bien: el importado exacto en ML cuesta 50–100% más.
 
 ## Fuentes principales
