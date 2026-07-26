@@ -71,6 +71,7 @@ El puesto 21 es el sacaleches Lansinoh, ya ajustado a $250.000 en la pasada ante
 - **Levemente caros: 6 items** — escritorios Coavas, espejo de pie, formones Narex, humidificador SF, carpa SF 70×70 y FJÄLLBO. Ajuste sugerido: de $1.176.000 a $930.000 (−$246.000, −21%).
 - **OK: 7 items** · **Barato: 1 item** (Garmin Index S2).
 - Ajuste total sugerido si se aplica todo: **−$658.200**.
+- **Ajustes aplicados el 26/07/2026 en los 11 items** (caros + levemente caros): pava $95.000 · Rowenta $60.000 · qeedo $110.000 · Bosch GBH 220 $150.000 · Dielfe $90.000 · Coavas x2 $180.000 · espejo $170.000 · Narex $180.000 · humidificador SF $140.000 · carpa SF $130.000 · FJÄLLBO $130.000.
 - Patrón repetido: los electrodomésticos usados precificados por conversión EUR (pava, plancha, mesa camping) quedaron por encima del precio de producto nuevo local. La plancha Rowenta además es 110V — muy difícil de vender a ese precio en AR.
 
 ## Fuentes principales
