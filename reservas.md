@@ -160,6 +160,7 @@
 | 46 | Duronic DML2 Bandeja VESA para Portátil/Tablet hasta 8 kg | $27.700 | ✅ | ✅ | — |
 | 112 | Amazon Basics Reposapiés 39 × 30 × 8,5 cm Negro | $24.470 | ✅ | — | ✅ |
 | 6 | Escritorio eléctrico IKEA BEKANT | $357.500 | ✅ | ✅ | — |
+| 31 | Bosch MM 3 Pinza Universal con Rosca 1/4" | $0 (atención) | ✅ | — | — |
 
 **Total: $769.762 ARS**
 
@@ -167,7 +168,7 @@
 |--------|---|
 | Seña | $360.116 ARS |
 | Entrega | — |
-| Notas | Saldo pendiente: $409.646 ARS. |
+| Notas | Saldo pendiente: $409.646 ARS. Bosch MM 3 sin costo, de regalo como atención. |
 
 ---
 
