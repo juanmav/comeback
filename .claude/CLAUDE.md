@@ -53,6 +53,8 @@ Beyond the base schema, items support these optional boolean flags:
 reservado: true,      // shows RESERVADO badge, disables WhatsApp button
 vendido: true,        // shows VENDIDO badge, greys out card
 entregaTardia: true,  // shows "Entrega tardía · aprox. 7 al 21 de septiembre" chip (hidden when reservado)
+sinUso: true,         // shows green "✨ Sin uso" chip
+enCaja: true,         // shows amber "📦 En caja" chip
 ```
 
 ## Reservations tracker (reservas.md)
