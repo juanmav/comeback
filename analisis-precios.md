@@ -138,6 +138,7 @@ Nota: en este rango reaparecen 2 items ya ajustados en la pasada 41–60 (massag
 - **Levemente caros: 6 items** — Medisana AC 900, brazo Ergosolid, espumador SHARDOR, riego con temporizador, hervidor Russell Hobbs y balanza Xiaomi. Sugerido: de $263.976 a $180.000 (−$83.976, −32%).
 - **OK: 7 items** · **Baratos: 2 items** (OMRON X2 y tostadora Philips, esta última al 19% del precio de nueva).
 - Ajuste total sugerido si se aplica todo: **−$160.676** (de $395.676 a $235.000 en los 9 items).
+- **Ajustes aplicados el 26/07/2026 en los 11 items**: quitapelusas $12.000 · ENHET $25.000 · SEEKONE $18.000 · Medisana $35.000 · Ergosolid $35.000 · SHARDOR $30.000 · riego $25.000 · Russell Hobbs $28.000 · Xiaomi Scale $27.000. Subas: **OMRON X2 $34.200→$50.000** y **tostadora Philips HD2581 $28.500→$70.000**. Neto: −$123.376.
 - Patrón nuevo en este tramo: aparecen items de marca local barata (Gadnic) o genéricos donde el precio convertido de EUR quedó absurdo — el quitapelusas a $50.000 cuesta 5x el mismo producto nuevo en ML. En cambio los importados de marca (LOOK, SUIZAN, OMRON, Philips) siguen OK o directamente baratos.
 
 ## Fuentes principales
