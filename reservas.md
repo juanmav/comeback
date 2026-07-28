@@ -251,8 +251,9 @@
 |----|---------|-----------|-----------|---------------|-----------|
 | 19 | Combo x2 Velador Ches Gioluce negro | $53.999 | ✅ | ✅ | — |
 | 114 | Sillón esquinero en L con camastro — Tela hidrorepelente taupe | $750.000 | ✅ | ✅ | — |
+| 126 | Gadnic Q-Pelu Quitapelusas Recargable — 3 Velocidades, USB, Crema | $12.000 | ✅ | — | — |
 
-**Total: $803.999 ARS**
+**Total: $815.999 ARS**
 
 | Estado | — |
 |--------|---|
