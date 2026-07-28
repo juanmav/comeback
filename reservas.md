@@ -260,3 +260,21 @@
 | Seña | — |
 | Entrega | — |
 | Notas | — |
+
+---
+
+## Manuel Almagro
+**Fecha:** 2026-07-28
+
+| ID | Producto | Precio ARS | Reservado | Entrega tardía | Entregado |
+|----|---------|-----------|-----------|---------------|-----------|
+| 90 | Escritorio en L Homy Casa 165×110cm negro — Set x2 | $214.000 | ✅ | — | — |
+| 62 | Sistema de Riego Automático con Temporizador Digital Programable | $25.000 | ✅ | — | — |
+
+**Total: $239.000 ARS**
+
+| Estado | — |
+|--------|---|
+| Seña | — |
+| Entrega | — |
+| Notas | Se lleva el set completo de escritorios (x2). |
