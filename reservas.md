@@ -90,12 +90,12 @@
 
 | ID | Producto | Precio ARS | Reservado | Entrega tardía | Entregado |
 |----|---------|-----------|-----------|---------------|-----------|
-| 88 | Mueble sobre inodoro Dielfe SIE060 | $142.000 | ✅ | — | — |
+| 88 | Mueble sobre inodoro Dielfe SIE060 | $50.000 | ✅ | — | — |
 | 42 | Kynup Calibre Digital Acero Inoxidable 200 mm | $37.500 | ✅ | — | — |
 | 44 | Multímetro Digital TRUE RMS 2000 Cuentas NCV | $19.600 | ✅ | — | — |
 | 87 | Lámpara Banquero Bronce con Pantalla de Vidrio Verde — Velador Apto LED | $82.800 | ✅ | — | — |
 
-**Total: $281.900 ARS**
+**Total: $189.900 ARS**
 
 | Estado | — |
 |--------|---|
