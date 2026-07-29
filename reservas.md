@@ -110,22 +110,22 @@
 
 | ID | Producto | Precio ARS | Reservado | Entrega tardía | Entregado |
 |----|---------|-----------|-----------|---------------|-----------|
-| 67 | Multiherramienta 16 en 1 para Camping con Hacha y Cuchillo de Supervivencia | $28.500 | ✅ | — | — |
-| 68 | Fire-Maple Cocina Portátil Plegable de Acero Inoxidable para Camping y Picnic | $33.000 | ✅ | — | — |
-| 69 | Lifesystems Cerillas Impermeables y Resistentes al Viento, Pack de 25 en Contenedor Sellado | $14.300 | ✅ | — | — |
-| 115 | FORCLAZ Bastón Telescópico de Trekking MT500 — Ajuste Rápido (Verde musgo) | $19.000 | ✅ | — | — |
-| 71 | TOMSHOO Colchoneta Autohinchable para Camping con Almohada, Bomba de Pie y 2 Mosquetones | $68.800 | ✅ | — | — |
-| 11 | UTSÅDD Casa gatos ratán + Rascador IKEA (combo) | $0 (atención) | ✅ | ✅ | — |
-| 57 | GIOTOHUN Comedero Automático para Gatos | $0 (atención) | ✅ | ✅ | — |
-| 70 | KingCamp Manta de Camping Ultraligera e Impermeable con Bolsa de Transporte Integrada | $39.900 | ✅ | — | — |
+| 67 | Multiherramienta 16 en 1 para Camping con Hacha y Cuchillo de Supervivencia | $28.500 | ✅ | — | ✅ |
+| 68 | Fire-Maple Cocina Portátil Plegable de Acero Inoxidable para Camping y Picnic | $33.000 | ✅ | — | ✅ |
+| 69 | Lifesystems Cerillas Impermeables y Resistentes al Viento, Pack de 25 en Contenedor Sellado | $14.300 | ✅ | — | ✅ |
+| 115 | FORCLAZ Bastón Telescópico de Trekking MT500 — Ajuste Rápido (Verde musgo) | $19.000 | ✅ | — | ✅ |
+| 71 | TOMSHOO Colchoneta Autohinchable para Camping con Almohada, Bomba de Pie y 2 Mosquetones | $68.800 | ✅ | — | ✅ |
+| 11 | UTSÅDD Casa gatos ratán + Rascador IKEA (combo) | $0 (atención) | ✅ | ✅ | ✅ |
+| 57 | GIOTOHUN Comedero Automático para Gatos | $0 (atención) | ✅ | ✅ | ✅ |
+| 70 | KingCamp Manta de Camping Ultraligera e Impermeable con Bolsa de Transporte Integrada | $39.900 | ✅ | — | ✅ |
 
 **Total: $203.500 ARS**
 
 | Estado | — |
 |--------|---|
-| Seña | — |
-| Entrega | — |
-| Notas | Romi y Manish son la misma persona. Casa gatos UTSÅDD (id 11) y comedero GIOTOHUN (id 57) van de regalo — atención. |
+| Seña | $203.500 ARS (pagado completo) |
+| Entrega | ✅ Entregado |
+| Notas | Vendido y pagado. Romi y Manish son la misma persona. Casa gatos UTSÅDD (id 11) y comedero GIOTOHUN (id 57) fueron de regalo — atención. |
 
 ---
 
