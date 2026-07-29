@@ -249,17 +249,15 @@
 
 | ID | Producto | Precio ARS | Reservado | Entrega tardía | Entregado |
 |----|---------|-----------|-----------|---------------|-----------|
-| 19 | Combo x2 Velador Ches Gioluce negro | $53.999 | ✅ | ✅ | — |
-| 114 | Sillón esquinero en L con camastro — Tela hidrorepelente taupe | $750.000 | ✅ | ✅ | — |
 | 126 | Gadnic Q-Pelu Quitapelusas Recargable — 3 Velocidades, USB, Crema | $12.000 | ✅ | — | — |
 
-**Total: $815.999 ARS**
+**Total: $12.000 ARS**
 
 | Estado | — |
 |--------|---|
 | Seña | — |
 | Entrega | — |
-| Notas | — |
+| Notas | 2026-07-29: dio de baja el velador Ches (ID 19) y el sillón esquinero (ID 114); vuelven a estar disponibles en la web. |
 
 ---
 
