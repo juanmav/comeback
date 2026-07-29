@@ -1259,7 +1259,7 @@ const ITEMS = [
     categoria: "Cultivo Indoor",
     vendido: false,
     imagen: "https://www.spider-farmer.com/wp-content/uploads/2025/01/Spider-Farmer-GGS-AC10-Power-Strip-Next-Gen-4-Inline-Fan-Kit-with-RJ12-Port_us.png",
-    url: "https://www.spider-farmer.com/products/ggs-ac10-power-strip-kits-grow-room-controller-with-6-clip-fan-4-inline-fan/"
+    url: "https://www.mercadolibre.com.ar/spider-farmer-ggs-ac10-kit-de-regletas-con-10-salidas-y-se/up/MLAU4035748492"
   },
   {
     id: 49,
@@ -1298,7 +1298,7 @@ const ITEMS = [
     categoria: "Cultivo Indoor",
     vendido: false,
     imagen: "https://m.media-amazon.com/images/I/71peeR+dP2L._AC_SL1500_.jpg",
-    url: "https://www.amazon.es/dp/B0CXT84541"
+    url: "https://articulo.mercadolibre.com.ar/MLA-3405009476-spider-farmer-nuevo-ventilador-para-armario-de-cultivo-6-co-_JM"
   },
   {
     id: 52,
@@ -1375,6 +1375,7 @@ const ITEMS = [
     nombre: "Nespresso Krups Inissia XN1001 Cafetera de Cápsulas (Reacondicionada)",
     descripcion: "Cafetera de cápsulas Nespresso Krups Inissia (reacondicionada) con 19 bares de presión, apagado automático y diseño compacto en blanco. Compatible con todas las cápsulas Nespresso Original Line.",
     precio: { ars: 40000, usd: null, eur: null },
+    mlUsado: true,
     condicion: "Buen estado",
     categoria: "Electrodomésticos",
     vendido: false,
@@ -2574,7 +2575,7 @@ function render() {
           ${item.descripcion ? `<div class="card-desc">${item.descripcion}</div>` : ""}
           ${item.url ? `<a class="card-link" href="${item.url}" target="_blank">
             <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
-            Ver ficha técnica oficial
+            ${item.url.includes("mercadolibre") ? (item.mlUsado ? "Ver publicación en MercadoLibre" : "Ver precio de nuevo en MercadoLibre") : "Ver ficha técnica oficial"}
           </a>` : ""}
           ${renderPrices(item.precio)}
           ${item.vendido

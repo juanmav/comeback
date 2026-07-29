@@ -55,7 +55,10 @@ vendido: true,        // shows VENDIDO badge, greys out card
 entregaTardia: true,  // shows "Entrega tardía · aprox. 7 al 21 de septiembre" chip (hidden when reservado)
 sinUso: true,         // shows green "✨ Sin uso" chip
 enCaja: true,         // shows amber "📦 En caja" chip
+mlUsado: true,        // the item's ML link points to a USED listing: card link reads "Ver publicación en MercadoLibre" instead of "Ver precio de nuevo en MercadoLibre"
 ```
+
+The card link label is automatic: URLs containing `mercadolibre` render "Ver precio de nuevo en MercadoLibre" (or the `mlUsado` variant); any other URL renders "Ver ficha técnica oficial".
 
 ## Reservations tracker (reservas.md)
 
