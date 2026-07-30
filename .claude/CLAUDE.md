@@ -60,6 +60,12 @@ The `<head>` of `index.html` carries the Open Graph / Twitter Card tags for the 
 
 After deploying a change to any preview, refresh the scrapers' caches: Facebook Sharing Debugger and LinkedIn Post Inspector re-scrape on demand; WhatsApp caches per URL, so append a `?v=N` to force a refetch.
 
+### TODO — only if a preview actually comes back without an image
+
+57 of the 88 available items use a third-party CDN as their `og:image` (36 `m.media-amazon.com`, 13 `http2.mlstatic.com`, plus a few LG / IKEA / Steelcase / Spider Farmer). Those hosts can refuse the scraper's request, and the symptom is a preview with title and description but no photo — Amazon is the likeliest offender.
+
+Don't pre-emptively fix all of them. When a specific item's preview shows up empty, download just that photo into `images/`, point the item's `imagen` at the local path, and re-run `node build-items.js`. Serving it from our own domain removes the problem for good.
+
 ## WhatsApp integration
 
 The number is hardcoded as `const WA = "5491160432525"` (Argentine format, no `+` or spaces). Each card's button pre-fills the message: *"Hola! Me interesa "[nombre]" que vi en su lista. ¿Está disponible?"*
