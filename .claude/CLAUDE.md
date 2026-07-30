@@ -4,16 +4,17 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## What this is
 
-A single-file static sale page (`index.html`) for listing items for sale before the owners move to Barcelona. No build step, no dependencies, no framework — just vanilla HTML/CSS/JS served via GitHub Pages.
+A static sale page (`index.html`) for listing items for sale before the owners move to Barcelona. No dependencies, no framework — just vanilla HTML/CSS/JS served via GitHub Pages. The catalog itself is one self-contained file; the only generated output is the per-item pages under `item/` (see below), built by `build-items.js` with plain Node, no npm install.
 
 **Custom domain:** [adios.com.ar](https://adios.com.ar) (configured via `CNAME` file). Also accessible at the GitHub Pages default URL https://juanmav.github.io/comeback/.
 
 ## Deploying changes
 
-After editing `index.html`, push to master and GitHub Pages auto-deploys:
+After editing `index.html`, **always regenerate the per-item pages** and then push to master — GitHub Pages auto-deploys:
 
 ```bash
-git add index.html
+node build-items.js
+git add index.html item sitemap.xml robots.txt 404.html
 git commit -m "..."
 TOKEN=$(gh auth token) && git remote set-url origin "https://${TOKEN}@github.com/juanmav/comeback.git"
 git push
@@ -40,6 +41,30 @@ All items live in the `ITEMS` array near the top of the `<script>` block in `ind
 ```
 
 When the user provides a product reference, search for the official page and a direct CDN image URL before adding the item.
+
+## Per-item pages (`item/<id>.html`) — link previews
+
+`build-items.js` generates one standalone page per item so that a shared link shows that product's own photo, name and price in the WhatsApp/Facebook/LinkedIn preview, plus `Product` JSON-LD so Google can index each item separately. It also writes `sitemap.xml`, `robots.txt` and `404.html`.
+
+### Rules
+
+- **Only available items get a page.** An item with `reservado: true` or `vendido: true` must NOT have a page under `item/`. The script enforces this by wiping and regenerating the whole `item/` directory on every run, so a page disappears on its own as soon as the item is marked reserved or sold.
+- **Run `node build-items.js` after ANY change to `ITEMS`** — adding, removing, repricing, changing photos, and especially flipping `reservado`/`vendido`. A stale `item/` directory means dead links or a reserved item still looking available.
+- `index.html` is the single source of truth. The script parses `ITEMS`, `COND_DOT`, `CAT_ICONS` and `FMT` straight out of it — never duplicate item data into the generator. If those declarations are reformatted, the regexes in `grab()` may need updating (the script throws a clear error if extraction fails).
+- The card's "Compartir" button (`shareItem` in `index.html`) links to `item/<id>.html` for available items and falls back to `?id=<id>` on the catalog for reserved/sold ones. Keep both branches in sync with the rule above.
+- `og:image` uses the item's first photo. Photos under `images/` are served from our own domain (safest); third-party CDN URLs work too but can be hotlink-blocked by the origin, which shows up as a preview with no image. Items with no photo fall back to `images/og-cover.jpg`.
+
+## Link previews on the catalog page
+
+The `<head>` of `index.html` carries the Open Graph / Twitter Card tags for the catalog itself, pointing at `images/og-cover.jpg` (1200×630, kept under 300 KB because WhatsApp drops larger previews). The cover was rendered from an HTML mock with headless Chromium — regenerate it if the branding changes.
+
+After deploying a change to any preview, refresh the scrapers' caches: Facebook Sharing Debugger and LinkedIn Post Inspector re-scrape on demand; WhatsApp caches per URL, so append a `?v=N` to force a refetch.
+
+### TODO — only if a preview actually comes back without an image
+
+57 of the 88 available items use a third-party CDN as their `og:image` (36 `m.media-amazon.com`, 13 `http2.mlstatic.com`, plus a few LG / IKEA / Steelcase / Spider Farmer). Those hosts can refuse the scraper's request, and the symptom is a preview with title and description but no photo — Amazon is the likeliest offender.
+
+Don't pre-emptively fix all of them. When a specific item's preview shows up empty, download just that photo into `images/`, point the item's `imagen` at the local path, and re-run `node build-items.js`. Serving it from our own domain removes the problem for good.
 
 ## WhatsApp integration
 
@@ -74,7 +99,7 @@ One `##` section per buyer. Each section has:
 ### Rules
 
 - **ID** must match the `id` field in the `ITEMS` array — always cross-reference.
-- When a reservation is added, set `reservado: true` on the corresponding item(s) in `index.html` and push to the web.
+- When a reservation is added, set `reservado: true` on the corresponding item(s) in `index.html`, run `node build-items.js` (this removes their per-item pages) and push to the web.
 - When splitting a multi-unit item (e.g. "(x2)"), create a new entry with the next available ID, update both `index.html` and `reservas.md`.
 - **Totals must be recalculated** whenever items are added, removed, or repriced in a section.
 - Include context notes in the buyer header when relevant (e.g. "vía Anibal", "novia de Carlitos").

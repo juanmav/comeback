@@ -3,7 +3,33 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Gran liquidación — Todo en venta</title>
+  <title>Gran liquidación — Nos mudamos y vendemos todo</title>
+  <meta name="description" content="Muebles, tecnología, herramientas, electrodomésticos, camping y más — todo en excelente estado antes de la mudanza. Mirá el catálogo y consultá por WhatsApp.">
+  <link rel="canonical" href="https://adios.com.ar/">
+  <meta name="theme-color" content="#1d3557">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%8F%B7%3C/text%3E%3C/svg%3E">
+
+  <!-- Open Graph (WhatsApp, Facebook, LinkedIn, Telegram) -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="adios.com.ar">
+  <meta property="og:locale" content="es_AR">
+  <meta property="og:url" content="https://adios.com.ar/">
+  <meta property="og:title" content="Gran liquidación — Nos mudamos y vendemos todo">
+  <meta property="og:description" content="Muebles, tecnología, herramientas, electrodomésticos, camping y más — todo en excelente estado antes de la mudanza. Mirá el catálogo y consultá por WhatsApp.">
+  <meta property="og:image" content="https://adios.com.ar/images/og-cover.jpg">
+  <meta property="og:image:secure_url" content="https://adios.com.ar/images/og-cover.jpg">
+  <meta property="og:image:type" content="image/jpeg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Gran liquidación: muebles, tecnología, herramientas y electrodomésticos en venta">
+
+  <!-- Twitter / X -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Gran liquidación — Nos mudamos y vendemos todo">
+  <meta name="twitter:description" content="Muebles, tecnología, herramientas, electrodomésticos, camping y más — todo en excelente estado antes de la mudanza.">
+  <meta name="twitter:image" content="https://adios.com.ar/images/og-cover.jpg">
+  <meta name="twitter:image:alt" content="Gran liquidación: muebles, tecnología, herramientas y electrodomésticos en venta">
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   <style>
@@ -2431,7 +2457,13 @@ async function shareItem(e, id) {
   e.stopPropagation();
   const item = ITEMS.find(i => i.id === id);
   if (!item) return;
-  const url = `${location.origin}${location.pathname}?id=${id}`;
+  // Los ítems disponibles tienen página propia (generada por build-items.js) con
+  // su foto y precio en la preview del link. Los reservados/vendidos no, así que
+  // esos se comparten como ancla al catálogo.
+  const base = `${location.origin}${location.pathname.replace(/index\.html$/, "")}`;
+  const url = (!item.vendido && !item.reservado)
+    ? `${base}item/${id}.html`
+    : `${base}?id=${id}`;
   const btn = e.currentTarget;
   try {
     if (navigator.share) {
