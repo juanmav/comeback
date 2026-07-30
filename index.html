@@ -2457,7 +2457,13 @@ async function shareItem(e, id) {
   e.stopPropagation();
   const item = ITEMS.find(i => i.id === id);
   if (!item) return;
-  const url = `${location.origin}${location.pathname}?id=${id}`;
+  // Los ítems disponibles tienen página propia (generada por build-items.js) con
+  // su foto y precio en la preview del link. Los reservados/vendidos no, así que
+  // esos se comparten como ancla al catálogo.
+  const base = `${location.origin}${location.pathname.replace(/index\.html$/, "")}`;
+  const url = (!item.vendido && !item.reservado)
+    ? `${base}item/${id}.html`
+    : `${base}?id=${id}`;
   const btn = e.currentTarget;
   try {
     if (navigator.share) {
