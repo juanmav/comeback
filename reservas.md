@@ -160,7 +160,7 @@
 | 46 | Duronic DML2 Bandeja VESA para Portátil/Tablet hasta 8 kg | $27.700 | ✅ | ✅ | — |
 | 112 | Amazon Basics Reposapiés 39 × 30 × 8,5 cm Negro | $24.470 | ✅ | — | ✅ |
 | 6 | Escritorio eléctrico IKEA BEKANT | $357.500 | ✅ | ✅ | — |
-| 31 | Bosch MM 3 Pinza Universal con Rosca 1/4" | $0 (atención) | ✅ | — | — |
+| 31 | Bosch MM 3 Pinza Universal con Rosca 1/4" | $0 (atención) | ✅ | — | ✅ |
 
 **Total: $769.762 ARS**
 
@@ -276,3 +276,21 @@
 | Seña | — |
 | Entrega | — |
 | Notas | Se lleva el set completo de escritorios (x2). |
+
+---
+
+## Carlos
+**Fecha:** 2026-05-26
+
+| ID | Producto | Precio ARS | Reservado | Entrega tardía | Entregado |
+|----|---------|-----------|-----------|---------------|-----------|
+| 89 | IKEA BROR Banco de Trabajo con 5 Cajoneras — Tablero de Pino | $1.051.050 | ✅ | — | — |
+| 95 | VASAGLE LLS44X Estantería escalera 4 niveles — Industrial rustic brown | $66.000 | ✅ | — | — |
+
+**Total: $1.117.050 ARS**
+
+| Estado | — |
+|--------|---|
+| Seña | — |
+| Entrega | — |
+| Notas | Reserva cargada el 2026-05-26; comprador registrado a posteriori. |
