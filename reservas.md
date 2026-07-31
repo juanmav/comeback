@@ -35,16 +35,16 @@
 
 | ID | Producto | Precio ARS | Reservado | Entrega tardía | Entregado |
 |----|---------|-----------|-----------|---------------|-----------|
-| 7 | Bambu Lab X1 Carbon (X1C) Combo + AMS | $2.000.000 | ✅ | — | ✅ |
+| 7 | Bambu Lab X1 Carbon (X1C) Combo + AMS | USD 1.150 | ✅ | — | ✅ |
 | 132 | Lavarropas Hisense WFQP8014T 8kg 1400RPM Inverter | $350.000 | ✅ | ✅ | — |
 
-**Total: $2.350.000 ARS**
+**Total: USD 1.150 + $350.000 ARS**
 
 | Estado | — |
 |--------|---|
-| Seña | — |
+| Seña | USD 500 |
 | Entrega | — |
-| Notas | — |
+| Notas | Precio de la Bambu Lab cerrado en USD 1.150 (2026-07-31). Saldo pendiente: USD 650 + $350.000 ARS (lavarropas). |
 
 ---
 
@@ -53,16 +53,16 @@
 
 | ID | Producto | Precio ARS | Reservado | Entrega tardía | Entregado |
 |----|---------|-----------|-----------|---------------|-----------|
-| 2 | Heladera Samsung RS70F64KETEF | $2.000.000 | ✅ | — | — |
+| 2 | Heladera Samsung RS70F64KETEF | USD 1.350 | ✅ | — | — |
 | 131 | Smart TV LG OLED Evo 55" 4K ThinQ AI OLED55C3PSA | $1.100.000 | ✅ | ✅ | — |
 
-**Total: $3.100.000 ARS**
+**Total: USD 1.350 + $1.100.000 ARS**
 
 | Estado | — |
 |--------|---|
-| Seña | — |
+| Seña | USD 1.000 |
 | Entrega | — |
-| Notas | Heladera movida desde la reserva de Ariel. |
+| Notas | Heladera movida desde la reserva de Ariel. Precio cerrado en USD 1.350 (2026-07-31). Saldo pendiente: USD 350 + $1.100.000 ARS (TV). |
 
 ---
 
