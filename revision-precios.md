@@ -75,7 +75,7 @@ Página = precio publicado (USD de la página convertido al blue). Nuevo = refer
 | 🟢 | 101 | FLSUN Q5 Impresora 3D Delta | $200.000 | USD 230 ($454.480) | 56% | eBay/3DPrintersBay aprox ⚠️ |
 | 🟢 | 136 | Impresora Láser HP LaserJet M111a Monocromática USB | $85.000 | $195.419 | 57% | ML catálogo |
 | 🟢 | 125 | Sacaleches Dúo Portátil Lansinoh — 220V | $175.000 | $407.604 | 57% | ML catálogo |
-| 🟢 | 121 | G-Fitness Mancuerna Hexagonal Engomada 5 kg — Par (x2) | $25.000 | $58.000 | 57% | High Performance/SmartClick (par) ⚠️ |
+| 🟢 | 121 | G-Fitness Mancuerna Hexagonal Engomada 5 kg — Par (x2) | $25.000 | $58.000 | 57% | ML catálogo x unidad ×2 (link propio) |
 | 🟢 | 129 | Heladera No Frost Hisense RB3P422NEB 417L Negra | $530.000 | $1.239.999 | 57% | ML catálogo |
 | 🟢 | 28 | Banqueta Moller petiribi tejida | $100.000 | $237.650 | 58% | ML (link de la página) |
 | 🟢 | 148 | Banqueta Moller petiribi tejida | $100.000 | $237.650 | 58% | ML (link de la página) |
