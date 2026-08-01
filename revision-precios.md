@@ -113,9 +113,9 @@ Página = precio publicado (USD de la página convertido al blue). Nuevo = refer
 | ⚪ | 29 | Cómoda Luz 6 cajones — Álamo macizo símil petiribi | $350.000 | — | — | — |
 | ⚪ | 60 | WOLTU Mesitas de Noche con Compartimento Abierto, Madera Roble Claro 46×38×60 cm (Pack 2) | $80.000 | — | — | — |
 | ⚪ | 82 | Set de 2 Tobilleras/Muñequeras con Peso Ajustable 1 lb para Yoga, Running y Fitness | $21.700 | — | — | — |
-| ⚪ | 91 | Coavas Escritorio Plegable Industrial 100×50cm — Set x2 | $180.000 | — | — | — |
+| ⚪ | 91 | Coavas Escritorio Plegable Industrial 100×50cm | $60.000 | — | — | — |
 | ⚪ | 94 | Velador B.K.Licht nórdico blanco — Lámpara de mesa E14 | $26.000 | — | — | — |
-| ⚪ | 117 | Lámpara de pie cilíndrica de bambú — Luz cálida tamizada | $40.800 | — | — | — |
+| ⚪ | 117 | Lámpara de pie cilíndrica de bambú — Luz cálida tamizada | $25.000 | — | — | — |
 | ⚪ | 119 | Milcea Fascia Massage Gun — Kit con Maletín y 6 Cabezales | $45.000 | — | — | — |
 | ⚪ | 122 | Cajón de Salto Crossfit 3 Alturas — Pliométrico 50×60×70 cm | $90.000 | — | — | — |
 | ⚪ | 124 | Asiento Almohadón Dona Hemorroides Schwartz XL — 44×44 cm | $25.999 | — | — | — |
