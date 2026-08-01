@@ -83,7 +83,7 @@ Página = precio publicado (USD de la página convertido al blue). Nuevo = refer
 | 🟢 | 48 | Spider Farmer GGS AC10 Power Strip Kit + Fan 6'' + Fan 4'' + Filtro Carbón | $487.500 | $1.212.615 (suma) | 60% | ML suma componentes (link de la página) ⚠️ |
 | 🟢 | 128 | Pava Eléctrica Pastalinda Cucina Bollitore 1.7L Acero Inox | $50.000 | $130.000 | 62% | Fravega ⚠️ |
 | 🟢 | 123 | Sacaleche Eléctrico Philips Avent SCF323/11 — Portátil USB-C | $75.000 | $199.999 | 62% | Tienda Philips AR (oferta) ⚠️ |
-| 🟢 | 127 | GRÄLVIKEN Sofá cama 3 plazas, gris | $450.000 | EUR 549 ($1.219.329) | 63% | IKEA España |
+| 🟢 | 127 | GRÄLVIKEN Sofá cama 3 plazas, gris | $350.000 | EUR 549 ($1.219.329) | 71% | IKEA España |
 | 🟢 | 102 | SHARDOR Espumador de Leche 4 en 1 — 300 ml | $30.000 | EUR 37.04 ($82.266) | 64% | Amazon.es |
 | 🟢 | 72 | Medisana AC 900 Masajeador Anticelulítico Inalámbrico con 3 Rodillos Giratorios (2.ª Generación) | $35.000 | EUR 44.95 ($99.834) | 65% | Amazon.es |
 | 🟢 | 98 | Estación de Soldadura 60W con Pantalla LED | $55.000 | EUR 71 ($157.691) | 65% | Amazon.es |
@@ -117,7 +117,7 @@ Página = precio publicado (USD de la página convertido al blue). Nuevo = refer
 | ⚪ | 94 | Velador B.K.Licht nórdico blanco — Lámpara de mesa E14 | $26.000 | — | — | — |
 | ⚪ | 117 | Lámpara de pie cilíndrica de bambú — Luz cálida tamizada | $25.000 | — | — | — |
 | ⚪ | 119 | Milcea Fascia Massage Gun — Kit con Maletín y 6 Cabezales | $45.000 | — | — | — |
-| ⚪ | 122 | Cajón de Salto Crossfit 3 Alturas — Pliométrico 50×60×70 cm | $90.000 | — | — | — |
+| ⚪ | 122 | Cajón de Salto Crossfit 3 Alturas — Pliométrico 50×60×70 cm | $45.000 | — | — | — |
 | ⚪ | 124 | Asiento Almohadón Dona Hemorroides Schwartz XL — 44×44 cm | $25.999 | — | — | — |
 
 ## Notas por ítem (⚠️ de la tabla)
