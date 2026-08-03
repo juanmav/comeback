@@ -301,6 +301,24 @@
 
 ---
 
+## Laureano
+**Fecha:** 2026-08-03
+
+| ID | Producto | Precio ARS | Reservado | Entrega tardía | Entregado |
+|----|---------|-----------|-----------|---------------|-----------|
+| 49 | Spider Farmer SF1000 LED Grow Light 100W Samsung LM301H EVO | $150.000 | ✅ | — | — |
+| 50 | Spider Farmer Carpa de Cultivo 70×70×160cm 1680D | $104.000 | ✅ | — | — |
+
+**Total: $254.000 ARS**
+
+| Estado | — |
+|--------|---|
+| Seña | — |
+| Entrega | Tentativa: miércoles 2026-08-05 por Palermo (él viene a entregar otras cosas por la zona) |
+| Notas | **Reserva tentativa** — quedó en escribir por la tarde para coordinar. Está en Zona Sur (Ruta 2 KM 70); puede acercarse a CABA o punto intermedio. Los ítems están en el guardamuebles: avisar 1-2 días antes de la entrega para retirarlos. Preguntó específicamente si la lámpara es la Samsung LM301H EVO (sí, es la de la página de Spider Farmer; el link de ML muestra otro modelo). |
+
+---
+
 ## Carlos
 **Fecha:** 2026-05-26
 
