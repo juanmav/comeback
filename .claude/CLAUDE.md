@@ -48,10 +48,10 @@ When the user provides a product reference, search for the official page and a d
 
 ### Rules
 
-- **Only available items get a page.** An item with `reservado: true` or `vendido: true` must NOT have a page under `item/`. The script enforces this by wiping and regenerating the whole `item/` directory on every run, so a page disappears on its own as soon as the item is marked reserved or sold.
-- **Run `node build-items.js` after ANY change to `ITEMS`** — adding, removing, repricing, changing photos, and especially flipping `reservado`/`vendido`. A stale `item/` directory means dead links or a reserved item still looking available.
+- **Every item gets a page**, including reserved and sold ones — the links are used to pass reservation lists with photo and description. Reserved/sold pages carry a RESERVADO/VENDIDO banner, no WhatsApp button, `<meta name="robots" content="noindex">`, a `[RESERVADO]`/`[VENDIDO]` prefix in the title/og:title, and are excluded from `sitemap.xml` (only available items are listed there).
+- **Run `node build-items.js` after ANY change to `ITEMS`** — adding, removing, repricing, changing photos, and especially flipping `reservado`/`vendido`. A stale `item/` directory means wrong prices or a reserved item still looking available.
 - `index.html` is the single source of truth. The script parses `ITEMS`, `COND_DOT`, `CAT_ICONS` and `FMT` straight out of it — never duplicate item data into the generator. If those declarations are reformatted, the regexes in `grab()` may need updating (the script throws a clear error if extraction fails).
-- The card's "Compartir" button (`shareItem` in `index.html`) links to `item/<id>.html` for available items and falls back to `?id=<id>` on the catalog for reserved/sold ones. Keep both branches in sync with the rule above.
+- The card's "Compartir" button (`shareItem` in `index.html`) always links to `item/<id>.html`.
 - `og:image` uses the item's first photo. Photos under `images/` are served from our own domain (safest); third-party CDN URLs work too but can be hotlink-blocked by the origin, which shows up as a preview with no image. Items with no photo fall back to `images/og-cover.jpg`.
 
 ## Link previews on the catalog page
