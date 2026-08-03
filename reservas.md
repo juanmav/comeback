@@ -291,13 +291,13 @@
 | 79 | Songmics Cubo de Pedal de Acero Inoxidable 54 L | $65.000 | ✅ | — | — | https://adios.com.ar/?id=79 |
 | 133 | Ergosolid Brazo Soporte Monitor 17–30" VESA 75/100 Giratorio | $35.000 | ✅ | ✅ | — | https://adios.com.ar/?id=133 |
 
-**Total: $514.119 ARS (lista) — acordado USD 275 cash**
+**Total: $514.119 ARS (lista) — USD 313 cash (a renegociar, base USD 275 + USD 38 por cambios)**
 
 | Estado | — |
 |--------|---|
 | Seña | USD 25 ($40.000 ARS) por transferencia — a confirmar recepción |
 | Entrega | Miércoles 2026-08-05, Guatemala 4168 (Palermo) — salvo brazo (id 133), entrega tardía |
-| Notas | USD 275 se cerró con el puff (id 103, $42.097); después lo cambió por el cubo de pedal (id 79, $65.000) y agregó el brazo (id 133, $35.000) — total renegociable. Pide 5-10 min para probar el monitor al entregarlo. |
+| Notas | USD 275 se cerró con el puff (id 103, $42.097); después lo cambió por el cubo de pedal (id 79, $65.000, +$22.903) y agregó el brazo (id 133, +$35.000). Diferencia: $57.903 ≈ USD 38 al cambio implícito del acuerdo (~$1.530/USD). Pide 5-10 min para probar el monitor al entregarlo. |
 
 ---
 
