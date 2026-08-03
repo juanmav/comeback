@@ -92,16 +92,15 @@
 |----|---------|-----------|-----------|---------------|-----------|
 | 88 | Mueble sobre inodoro Dielfe SIE060 | $50.000 | ✅ | — | — |
 | 42 | Kynup Calibre Digital Acero Inoxidable 200 mm | $37.500 | ✅ | — | — |
-| 44 | Multímetro Digital TRUE RMS 2000 Cuentas NCV | $19.600 | ✅ | — | — |
 | 87 | Lámpara Banquero Bronce con Pantalla de Vidrio Verde — Velador Apto LED | $82.800 | ✅ | — | — |
 
-**Total: $189.900 ARS**
+**Total: $170.300 ARS**
 
 | Estado | — |
 |--------|---|
 | Seña | — |
 | Entrega | — |
-| Notas | — |
+| Notas | 2026-08-02: el multímetro (id 44) pasó a la reserva de Juan Molina (Manano) — Ruben venía demorando el retiro. |
 
 ---
 
@@ -319,7 +318,23 @@
 
 ---
 
-## Carlos
+## Juan Molina (Manano)
+**Fecha:** 2026-08-02
+
+| ID | Producto | Precio ARS | Reservado | Entrega tardía | Entregado |
+|----|---------|-----------|-----------|---------------|-----------|
+| 60 | WOLTU Mesitas de Noche con Compartimento Abierto, Madera Roble Claro 46×38×60 cm (Pack 2) | $80.000 | ✅ | ✅ | — |
+| 29 | Cómoda Luz 6 cajones — Álamo macizo símil petiribi | $350.000 | ✅ | ✅ | — |
+| 19 | Combo x2 Velador Ches Gioluce negro | $32.000 | ✅ | ✅ | — |
+| 44 | Multímetro Digital TRUE RMS 2000 Cuentas NCV | $19.600 | ✅ | — | — |
+
+**Total: $481.600 ARS (lista) — pidió precio de paquete, pendiente pasarle los números**
+
+| Estado | — |
+|--------|---|
+| Seña | — |
+| Entrega | Está en Palermo; se le pueden acercar cosas o coordinar punto intermedio. Muebles se entregan en septiembre (antes del 14-15). |
+| Notas | Multímetro (id 44) movido desde la reserva de Ruben. Dio de baja la lupa/tercera mano (id 43) por tamaño. Interesado en el Monitor AOC CQ27G2SE (id 138) pero se le va de presupuesto: **avisarle en septiembre si no se vendió**. Quedó esperando el listado con los números. |
 **Fecha:** 2026-05-26
 
 | ID | Producto | Precio ARS | Reservado | Entrega tardía | Entregado |
