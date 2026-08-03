@@ -17,15 +17,15 @@
   <meta property="og:url" content="https://adios.com.ar/item/129.html">
   <meta property="og:title" content="Heladera No Frost Hisense RB3P422NEB 417L Negra — $ 530.000">
   <meta property="og:description" content="Heladera no frost con freezer, 417 litros, color negro. Eficiencia energética A+. Buen estado. · $ 530.000 · Buen estado">
-  <meta property="og:image" content="https://http2.mlstatic.com/D_NQ_NP_769448-MLA97112537805_112025-O.webp">
-  <meta property="og:image:secure_url" content="https://http2.mlstatic.com/D_NQ_NP_769448-MLA97112537805_112025-O.webp">
+  <meta property="og:image" content="https://adios.com.ar/images/heladera-hisense.jpg">
+  <meta property="og:image:secure_url" content="https://adios.com.ar/images/heladera-hisense.jpg">
   <meta property="og:image:alt" content="Heladera No Frost Hisense RB3P422NEB 417L Negra">
 
   <!-- Twitter / X -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Heladera No Frost Hisense RB3P422NEB 417L Negra — $ 530.000">
   <meta name="twitter:description" content="Heladera no frost con freezer, 417 litros, color negro. Eficiencia energética A+. Buen estado. · $ 530.000 · Buen estado">
-  <meta name="twitter:image" content="https://http2.mlstatic.com/D_NQ_NP_769448-MLA97112537805_112025-O.webp">
+  <meta name="twitter:image" content="https://adios.com.ar/images/heladera-hisense.jpg">
   <meta name="twitter:image:alt" content="Heladera No Frost Hisense RB3P422NEB 417L Negra">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -119,7 +119,8 @@
   "url": "https://adios.com.ar/item/129.html",
   "description": "Heladera no frost con freezer, 417 litros, color negro. Eficiencia energética A+. Buen estado.",
   "image": [
-    "https://http2.mlstatic.com/D_NQ_NP_769448-MLA97112537805_112025-O.webp"
+    "https://adios.com.ar/images/heladera-hisense.jpg",
+    "https://adios.com.ar/images/heladera-hisense-2.jpg"
   ],
   "category": "Electrodomésticos",
   "itemCondition": "https://schema.org/UsedCondition",
@@ -150,8 +151,8 @@
 <main>
   <article class="sheet">
     <div class="gallery">
-      <div class="gallery-main"><img id="main-img" src="https://http2.mlstatic.com/D_NQ_NP_769448-MLA97112537805_112025-O.webp" alt="Heladera No Frost Hisense RB3P422NEB 417L Negra"></div>
-      
+      <div class="gallery-main"><img id="main-img" src="../images/heladera-hisense.jpg" alt="Heladera No Frost Hisense RB3P422NEB 417L Negra"></div>
+      <div class="thumbs"><img src="../images/heladera-hisense.jpg" alt="Heladera No Frost Hisense RB3P422NEB 417L Negra — foto 1" class="active" onclick="swap(this)"><img src="../images/heladera-hisense-2.jpg" alt="Heladera No Frost Hisense RB3P422NEB 417L Negra — foto 2" onclick="swap(this)"></div>
     </div>
     <div class="body">
       <div class="cat">🔌 Electrodomésticos</div>
@@ -170,6 +171,11 @@
   </article>
 </main>
 
-
+<script>
+function swap(el) {
+  document.getElementById('main-img').src = el.src;
+  document.querySelectorAll('.thumbs img').forEach(t => t.classList.toggle('active', t === el));
+}
+</script>
 </body>
 </html>
