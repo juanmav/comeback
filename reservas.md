@@ -279,6 +279,28 @@
 
 ---
 
+## Miguel Angel Rivas
+**Fecha:** 2026-08-03
+
+| ID | Producto | Precio ARS | Reservado | Entrega tardía | Entregado | Link |
+|----|---------|-----------|-----------|---------------|-----------|------|
+| 26 | Monitor LG 27UN83A-W — 4K UltraFine 27" | $350.000 | ✅ | — | — | https://adios.com.ar/?id=26 |
+| 86 | Xiaomi Mi Smart Scale 2 — Balanza digital Bluetooth | $27.000 | ✅ | — | — | https://adios.com.ar/?id=86 |
+| 109 | PAMEX Papelera de Metal Rejilla Negro | $12.119 | ✅ | — | — | https://adios.com.ar/?id=109 |
+| 117 | Lámpara de pie cilíndrica de bambú | $25.000 | ✅ | — | — | https://adios.com.ar/?id=117 |
+| 79 | Songmics Cubo de Pedal de Acero Inoxidable 54 L | $65.000 | ✅ | — | — | https://adios.com.ar/?id=79 |
+| 133 | Ergosolid Brazo Soporte Monitor 17–30" VESA 75/100 Giratorio | $35.000 | ✅ | ✅ | — | https://adios.com.ar/?id=133 |
+
+**Total: $514.119 ARS (lista) — acordado USD 275 cash**
+
+| Estado | — |
+|--------|---|
+| Seña | USD 25 ($40.000 ARS) por transferencia — a confirmar recepción |
+| Entrega | Miércoles 2026-08-05, Guatemala 4168 (Palermo) — salvo brazo (id 133), entrega tardía |
+| Notas | USD 275 se cerró con el puff (id 103, $42.097); después lo cambió por el cubo de pedal (id 79, $65.000) y agregó el brazo (id 133, $35.000) — total renegociable. Pide 5-10 min para probar el monitor al entregarlo. |
+
+---
+
 ## Carlos
 **Fecha:** 2026-05-26
 
