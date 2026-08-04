@@ -17,15 +17,15 @@
   <meta property="og:url" content="https://adios.com.ar/item/12.html">
   <meta property="og:title" content="FJÄLLBO Estantería negra — IKEA — $ 120.000">
   <meta property="og:description" content="Estantería industrial de metal y madera maciza, 100×136 cm, cuatro niveles. Estilo rústico-industrial, patas ajustables para suelos irregulares. · $ 120.000 · Como nuevo">
-  <meta property="og:image" content="https://adios.com.ar/images/fjallbo-estanteria.jpg">
-  <meta property="og:image:secure_url" content="https://adios.com.ar/images/fjallbo-estanteria.jpg">
+  <meta property="og:image" content="https://adios.com.ar/images/fjallbo-1.jpg">
+  <meta property="og:image:secure_url" content="https://adios.com.ar/images/fjallbo-1.jpg">
   <meta property="og:image:alt" content="FJÄLLBO Estantería negra — IKEA">
 
   <!-- Twitter / X -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="FJÄLLBO Estantería negra — IKEA — $ 120.000">
   <meta name="twitter:description" content="Estantería industrial de metal y madera maciza, 100×136 cm, cuatro niveles. Estilo rústico-industrial, patas ajustables para suelos irregulares. · $ 120.000 · Como nuevo">
-  <meta name="twitter:image" content="https://adios.com.ar/images/fjallbo-estanteria.jpg">
+  <meta name="twitter:image" content="https://adios.com.ar/images/fjallbo-1.jpg">
   <meta name="twitter:image:alt" content="FJÄLLBO Estantería negra — IKEA">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -119,6 +119,9 @@
   "url": "https://adios.com.ar/item/12.html",
   "description": "Estantería industrial de metal y madera maciza, 100×136 cm, cuatro niveles. Estilo rústico-industrial, patas ajustables para suelos irregulares.",
   "image": [
+    "https://adios.com.ar/images/fjallbo-1.jpg",
+    "https://adios.com.ar/images/fjallbo-2.jpg",
+    "https://adios.com.ar/images/fjallbo-3.jpg",
     "https://adios.com.ar/images/fjallbo-estanteria.jpg"
   ],
   "category": "Muebles",
@@ -150,8 +153,8 @@
 <main>
   <article class="sheet">
     <div class="gallery">
-      <div class="gallery-main"><img id="main-img" src="../images/fjallbo-estanteria.jpg" alt="FJÄLLBO Estantería negra — IKEA"></div>
-      
+      <div class="gallery-main"><img id="main-img" src="../images/fjallbo-1.jpg" alt="FJÄLLBO Estantería negra — IKEA"></div>
+      <div class="thumbs"><img src="../images/fjallbo-1.jpg" alt="FJÄLLBO Estantería negra — IKEA — foto 1" class="active" onclick="swap(this)"><img src="../images/fjallbo-2.jpg" alt="FJÄLLBO Estantería negra — IKEA — foto 2" onclick="swap(this)"><img src="../images/fjallbo-3.jpg" alt="FJÄLLBO Estantería negra — IKEA — foto 3" onclick="swap(this)"><img src="../images/fjallbo-estanteria.jpg" alt="FJÄLLBO Estantería negra — IKEA — foto 4" onclick="swap(this)"></div>
     </div>
     <div class="body">
       <div class="cat">🪑 Muebles</div>
@@ -170,6 +173,11 @@
   </article>
 </main>
 
-
+<script>
+function swap(el) {
+  document.getElementById('main-img').src = el.src;
+  document.querySelectorAll('.thumbs img').forEach(t => t.classList.toggle('active', t === el));
+}
+</script>
 </body>
 </html>
