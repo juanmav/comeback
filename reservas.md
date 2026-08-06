@@ -327,13 +327,13 @@
 | 19 | Combo x2 Velador Ches Gioluce negro | $32.000 | ✅ | ✅ | — |
 | 44 | Multímetro Digital TRUE RMS 2000 Cuentas NCV | $19.600 | ✅ | — | — |
 
-**Total: $481.600 ARS (lista) — pidió precio de paquete, pendiente pasarle los números**
+**Total: $481.600 ARS (lista) — cerrado en $450.000 ARS (dio el OK 2026-08-06)**
 
 | Estado | — |
 |--------|---|
 | Seña | — |
 | Entrega | Está en Palermo; se le pueden acercar cosas o coordinar punto intermedio. Muebles se entregan en septiembre (antes del 14-15). |
-| Notas | Multímetro (id 44) movido desde la reserva de Ruben. Dio de baja la lupa/tercera mano (id 43) por tamaño. Interesado en el Monitor AOC CQ27G2SE (id 138) pero se le va de presupuesto: **avisarle en septiembre si no se vendió**. Quedó esperando el listado con los números. |
+| Notas | **Paquete cerrado en $450.000 ARS** — se le pasó el número y dio el OK (2026-08-06). Falta cobrar. Multímetro (id 44) movido desde la reserva de Ruben. Dio de baja la lupa/tercera mano (id 43) por tamaño. Interesado en el Monitor AOC CQ27G2SE (id 138) pero se le va de presupuesto: **avisarle en septiembre si no se vendió**. |
 
 ---
 
