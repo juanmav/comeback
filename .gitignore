@@ -1,5 +1,4 @@
 .idea/
 .playwright-cli/
 *.yaml
-reservas.md
 revision-precios.md

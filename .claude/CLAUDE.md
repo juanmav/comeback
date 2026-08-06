@@ -87,7 +87,7 @@ The card link label is automatic: URLs containing `mercadolibre` render "Ver pre
 
 ## Reservations tracker (reservas.md)
 
-`reservas.md` is an internal file — **never deploy it to the web**, it's for tracking only.
+`reservas.md` is an internal tracking file, but it **must stay tracked in git and be committed/pushed with every change** — Natu edits it from another machine, so git is the sync channel. Never remove it from the repo or add it to `.gitignore`. Trade-off to be aware of: the repo deploys via GitHub Pages, so the file is technically reachable at `adios.com.ar/reservas.md`; `robots.txt` carries a `Disallow: /reservas.md` to keep it out of search engines, and it must never be linked from any page.
 
 ### Structure
 

@@ -407,7 +407,7 @@ for (const item of ITEMS) {
 fs.writeFileSync(path.join(ROOT, "sitemap.xml"), sitemap(disponibles));
 fs.writeFileSync(
   path.join(ROOT, "robots.txt"),
-  `User-agent: *\nAllow: /\n\nSitemap: ${SITE}/sitemap.xml\n`
+  `User-agent: *\nAllow: /\nDisallow: /reservas.md\n\nSitemap: ${SITE}/sitemap.xml\n`
 );
 fs.writeFileSync(path.join(ROOT, "404.html"), notFoundPage());
 

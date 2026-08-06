@@ -1,4 +1,5 @@
 User-agent: *
 Allow: /
+Disallow: /reservas.md
 
 Sitemap: https://adios.com.ar/sitemap.xml
