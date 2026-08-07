@@ -211,7 +211,7 @@
 
 | ID | Producto | Precio ARS | Reservado | Entrega tardía | Entregado |
 |----|---------|-----------|-----------|---------------|-----------|
-| 4 | Silla Steelcase Gesture — Negra con apoyacabeza | $1.500.000 | ✅ | ✅ | — |
+| 4 | Silla Steelcase Gesture — Negra con apoyacabeza | $1.500.000 | ❌ | ✅ | — |
 
 **Total: $1.500.000 ARS**
 
@@ -219,7 +219,7 @@
 |--------|---|
 | Seña | — |
 | Entrega | — |
-| Notas | — |
+| Notas | Reserva liberada (2026-08-07): Franco está en Rosario (lejos) y no sabemos si va a venir a buscarla/comprarla. La silla vuelve a estar disponible en la web. |
 
 ---
 
