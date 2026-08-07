@@ -61,14 +61,14 @@
     display: flex; align-items: center; justify-content: center;
     height: 380px; padding: 18px;
   }
-  .gallery-main img { max-width: 100%; max-height: 100%; object-fit: contain; }
+  .gallery-main img, .gallery-main video { max-width: 100%; max-height: 100%; object-fit: contain; }
   .gallery-main .ph { font-size: 64px; }
   .thumbs { display: flex; gap: 8px; padding: 0 18px 16px; flex-wrap: wrap; }
-  .thumbs img {
+  .thumbs img, .thumbs video {
     width: 62px; height: 62px; object-fit: cover; cursor: pointer;
     border: 2px solid var(--border); border-radius: 8px; background: #fff;
   }
-  .thumbs img.active { border-color: var(--mid); }
+  .thumbs img.active, .thumbs video.active { border-color: var(--mid); }
   .body { padding: 22px 24px 26px; }
   .cat { font-size: 12px; color: var(--mid); font-weight: 600;
          text-transform: uppercase; letter-spacing: 0.6px; margin-bottom: 8px; }
@@ -150,7 +150,7 @@
 <main>
   <article class="sheet">
     <div class="gallery">
-      <div class="gallery-main"><img id="main-img" src="https://m.media-amazon.com/images/I/51UbN+vVTZL._AC_SX679_.jpg" alt="Fire-Maple Cocina Portátil Plegable de Acero Inoxidable para Camping y Picnic"></div>
+      <div class="gallery-main"><img src="https://m.media-amazon.com/images/I/51UbN+vVTZL._AC_SX679_.jpg" alt="Fire-Maple Cocina Portátil Plegable de Acero Inoxidable para Camping y Picnic"></div>
       
     </div>
     <div class="body">

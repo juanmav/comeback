@@ -61,14 +61,14 @@
     display: flex; align-items: center; justify-content: center;
     height: 380px; padding: 18px;
   }
-  .gallery-main img { max-width: 100%; max-height: 100%; object-fit: contain; }
+  .gallery-main img, .gallery-main video { max-width: 100%; max-height: 100%; object-fit: contain; }
   .gallery-main .ph { font-size: 64px; }
   .thumbs { display: flex; gap: 8px; padding: 0 18px 16px; flex-wrap: wrap; }
-  .thumbs img {
+  .thumbs img, .thumbs video {
     width: 62px; height: 62px; object-fit: cover; cursor: pointer;
     border: 2px solid var(--border); border-radius: 8px; background: #fff;
   }
-  .thumbs img.active { border-color: var(--mid); }
+  .thumbs img.active, .thumbs video.active { border-color: var(--mid); }
   .body { padding: 22px 24px 26px; }
   .cat { font-size: 12px; color: var(--mid); font-weight: 600;
          text-transform: uppercase; letter-spacing: 0.6px; margin-bottom: 8px; }
@@ -151,7 +151,7 @@
 <main>
   <article class="sheet">
     <div class="gallery">
-      <div class="gallery-main"><img id="main-img" src="../images/taladro-black-decker.jpg" alt="Taladro Percutor Black+Decker HD650K 650W 13mm"></div>
+      <div class="gallery-main"><img src="../images/taladro-black-decker.jpg" alt="Taladro Percutor Black+Decker HD650K 650W 13mm"></div>
       <div class="thumbs"><img src="../images/taladro-black-decker.jpg" alt="Taladro Percutor Black+Decker HD650K 650W 13mm — foto 1" class="active" onclick="swap(this)"><img src="https://http2.mlstatic.com/D_NQ_NP_984123-MLA113256948130_072026-O.webp" alt="Taladro Percutor Black+Decker HD650K 650W 13mm — foto 2" onclick="swap(this)"></div>
     </div>
     <div class="body">
@@ -173,8 +173,11 @@
 
 <script>
 function swap(el) {
-  document.getElementById('main-img').src = el.src;
-  document.querySelectorAll('.thumbs img').forEach(t => t.classList.toggle('active', t === el));
+  const main = document.querySelector('.gallery-main');
+  main.innerHTML = el.tagName === 'VIDEO'
+    ? '<video src="' + el.getAttribute('src') + '" controls autoplay muted loop playsinline></video>'
+    : '<img src="' + el.getAttribute('src') + '" alt="' + (el.alt || '') + '">';
+  document.querySelectorAll('.thumbs img, .thumbs video').forEach(t => t.classList.toggle('active', t === el));
 }
 </script>
 </body>

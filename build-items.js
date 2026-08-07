@@ -70,6 +70,10 @@ const pageUrl = u => (isAbs(u) ? String(u) : `../${relPath(u)}`);
 const imagesOf = item =>
   Array.isArray(item.imagen) ? item.imagen.filter(Boolean) : item.imagen ? [item.imagen] : [];
 
+const isVideo = src => /\.(mp4|webm)(\?|$)/i.test(String(src));
+// Solo fotos: los meta tags (og:image) y el JSON-LD no aceptan video.
+const photosOf = item => imagesOf(item).filter(src => !isVideo(src));
+
 const catLabel = c => (CAT_ICONS[c] ? `${CAT_ICONS[c]} ${c}` : c);
 
 function priceEntries(precio) {
@@ -168,14 +172,14 @@ const STYLE = `
     display: flex; align-items: center; justify-content: center;
     height: 380px; padding: 18px;
   }
-  .gallery-main img { max-width: 100%; max-height: 100%; object-fit: contain; }
+  .gallery-main img, .gallery-main video { max-width: 100%; max-height: 100%; object-fit: contain; }
   .gallery-main .ph { font-size: 64px; }
   .thumbs { display: flex; gap: 8px; padding: 0 18px 16px; flex-wrap: wrap; }
-  .thumbs img {
+  .thumbs img, .thumbs video {
     width: 62px; height: 62px; object-fit: cover; cursor: pointer;
     border: 2px solid var(--border); border-radius: 8px; background: #fff;
   }
-  .thumbs img.active { border-color: var(--mid); }
+  .thumbs img.active, .thumbs video.active { border-color: var(--mid); }
   .body { padding: 22px 24px 26px; }
   .cat { font-size: 12px; color: var(--mid); font-weight: 600;
          text-transform: uppercase; letter-spacing: 0.6px; margin-bottom: 8px; }
@@ -220,8 +224,9 @@ const STYLE = `
 
 function itemPage(item) {
   const imgs = imagesOf(item);
+  const photos = photosOf(item);
   const url = `${SITE}/item/${item.id}.html`;
-  const ogImage = imgs.length ? absUrl(imgs[0]) : `${SITE}/images/og-cover.jpg`;
+  const ogImage = photos.length ? absUrl(photos[0]) : `${SITE}/images/og-cover.jpg`;
   const estado = item.vendido ? "VENDIDO" : item.reservado ? "RESERVADO" : null;
   const title = `${estado ? `[${estado}] ` : ""}${item.nombre} — ${priceText(item.precio)}`;
   const desc = metaDescription(item);
@@ -246,16 +251,22 @@ function itemPage(item) {
   ].filter(Boolean).join("");
 
   const mainImg = imgs.length
-    ? `<img id="main-img" src="${esc(pageUrl(imgs[0]))}" alt="${esc(item.nombre)}">`
+    ? isVideo(imgs[0])
+      ? `<video src="${esc(pageUrl(imgs[0]))}" controls muted loop playsinline></video>`
+      : `<img src="${esc(pageUrl(imgs[0]))}" alt="${esc(item.nombre)}">`
     : `<span class="ph">📦</span>`;
 
   const thumbs = imgs.length > 1
     ? `<div class="thumbs">${imgs
         .map(
           (src, i) =>
-            `<img src="${esc(pageUrl(src))}" alt="${esc(item.nombre)} — foto ${i + 1}"${
-              i === 0 ? ' class="active"' : ""
-            } onclick="swap(this)">`
+            isVideo(src)
+              ? `<video src="${esc(pageUrl(src))}" muted playsinline preload="metadata"${
+                  i === 0 ? ' class="active"' : ""
+                } onclick="swap(this)"></video>`
+              : `<img src="${esc(pageUrl(src))}" alt="${esc(item.nombre)} — foto ${i + 1}"${
+                  i === 0 ? ' class="active"' : ""
+                } onclick="swap(this)">`
         )
         .join("")}</div>`
     : "";
@@ -294,7 +305,7 @@ function itemPage(item) {
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
   <style>${STYLE}</style>
   <script type="application/ld+json">
-${jsonLd(item, url, imgs)}
+${jsonLd(item, url, photos)}
   </script>
 </head>
 <body>
@@ -335,8 +346,11 @@ ${jsonLd(item, url, imgs)}
 
 ${imgs.length > 1 ? `<script>
 function swap(el) {
-  document.getElementById('main-img').src = el.src;
-  document.querySelectorAll('.thumbs img').forEach(t => t.classList.toggle('active', t === el));
+  const main = document.querySelector('.gallery-main');
+  main.innerHTML = el.tagName === 'VIDEO'
+    ? '<video src="' + el.getAttribute('src') + '" controls autoplay muted loop playsinline></video>'
+    : '<img src="' + el.getAttribute('src') + '" alt="' + (el.alt || '') + '">';
+  document.querySelectorAll('.thumbs img, .thumbs video').forEach(t => t.classList.toggle('active', t === el));
 }
 </script>` : ""}
 </body>

@@ -561,7 +561,7 @@
       cursor: zoom-out;
     }
     #lb.open { display: flex; }
-    #lb-img {
+    #lb-img, #lb-vid {
       max-width: 92vw; max-height: 90vh; object-fit: contain;
       border-radius: 8px; cursor: default;
     }
@@ -635,6 +635,7 @@
   <button class="lb-close" onclick="closeLb()">✕</button>
   <button class="lb-arrow" id="lb-prev" onclick="event.stopPropagation();lbNav(-1)">❮</button>
   <img id="lb-img" src="" alt="" onclick="event.stopPropagation()">
+  <video id="lb-vid" controls muted loop playsinline style="display:none" onclick="event.stopPropagation()"></video>
   <button class="lb-arrow" id="lb-next" onclick="event.stopPropagation();lbNav(1)">❯</button>
   <div class="lb-count" id="lb-count"></div>
 </div>
@@ -1720,6 +1721,17 @@ const ITEMS = [
     url: "https://www.mercadolibre.com.ar/taladro-percutor-black-decker-650w-13mm-hd650k-con-maleta/up/MLAU285224743"
   },
   {
+    id: 153,
+    nombre: "Nanoleaf Elements — Combo 13 Paneles Hexagonales (The Cowboy Bundle)",
+    descripcion: "Paneles inteligentes Nanoleaf Elements con acabado símil madera: 13 hexágonos con efectos de luz dinámicos, respuesta al tacto y al sonido, y blancos cálidos/fríos regulables. Control desde la app y compatible con asistentes de voz.",
+    precio: { ars: 450000, usd: null, eur: null },
+    condicion: "Como nuevo",
+    categoria: "Iluminación",
+    vendido: false,
+    imagen: ["images/nanoleaf-ambiente.jpg", "images/nanoleaf-escritorio.jpg", "images/nanoleaf-pared.jpg", "images/nanoleaf-video.mp4", "https://int-shop.nanoleaf.me/cdn/shop/files/the-cowboy-bundle_2x_bd667489-d023-415e-a1b8-b360c19e67ed.png?v=1757215960"],
+    url: "https://int-shop.nanoleaf.me/products/the-cowboy-bundle"
+  },
+  {
     id: 86,
     nombre: "Xiaomi Mi Smart Scale 2 — Balanza digital Bluetooth",
     descripcion: "Balanza personal con plataforma de vidrio templado, hasta 150 kg y 16 perfiles de usuario. Conexión Bluetooth para sincronizar con smartphone, display digital, funciona a pilas. 30×2×30 cm.",
@@ -2543,6 +2555,7 @@ function carDot(e, dot, idx) {
   [...wrap.querySelectorAll('.slide')].forEach((s, i) => s.classList.toggle('active', i === idx));
   [...wrap.querySelectorAll('.car-dot')].forEach((d, i) => d.classList.toggle('active', i === idx));
 }
+const isVideo = src => /\.(mp4|webm)(\?|$)/i.test(src);
 let lbImgs = [], lbIdx = 0;
 function openLb(wrap) {
   const raw = wrap.dataset.images;
@@ -2556,13 +2569,30 @@ function openLb(wrap) {
 function closeLb() {
   document.getElementById('lb').classList.remove('open');
   document.body.style.overflow = '';
+  const vid = document.getElementById('lb-vid');
+  vid.pause();
+  vid.removeAttribute('src');
 }
 function lbNav(delta) {
   lbIdx = (lbIdx + delta + lbImgs.length) % lbImgs.length;
   _showLb();
 }
 function _showLb() {
-  document.getElementById('lb-img').src = lbImgs[lbIdx];
+  const src = lbImgs[lbIdx];
+  const img = document.getElementById('lb-img');
+  const vid = document.getElementById('lb-vid');
+  if (isVideo(src)) {
+    img.style.display = 'none';
+    vid.style.display = '';
+    vid.src = src;
+    vid.play();
+  } else {
+    vid.pause();
+    vid.removeAttribute('src');
+    vid.style.display = 'none';
+    img.style.display = '';
+    img.src = src;
+  }
   const multi = lbImgs.length > 1;
   document.getElementById('lb-prev').style.display = multi ? '' : 'none';
   document.getElementById('lb-next').style.display = multi ? '' : 'none';
@@ -2630,7 +2660,9 @@ function render() {
     const imgsAttr = imgs.length > 1 ? ` data-images='${JSON.stringify(imgs)}'` : '';
     const imgContent = imgs.length
       ? imgs.map((src, i) =>
-          `<img src="${src}" alt="${item.nombre}" loading="lazy" class="slide${i === 0 ? ' active' : ''}" onerror="this.classList.add('img-err')">`
+          isVideo(src)
+            ? `<video src="${src}" class="slide${i === 0 ? ' active' : ''}" muted loop autoplay playsinline preload="metadata"></video>`
+            : `<img src="${src}" alt="${item.nombre}" loading="lazy" class="slide${i === 0 ? ' active' : ''}" onerror="this.classList.add('img-err')">`
         ).join('') +
         (imgs.length > 1
           ? `<button class="car-btn car-prev" onclick="carNav(event,this,-1)">❮</button><button class="car-btn car-next" onclick="carNav(event,this,1)">❯</button><div class="car-dots">${imgs.map((_, i) => `<span class="car-dot${i === 0 ? ' active' : ''}" onclick="carDot(event,this,${i})"></span>`).join('')}</div>`
