@@ -432,3 +432,20 @@
 | Seña | — |
 | Entrega | — |
 | Notas | Contacto de Manano; vive en Núñez, sin auto. 2026-08-06: confirmó la reserva de todo, pero dio de baja la heladera Hisense (id 129) — complicada de mover; volvió a estar disponible en la web. Los chicos (21, 102, 63, 83) se entregan cuando sea; el escritorio (22) se le manda desarmado con Mariano. |
+
+---
+
+## Guadalupe
+**Fecha:** 2026-08-11
+
+| ID | Producto | Precio ARS | Reservado | Entrega tardía | Entregado |
+|----|---------|-----------|-----------|---------------|-----------|
+| 143 | Silla de comer Mega Baby Roma (gris) | $74.000 | ✅ | — | — |
+
+**Total: $74.000 ARS**
+
+| Estado | — |
+|--------|---|
+| Seña | ✅ $74.000 ARS (pagó el total) |
+| Entrega | Pendiente |
+| Notas | Pagado completo; falta coordinar la entrega. |
