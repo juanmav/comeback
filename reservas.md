@@ -424,8 +424,9 @@
 | 83 | DK HOME Toallero de Pie Triple de Bambú, 48×24×80 cm | $24.400 | ✅ | — | — |
 | 22 | Escritorio industrial hierro y madera 120×60 cm | $35.000 | ✅ | — | — |
 | 12 | FJÄLLBO Estantería negra — IKEA | $120.000 | ✅ | — | — |
+| 34 | Narex Juego de 6 Formones Biselados en Estuche de Madera | $180.000 | ✅ | — | — |
 
-**Total: $302.800 ARS**
+**Total: $482.800 ARS**
 
 | Estado | — |
 |--------|---|
