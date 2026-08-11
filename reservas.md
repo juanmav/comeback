@@ -449,3 +449,21 @@
 | Seña | ✅ $74.000 ARS (pagó el total) |
 | Entrega | Pendiente |
 | Notas | Pagado completo; falta coordinar la entrega. |
+
+---
+
+## Marcelo Mallorquín
+**Fecha:** 2026-08-11
+
+| ID | Producto | Precio ARS | Reservado | Entrega tardía | Entregado |
+|----|---------|-----------|-----------|---------------|-----------|
+| 85 | Martillo Perforador Bosch GBH 220 720W | $120.000 | ✅ | — | ✅ |
+| 152 | Taladro Percutor Black+Decker HD650K 650W 13mm | $45.000 | ✅ | — | ✅ |
+
+**Total: $165.000 ARS (lista) — cerrado en $155.000 ARS (combo)**
+
+| Estado | — |
+|--------|---|
+| Seña | — |
+| Entrega | ✅ Entregado |
+| Notas | **OPERACIÓN CERRADA Y PAGADA: $155.000 ARS** (Bosch $120.000 + Black+Decker $35.000, combo por llevar ambos). No confundir con el Marcelo de la Conga Rockstar. |
