@@ -117,12 +117,13 @@
 | 11 | UTSÅDD Casa gatos ratán + Rascador IKEA (combo) | $0 (atención) | ✅ | ✅ | ✅ |
 | 57 | GIOTOHUN Comedero Automático para Gatos | $0 (atención) | ✅ | ✅ | ✅ |
 | 70 | KingCamp Manta de Camping Ultraligera e Impermeable con Bolsa de Transporte Integrada | $39.900 | ✅ | — | ✅ |
+| 16 | Mesa recibidora industrial hierro y chapa | $45.000 | ✅ | — | ✅ |
 
-**Total: $203.500 ARS**
+**Total: $248.500 ARS**
 
 | Estado | — |
 |--------|---|
-| Seña | $203.500 ARS (pagado completo) |
+| Seña | $248.500 ARS (pagado completo) |
 | Entrega | ✅ Entregado |
 | Notas | Vendido y pagado. Romi y Manish son la misma persona. Casa gatos UTSÅDD (id 11) y comedero GIOTOHUN (id 57) fueron de regalo — atención. |
 
