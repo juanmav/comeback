@@ -17,15 +17,15 @@
   <meta property="og:url" content="https://adios.com.ar/item/58.html">
   <meta property="og:title" content="Nespresso Krups Inissia XN1001 Cafetera de Cápsulas (Reacondicionada) — $ 40.000">
   <meta property="og:description" content="Cafetera de cápsulas Nespresso Krups Inissia (reacondicionada) con 19 bares de presión, apagado automático y diseño compacto en blanco. Compatible con todas las cápsulas Nespresso Original Line. · $ 40.000 · Buen estado">
-  <meta property="og:image" content="https://m.media-amazon.com/images/I/71bUDqcBT6L._AC_SY879_.jpg">
-  <meta property="og:image:secure_url" content="https://m.media-amazon.com/images/I/71bUDqcBT6L._AC_SY879_.jpg">
+  <meta property="og:image" content="https://adios.com.ar/images/nespresso-inissia-real.jpg">
+  <meta property="og:image:secure_url" content="https://adios.com.ar/images/nespresso-inissia-real.jpg">
   <meta property="og:image:alt" content="Nespresso Krups Inissia XN1001 Cafetera de Cápsulas (Reacondicionada)">
 
   <!-- Twitter / X -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Nespresso Krups Inissia XN1001 Cafetera de Cápsulas (Reacondicionada) — $ 40.000">
   <meta name="twitter:description" content="Cafetera de cápsulas Nespresso Krups Inissia (reacondicionada) con 19 bares de presión, apagado automático y diseño compacto en blanco. Compatible con todas las cápsulas Nespresso Original Line. · $ 40.000 · Buen estado">
-  <meta name="twitter:image" content="https://m.media-amazon.com/images/I/71bUDqcBT6L._AC_SY879_.jpg">
+  <meta name="twitter:image" content="https://adios.com.ar/images/nespresso-inissia-real.jpg">
   <meta name="twitter:image:alt" content="Nespresso Krups Inissia XN1001 Cafetera de Cápsulas (Reacondicionada)">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -119,6 +119,7 @@
   "url": "https://adios.com.ar/item/58.html",
   "description": "Cafetera de cápsulas Nespresso Krups Inissia (reacondicionada) con 19 bares de presión, apagado automático y diseño compacto en blanco. Compatible con todas las cápsulas Nespresso Original Line.",
   "image": [
+    "https://adios.com.ar/images/nespresso-inissia-real.jpg",
     "https://m.media-amazon.com/images/I/71bUDqcBT6L._AC_SY879_.jpg"
   ],
   "category": "Electrodomésticos",
@@ -150,8 +151,8 @@
 <main>
   <article class="sheet">
     <div class="gallery">
-      <div class="gallery-main"><img src="https://m.media-amazon.com/images/I/71bUDqcBT6L._AC_SY879_.jpg" alt="Nespresso Krups Inissia XN1001 Cafetera de Cápsulas (Reacondicionada)"></div>
-      
+      <div class="gallery-main"><img src="../images/nespresso-inissia-real.jpg" alt="Nespresso Krups Inissia XN1001 Cafetera de Cápsulas (Reacondicionada)"></div>
+      <div class="thumbs"><img src="../images/nespresso-inissia-real.jpg" alt="Nespresso Krups Inissia XN1001 Cafetera de Cápsulas (Reacondicionada) — foto 1" class="active" onclick="swap(this)"><img src="https://m.media-amazon.com/images/I/71bUDqcBT6L._AC_SY879_.jpg" alt="Nespresso Krups Inissia XN1001 Cafetera de Cápsulas (Reacondicionada) — foto 2" onclick="swap(this)"></div>
     </div>
     <div class="body">
       <div class="cat">🔌 Electrodomésticos</div>
@@ -170,6 +171,14 @@
   </article>
 </main>
 
-
+<script>
+function swap(el) {
+  const main = document.querySelector('.gallery-main');
+  main.innerHTML = el.tagName === 'VIDEO'
+    ? '<video src="' + el.getAttribute('src') + '" controls autoplay muted loop playsinline></video>'
+    : '<img src="' + el.getAttribute('src') + '" alt="' + (el.alt || '') + '">';
+  document.querySelectorAll('.thumbs img, .thumbs video').forEach(t => t.classList.toggle('active', t === el));
+}
+</script>
 </body>
 </html>
