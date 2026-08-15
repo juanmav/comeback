@@ -17,15 +17,15 @@
   <meta property="og:url" content="https://adios.com.ar/item/10.html">
   <meta property="og:title" content="ENHET Bolsa colada con ruedas — IKEA — $ 25.000">
   <meta property="og:description" content="Bolsa de 80 litros con tapa y ruedas, dos compartimentos para separar ropa por color. Color antracita. Con uso. · $ 25.000 · Buen estado">
-  <meta property="og:image" content="https://adios.com.ar/images/enhet-bolsa.jpg">
-  <meta property="og:image:secure_url" content="https://adios.com.ar/images/enhet-bolsa.jpg">
+  <meta property="og:image" content="https://adios.com.ar/images/enhet-bolsa-real.png">
+  <meta property="og:image:secure_url" content="https://adios.com.ar/images/enhet-bolsa-real.png">
   <meta property="og:image:alt" content="ENHET Bolsa colada con ruedas — IKEA">
 
   <!-- Twitter / X -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="ENHET Bolsa colada con ruedas — IKEA — $ 25.000">
   <meta name="twitter:description" content="Bolsa de 80 litros con tapa y ruedas, dos compartimentos para separar ropa por color. Color antracita. Con uso. · $ 25.000 · Buen estado">
-  <meta name="twitter:image" content="https://adios.com.ar/images/enhet-bolsa.jpg">
+  <meta name="twitter:image" content="https://adios.com.ar/images/enhet-bolsa-real.png">
   <meta name="twitter:image:alt" content="ENHET Bolsa colada con ruedas — IKEA">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -119,6 +119,7 @@
   "url": "https://adios.com.ar/item/10.html",
   "description": "Bolsa de 80 litros con tapa y ruedas, dos compartimentos para separar ropa por color. Color antracita. Con uso.",
   "image": [
+    "https://adios.com.ar/images/enhet-bolsa-real.png",
     "https://adios.com.ar/images/enhet-bolsa.jpg"
   ],
   "category": "Hogar",
@@ -150,8 +151,8 @@
 <main>
   <article class="sheet">
     <div class="gallery">
-      <div class="gallery-main"><img src="../images/enhet-bolsa.jpg" alt="ENHET Bolsa colada con ruedas — IKEA"></div>
-      
+      <div class="gallery-main"><img src="../images/enhet-bolsa-real.png" alt="ENHET Bolsa colada con ruedas — IKEA"></div>
+      <div class="thumbs"><img src="../images/enhet-bolsa-real.png" alt="ENHET Bolsa colada con ruedas — IKEA — foto 1" class="active" onclick="swap(this)"><img src="../images/enhet-bolsa.jpg" alt="ENHET Bolsa colada con ruedas — IKEA — foto 2" onclick="swap(this)"></div>
     </div>
     <div class="body">
       <div class="cat">🏠 Hogar</div>
@@ -170,6 +171,14 @@
   </article>
 </main>
 
-
+<script>
+function swap(el) {
+  const main = document.querySelector('.gallery-main');
+  main.innerHTML = el.tagName === 'VIDEO'
+    ? '<video src="' + el.getAttribute('src') + '" controls autoplay muted loop playsinline></video>'
+    : '<img src="' + el.getAttribute('src') + '" alt="' + (el.alt || '') + '">';
+  document.querySelectorAll('.thumbs img, .thumbs video').forEach(t => t.classList.toggle('active', t === el));
+}
+</script>
 </body>
 </html>
