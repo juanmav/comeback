@@ -442,15 +442,15 @@
 
 | ID | Producto | Precio ARS | Reservado | Entrega tardía | Entregado |
 |----|---------|-----------|-----------|---------------|-----------|
-| 143 | Silla de comer Mega Baby Roma (gris) | $74.000 | ✅ | — | — |
+| 143 | Silla de comer Mega Baby Roma (gris) | $74.000 | ✅ | — | ✅ |
 
 **Total: $74.000 ARS**
 
 | Estado | — |
 |--------|---|
 | Seña | ✅ $74.000 ARS (pagó el total) |
-| Entrega | Pendiente |
-| Notas | Pagado completo; falta coordinar la entrega. |
+| Entrega | ✅ Entregado |
+| Notas | **OPERACIÓN CERRADA Y PAGADA: $74.000 ARS.** |
 
 ---
 
