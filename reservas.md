@@ -469,3 +469,20 @@
 | Seña | — |
 | Entrega | ✅ Entregado |
 | Notas | **OPERACIÓN CERRADA Y PAGADA: $155.000 ARS** (Bosch $120.000 + Black+Decker $35.000, combo por llevar ambos). No confundir con el Marcelo de la Conga Rockstar. |
+
+---
+
+## Kru (chica de Serbia)
+**Fecha:** 2026-08-15
+
+| ID | Producto | Precio ARS | Reservado | Entrega tardía | Entregado |
+|----|---------|-----------|-----------|---------------|-----------|
+| 142 | Cuna colecho Carestino Murcia | $170.000 | ✅ | — | ✅ |
+
+**Total: $170.000 ARS**
+
+| Estado | — |
+|--------|---|
+| Seña | ✅ $170.000 ARS (pagado completo) |
+| Entrega | ✅ Entregado |
+| Notas | Vendido, pagado y entregado. |
