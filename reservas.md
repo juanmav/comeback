@@ -426,14 +426,16 @@
 | 22 | Escritorio industrial hierro y madera 120×60 cm | $35.000 | ✅ | — | — |
 | 12 | FJÄLLBO Estantería negra — IKEA | $120.000 | ✅ | — | — |
 | 34 | Narex Juego de 6 Formones Biselados en Estuche de Madera | $180.000 | ✅ | — | — |
+| 108 | Russell Hobbs Victory Hervidor de Agua 1 L — 2200 W | $25.000 | ✅ | — | — |
+| 121 | G-Fitness Mancuerna Hexagonal Engomada 5 kg — Par (x2) | $25.000 | ✅ | — | — |
 
-**Total: $482.800 ARS**
+**Total: $532.800 ARS**
 
 | Estado | — |
 |--------|---|
 | Seña | — |
 | Entrega | — |
-| Notas | Contacto de Manano; vive en Núñez, sin auto. 2026-08-06: confirmó la reserva de todo, pero dio de baja la heladera Hisense (id 129) — complicada de mover; volvió a estar disponible en la web. Los chicos (21, 102, 63, 83) se entregan cuando sea; el escritorio (22) se le manda desarmado con Mariano. |
+| Notas | Contacto de Manano; vive en Núñez, sin auto. 2026-08-06: confirmó la reserva de todo, pero dio de baja la heladera Hisense (id 129) — complicada de mover; volvió a estar disponible en la web. Los chicos (21, 102, 63, 83) se entregan cuando sea; el escritorio (22) se le manda desarmado con Mariano. 2026-08-17: sumó el hervidor (108) y las mancuernas de 5 kg (121). |
 
 ---
 
