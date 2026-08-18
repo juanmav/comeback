@@ -491,3 +491,21 @@
 | Seña | ✅ $170.000 ARS (pagado completo) |
 | Entrega | ✅ Entregado |
 | Notas | Vendido, pagado y entregado. |
+
+---
+
+## Sole (amiga de Eugenia)
+**Fecha:** 2026-08-18
+
+| ID | Producto | Precio ARS | Reservado | Entrega tardía | Entregado |
+|----|---------|-----------|-----------|---------------|-----------|
+| 94 | Velador B.K.Licht nórdico blanco — Lámpara de mesa E14 | $26.000 | ✅ | — | — |
+| 100 | Moleskine Classic Cuaderno Cuadriculado XL Negro (19 × 25 cm) | $30.138 | ✅ | — | — |
+
+**Total: $56.138 ARS**
+
+| Estado | — |
+|--------|---|
+| Seña | — |
+| Entrega | — |
+| Notas | Amiga de Eugenia Amigo. |
