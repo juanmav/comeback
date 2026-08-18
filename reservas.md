@@ -428,14 +428,16 @@
 | 34 | Narex Juego de 6 Formones Biselados en Estuche de Madera | $180.000 | ✅ | — | — |
 | 108 | Russell Hobbs Victory Hervidor de Agua 1 L — 2200 W | $25.000 | ✅ | — | — |
 | 121 | G-Fitness Mancuerna Hexagonal Engomada 5 kg — Par (x2) | $25.000 | ✅ | — | — |
+| 103 | SONGMICS Puff Almacenaje con Patas LSF16GYX — Gris | $42.097 | ✅ | — | — |
+| 58 | Nespresso Krups Inissia XN1001 Cafetera de Cápsulas (Reacondicionada) | $40.000 | ✅ | — | — |
 
-**Total: $532.800 ARS**
+**Total: $614.897 ARS**
 
 | Estado | — |
 |--------|---|
 | Seña | — |
 | Entrega | — |
-| Notas | Contacto de Manano; vive en Núñez, sin auto. 2026-08-06: confirmó la reserva de todo, pero dio de baja la heladera Hisense (id 129) — complicada de mover; volvió a estar disponible en la web. Los chicos (21, 102, 63, 83) se entregan cuando sea; el escritorio (22) se le manda desarmado con Mariano. 2026-08-17: sumó el hervidor (108) y las mancuernas de 5 kg (121). |
+| Notas | Contacto de Manano; vive en Núñez, sin auto. 2026-08-06: confirmó la reserva de todo, pero dio de baja la heladera Hisense (id 129) — complicada de mover; volvió a estar disponible en la web. Los chicos (21, 102, 63, 83) se entregan cuando sea; el escritorio (22) se le manda desarmado con Mariano. 2026-08-17: sumó el hervidor (108) y las mancuernas de 5 kg (121). 2026-08-18: sumó el puff SONGMICS (103) y la Nespresso Inissia (58). |
 
 ---
 
