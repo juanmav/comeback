@@ -327,6 +327,7 @@
 | 29 | Cómoda Luz 6 cajones — Álamo macizo símil petiribi | $350.000 | ✅ | ✅ | ✅ |
 | 19 | Combo x2 Velador Ches Gioluce negro | $32.000 | ✅ | ✅ | ✅ |
 | 44 | Multímetro Digital TRUE RMS 2000 Cuentas NCV | $19.600 | ✅ | — | ✅ |
+| 22 | Escritorio industrial hierro y madera 120×60 cm | $0 (atención) | ✅ | — | ✅ |
 
 **Total: $481.600 ARS (lista) — cerrado en $450.000 ARS (dio el OK 2026-08-06)**
 
@@ -334,7 +335,7 @@
 |--------|---|
 | Seña | ✅ $450.000 ARS (pagó el total) |
 | Entrega | ✅ **COMPLETADA** 2026-08-18 — se llevó todo |
-| Notas | **OPERACIÓN CERRADA Y PAGADA: $450.000 ARS** (2026-08-18). Multímetro (id 44) movido desde la reserva de Ruben. Dio de baja la lupa/tercera mano (id 43) por tamaño. Interesado en el Monitor AOC CQ27G2SE (id 138) pero se le va de presupuesto: **avisarle en septiembre si no se vendió**. |
+| Notas | **OPERACIÓN CERRADA Y PAGADA: $450.000 ARS** (2026-08-18). Escritorio industrial (id 22, antes en la reserva de Eugenia) va de regalo — atención por ayudar a Eugenia y facilitar la venta; se lo llevó. Multímetro (id 44) movido desde la reserva de Ruben. Dio de baja la lupa/tercera mano (id 43) por tamaño. Interesado en el Monitor AOC CQ27G2SE (id 138) pero se le va de presupuesto: **avisarle en septiembre si no se vendió**. |
 
 ---
 
@@ -423,7 +424,6 @@
 | 102 | SHARDOR Espumador de Leche 4 en 1 — 300 ml | $30.000 | ✅ | — | ✅ |
 | 63 | Cecotec EnergySilence 3000 Pro Ventilador Industrial 90W | $43.400 | ✅ | ✅ | ✅ |
 | 83 | DK HOME Toallero de Pie Triple de Bambú, 48×24×80 cm | $24.400 | ✅ | — | ✅ |
-| 22 | Escritorio industrial hierro y madera 120×60 cm | $35.000 | ✅ | — | ✅ |
 | 12 | FJÄLLBO Estantería negra — IKEA | $120.000 | ✅ | — | ✅ |
 | 34 | Narex Juego de 6 Formones Biselados en Estuche de Madera | $180.000 | ✅ | — | ✅ |
 | 108 | Russell Hobbs Victory Hervidor de Agua 1 L — 2200 W | $25.000 | ✅ | — | ✅ |
@@ -432,13 +432,13 @@
 | 58 | Nespresso Krups Inissia XN1001 Cafetera de Cápsulas (Reacondicionada) | $40.000 | ✅ | — | ✅ |
 | 154 | Licuadora de frutas | $15.000 | ✅ | — | ✅ |
 
-**Total: $629.897 ARS**
+**Total: $594.897 ARS**
 
 | Estado | — |
 |--------|---|
 | Seña | ✅ EUR 200 + USD 180 (pagó el total por adelantado) |
 | Entrega | ✅ **COMPLETADA** 2026-08-18 — se llevó todo |
-| Notas | **OPERACIÓN CERRADA Y PAGADA: EUR 200 + USD 180** (por el total de $629.897 ARS, 2026-08-18). Contacto de Manano; vive en Núñez, sin auto. 2026-08-06: confirmó la reserva de todo, pero dio de baja la heladera Hisense (id 129) — complicada de mover; volvió a estar disponible en la web. Los chicos (21, 102, 63, 83) se entregan cuando sea; el escritorio (22) se le manda desarmado con Mariano. 2026-08-17: sumó el hervidor (108) y las mancuernas de 5 kg (121). 2026-08-18: sumó el puff SONGMICS (103), la Nespresso Inissia (58) y una licuadora de frutas (154, no estaba en la web; se creó el ítem ya reservado). |
+| Notas | **OPERACIÓN CERRADA Y PAGADA: EUR 200 + USD 180** (por el total de $594.897 ARS, 2026-08-18). Contacto de Manano; vive en Núñez, sin auto. 2026-08-06: confirmó la reserva de todo, pero dio de baja la heladera Hisense (id 129) — complicada de mover; volvió a estar disponible en la web. Los chicos (21, 102, 63, 83) se entregan cuando sea; el escritorio (22) finalmente se le regaló a Mariano/Manano como atención (2026-08-18) — ver su sección. 2026-08-17: sumó el hervidor (108) y las mancuernas de 5 kg (121). 2026-08-18: sumó el puff SONGMICS (103), la Nespresso Inissia (58) y una licuadora de frutas (154, no estaba en la web; se creó el ítem ya reservado). |
 
 ---
 
