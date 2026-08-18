@@ -419,26 +419,26 @@
 
 | ID | Producto | Precio ARS | Reservado | Entrega tardía | Entregado |
 |----|---------|-----------|-----------|---------------|-----------|
-| 21 | Mueble sobre inodoro Dielfe SIE060 | $50.000 | ✅ | — | — |
-| 102 | SHARDOR Espumador de Leche 4 en 1 — 300 ml | $30.000 | ✅ | — | — |
-| 63 | Cecotec EnergySilence 3000 Pro Ventilador Industrial 90W | $43.400 | ✅ | ✅ | — |
-| 83 | DK HOME Toallero de Pie Triple de Bambú, 48×24×80 cm | $24.400 | ✅ | — | — |
-| 22 | Escritorio industrial hierro y madera 120×60 cm | $35.000 | ✅ | — | — |
-| 12 | FJÄLLBO Estantería negra — IKEA | $120.000 | ✅ | — | — |
-| 34 | Narex Juego de 6 Formones Biselados en Estuche de Madera | $180.000 | ✅ | — | — |
-| 108 | Russell Hobbs Victory Hervidor de Agua 1 L — 2200 W | $25.000 | ✅ | — | — |
-| 121 | G-Fitness Mancuerna Hexagonal Engomada 5 kg — Par (x2) | $25.000 | ✅ | — | — |
-| 103 | SONGMICS Puff Almacenaje con Patas LSF16GYX — Gris | $42.097 | ✅ | — | — |
-| 58 | Nespresso Krups Inissia XN1001 Cafetera de Cápsulas (Reacondicionada) | $40.000 | ✅ | — | — |
-| 154 | Licuadora de frutas | $15.000 | ✅ | — | — |
+| 21 | Mueble sobre inodoro Dielfe SIE060 | $50.000 | ✅ | — | ✅ |
+| 102 | SHARDOR Espumador de Leche 4 en 1 — 300 ml | $30.000 | ✅ | — | ✅ |
+| 63 | Cecotec EnergySilence 3000 Pro Ventilador Industrial 90W | $43.400 | ✅ | ✅ | ✅ |
+| 83 | DK HOME Toallero de Pie Triple de Bambú, 48×24×80 cm | $24.400 | ✅ | — | ✅ |
+| 22 | Escritorio industrial hierro y madera 120×60 cm | $35.000 | ✅ | — | ✅ |
+| 12 | FJÄLLBO Estantería negra — IKEA | $120.000 | ✅ | — | ✅ |
+| 34 | Narex Juego de 6 Formones Biselados en Estuche de Madera | $180.000 | ✅ | — | ✅ |
+| 108 | Russell Hobbs Victory Hervidor de Agua 1 L — 2200 W | $25.000 | ✅ | — | ✅ |
+| 121 | G-Fitness Mancuerna Hexagonal Engomada 5 kg — Par (x2) | $25.000 | ✅ | — | ✅ |
+| 103 | SONGMICS Puff Almacenaje con Patas LSF16GYX — Gris | $42.097 | ✅ | — | ✅ |
+| 58 | Nespresso Krups Inissia XN1001 Cafetera de Cápsulas (Reacondicionada) | $40.000 | ✅ | — | ✅ |
+| 154 | Licuadora de frutas | $15.000 | ✅ | — | ✅ |
 
 **Total: $629.897 ARS**
 
 | Estado | — |
 |--------|---|
-| Seña | — |
-| Entrega | — |
-| Notas | Contacto de Manano; vive en Núñez, sin auto. 2026-08-06: confirmó la reserva de todo, pero dio de baja la heladera Hisense (id 129) — complicada de mover; volvió a estar disponible en la web. Los chicos (21, 102, 63, 83) se entregan cuando sea; el escritorio (22) se le manda desarmado con Mariano. 2026-08-17: sumó el hervidor (108) y las mancuernas de 5 kg (121). 2026-08-18: sumó el puff SONGMICS (103), la Nespresso Inissia (58) y una licuadora de frutas (154, no estaba en la web; se creó el ítem ya reservado). |
+| Seña | ✅ EUR 200 + USD 180 (pagó el total por adelantado) |
+| Entrega | ✅ **COMPLETADA** 2026-08-18 — se llevó todo |
+| Notas | **OPERACIÓN CERRADA Y PAGADA: EUR 200 + USD 180** (por el total de $629.897 ARS, 2026-08-18). Contacto de Manano; vive en Núñez, sin auto. 2026-08-06: confirmó la reserva de todo, pero dio de baja la heladera Hisense (id 129) — complicada de mover; volvió a estar disponible en la web. Los chicos (21, 102, 63, 83) se entregan cuando sea; el escritorio (22) se le manda desarmado con Mariano. 2026-08-17: sumó el hervidor (108) y las mancuernas de 5 kg (121). 2026-08-18: sumó el puff SONGMICS (103), la Nespresso Inissia (58) y una licuadora de frutas (154, no estaba en la web; se creó el ítem ya reservado). |
 
 ---
 
