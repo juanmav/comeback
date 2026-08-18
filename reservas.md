@@ -323,18 +323,18 @@
 
 | ID | Producto | Precio ARS | Reservado | Entrega tardía | Entregado |
 |----|---------|-----------|-----------|---------------|-----------|
-| 60 | WOLTU Mesitas de Noche con Compartimento Abierto, Madera Roble Claro 46×38×60 cm (Pack 2) | $80.000 | ✅ | ✅ | — |
-| 29 | Cómoda Luz 6 cajones — Álamo macizo símil petiribi | $350.000 | ✅ | ✅ | — |
-| 19 | Combo x2 Velador Ches Gioluce negro | $32.000 | ✅ | ✅ | — |
-| 44 | Multímetro Digital TRUE RMS 2000 Cuentas NCV | $19.600 | ✅ | — | — |
+| 60 | WOLTU Mesitas de Noche con Compartimento Abierto, Madera Roble Claro 46×38×60 cm (Pack 2) | $80.000 | ✅ | ✅ | ✅ |
+| 29 | Cómoda Luz 6 cajones — Álamo macizo símil petiribi | $350.000 | ✅ | ✅ | ✅ |
+| 19 | Combo x2 Velador Ches Gioluce negro | $32.000 | ✅ | ✅ | ✅ |
+| 44 | Multímetro Digital TRUE RMS 2000 Cuentas NCV | $19.600 | ✅ | — | ✅ |
 
 **Total: $481.600 ARS (lista) — cerrado en $450.000 ARS (dio el OK 2026-08-06)**
 
 | Estado | — |
 |--------|---|
-| Seña | — |
-| Entrega | Está en Palermo; se le pueden acercar cosas o coordinar punto intermedio. Muebles se entregan en septiembre (antes del 14-15). |
-| Notas | **Paquete cerrado en $450.000 ARS** — se le pasó el número y dio el OK (2026-08-06). Falta cobrar. Multímetro (id 44) movido desde la reserva de Ruben. Dio de baja la lupa/tercera mano (id 43) por tamaño. Interesado en el Monitor AOC CQ27G2SE (id 138) pero se le va de presupuesto: **avisarle en septiembre si no se vendió**. |
+| Seña | ✅ $450.000 ARS (pagó el total) |
+| Entrega | ✅ **COMPLETADA** 2026-08-18 — se llevó todo |
+| Notas | **OPERACIÓN CERRADA Y PAGADA: $450.000 ARS** (2026-08-18). Multímetro (id 44) movido desde la reserva de Ruben. Dio de baja la lupa/tercera mano (id 43) por tamaño. Interesado en el Monitor AOC CQ27G2SE (id 138) pero se le va de presupuesto: **avisarle en septiembre si no se vendió**. |
 
 ---
 
