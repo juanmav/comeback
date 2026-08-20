@@ -510,3 +510,22 @@
 | Seña | — |
 | Entrega | — |
 | Notas | Amiga de Eugenia Amigo. |
+
+---
+
+## Lorenzo (amigo de Eugenia)
+**Fecha:** 2026-08-20
+
+| ID | Producto | Precio ARS | Reservado | Entrega tardía | Entregado |
+|----|---------|-----------|-----------|---------------|-----------|
+| 157 | Sillas Susi madera maciza color nogal (x4) | $220.000 | ✅ | ✅ | — |
+| 10 | ENHET Bolsa colada con ruedas — IKEA | $25.000 | ✅ | — | — |
+| 41 | SEEKONE Mini Pistola de Calor 350 W 260°C/450°C | $18.000 | ✅ | — | — |
+
+**Total: $263.000 ARS**
+
+| Estado | — |
+|--------|---|
+| Seña | — |
+| Entrega | — |
+| Notas | Amigo de Eugenia Amigo. |
