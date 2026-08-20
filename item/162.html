@@ -17,15 +17,15 @@
   <meta property="og:url" content="https://adios.com.ar/item/162.html">
   <meta property="og:title" content="Escuadra de carpintero ZENAKIO 12 en 1 — $ 40.000">
   <meta property="og:description" content="Kit multifunción de aluminio: escuadra y cartabón de 185 mm, escuadra combinada, transportador de ángulos, regla deslizante, gramil y plantilla de corte. Ideal para carpintería y bricolaje. · $ 40.000 · Como nuevo">
-  <meta property="og:image" content="https://m.media-amazon.com/images/I/81wNR+sm7WL._SL1500_.jpg">
-  <meta property="og:image:secure_url" content="https://m.media-amazon.com/images/I/81wNR+sm7WL._SL1500_.jpg">
+  <meta property="og:image" content="https://adios.com.ar/images/escuadra-zenakio-1.jpg">
+  <meta property="og:image:secure_url" content="https://adios.com.ar/images/escuadra-zenakio-1.jpg">
   <meta property="og:image:alt" content="Escuadra de carpintero ZENAKIO 12 en 1">
 
   <!-- Twitter / X -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Escuadra de carpintero ZENAKIO 12 en 1 — $ 40.000">
   <meta name="twitter:description" content="Kit multifunción de aluminio: escuadra y cartabón de 185 mm, escuadra combinada, transportador de ángulos, regla deslizante, gramil y plantilla de corte. Ideal para carpintería y bricolaje. · $ 40.000 · Como nuevo">
-  <meta name="twitter:image" content="https://m.media-amazon.com/images/I/81wNR+sm7WL._SL1500_.jpg">
+  <meta name="twitter:image" content="https://adios.com.ar/images/escuadra-zenakio-1.jpg">
   <meta name="twitter:image:alt" content="Escuadra de carpintero ZENAKIO 12 en 1">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -119,7 +119,12 @@
   "url": "https://adios.com.ar/item/162.html",
   "description": "Kit multifunción de aluminio: escuadra y cartabón de 185 mm, escuadra combinada, transportador de ángulos, regla deslizante, gramil y plantilla de corte. Ideal para carpintería y bricolaje.",
   "image": [
-    "https://m.media-amazon.com/images/I/81wNR+sm7WL._SL1500_.jpg"
+    "https://adios.com.ar/images/escuadra-zenakio-1.jpg",
+    "https://adios.com.ar/images/escuadra-zenakio-2.jpg",
+    "https://adios.com.ar/images/escuadra-zenakio-3.jpg",
+    "https://adios.com.ar/images/escuadra-zenakio-4.jpg",
+    "https://adios.com.ar/images/escuadra-zenakio-5.jpg",
+    "https://adios.com.ar/images/escuadra-zenakio-6.jpg"
   ],
   "category": "Herramientas",
   "itemCondition": "https://schema.org/UsedCondition",
@@ -150,8 +155,8 @@
 <main>
   <article class="sheet">
     <div class="gallery">
-      <div class="gallery-main"><img src="https://m.media-amazon.com/images/I/81wNR+sm7WL._SL1500_.jpg" alt="Escuadra de carpintero ZENAKIO 12 en 1"></div>
-      
+      <div class="gallery-main"><img src="../images/escuadra-zenakio-1.jpg" alt="Escuadra de carpintero ZENAKIO 12 en 1"></div>
+      <div class="thumbs"><img src="../images/escuadra-zenakio-1.jpg" alt="Escuadra de carpintero ZENAKIO 12 en 1 — foto 1" class="active" onclick="swap(this)"><img src="../images/escuadra-zenakio-2.jpg" alt="Escuadra de carpintero ZENAKIO 12 en 1 — foto 2" onclick="swap(this)"><img src="../images/escuadra-zenakio-3.jpg" alt="Escuadra de carpintero ZENAKIO 12 en 1 — foto 3" onclick="swap(this)"><img src="../images/escuadra-zenakio-4.jpg" alt="Escuadra de carpintero ZENAKIO 12 en 1 — foto 4" onclick="swap(this)"><img src="../images/escuadra-zenakio-5.jpg" alt="Escuadra de carpintero ZENAKIO 12 en 1 — foto 5" onclick="swap(this)"><img src="../images/escuadra-zenakio-6.jpg" alt="Escuadra de carpintero ZENAKIO 12 en 1 — foto 6" onclick="swap(this)"></div>
     </div>
     <div class="body">
       <div class="cat">🛠️ Herramientas</div>
@@ -170,6 +175,14 @@
   </article>
 </main>
 
-
+<script>
+function swap(el) {
+  const main = document.querySelector('.gallery-main');
+  main.innerHTML = el.tagName === 'VIDEO'
+    ? '<video src="' + el.getAttribute('src') + '" controls autoplay muted loop playsinline></video>'
+    : '<img src="' + el.getAttribute('src') + '" alt="' + (el.alt || '') + '">';
+  document.querySelectorAll('.thumbs img, .thumbs video').forEach(t => t.classList.toggle('active', t === el));
+}
+</script>
 </body>
 </html>
