@@ -352,6 +352,7 @@
 | 140 | Aspiradora inalámbrica Samsung Jet 60 Cyclone Inverter | $425.000 | ✅ | — | ✅ |
 | 105 | LOOK Cycle KEO 3 Classic Pedales de Bicicleta Negros | $45.892 | ✅ | — | ✅ |
 | 65 | Philips Daily Collection Tostadora 2 Ranuras HD2581/90 | $0 (atención) | ✅ | — | ✅ |
+| 104 | BBB Cycling Llave de Pedales DualForce BTL-101 (6 y 8 mm) | $0 (fue con los pedales) | ✅ | — | ✅ |
 
 **Total: $4.167.200 ARS (lista)**
 
@@ -359,7 +360,7 @@
 |--------|---|
 | Seña | $200.000 ARS |
 | Entrega | ✅ Retiró todo el 2026-08-06. |
-| Notas | **OPERACIÓN CERRADA Y PAGADA.** WashTower (3) + lavavajillas (1) pagados en dólares: **USD 1.940** en total, repartido proporcional a los precios de lista → WashTower USD 1.381 + lavavajillas USD 559. Los otros 4 ítems — sillón (114), lámpara Xiaomi nueva (8), aspiradora Samsung (140) y pedales (105, agregados al retirar) — pagados en pesos a valor de lista: **$1.217.200 ARS**. Tostadora Philips (id 65) de regalo — atención, ya entregada. La lámpara Xiaomi nueva (id 8) venía de la reserva de Lorena Conca, que no confirmó. De la empresa de energía fotovoltaica (no confundir con el Diego de la cinta de caminar). |
+| Notas | **OPERACIÓN CERRADA Y PAGADA.** WashTower (3) + lavavajillas (1) pagados en dólares: **USD 1.940** en total, repartido proporcional a los precios de lista → WashTower USD 1.381 + lavavajillas USD 559. Los otros 4 ítems — sillón (114), lámpara Xiaomi nueva (8), aspiradora Samsung (140) y pedales (105, agregados al retirar) — pagados en pesos a valor de lista: **$1.217.200 ARS**. Tostadora Philips (id 65) de regalo — atención, ya entregada. Llave de pedales BBB (id 104) entregada junto con los pedales (105). La lámpara Xiaomi nueva (id 8) venía de la reserva de Lorena Conca, que no confirmó. De la empresa de energía fotovoltaica (no confundir con el Diego de la cinta de caminar). |
 
 ---
 
