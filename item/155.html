@@ -17,15 +17,15 @@
   <meta property="og:url" content="https://adios.com.ar/item/155.html">
   <meta property="og:title" content="IKEA NIPÅSEN Banco Zapatero Recibidor Negro — con balda extra — $ 60.000">
   <meta property="og:description" content="Banco zapatero de recibidor IKEA NIPÅSEN en negro, 79×35×52 cm. Estructura de acero con recubrimiento en polvo, asiento de tablero de fibras y balda de metal expandido que deja pasar la tierra. Incluye una balda extra, así que suma capacidad respecto al modelo estándar: sirve de asiento para calz…">
-  <meta property="og:image" content="https://adios.com.ar/images/og-cover.jpg">
-  <meta property="og:image:secure_url" content="https://adios.com.ar/images/og-cover.jpg">
+  <meta property="og:image" content="https://adios.com.ar/images/nipasen-banco-1.png">
+  <meta property="og:image:secure_url" content="https://adios.com.ar/images/nipasen-banco-1.png">
   <meta property="og:image:alt" content="IKEA NIPÅSEN Banco Zapatero Recibidor Negro — con balda extra">
 
   <!-- Twitter / X -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="IKEA NIPÅSEN Banco Zapatero Recibidor Negro — con balda extra — $ 60.000">
   <meta name="twitter:description" content="Banco zapatero de recibidor IKEA NIPÅSEN en negro, 79×35×52 cm. Estructura de acero con recubrimiento en polvo, asiento de tablero de fibras y balda de metal expandido que deja pasar la tierra. Incluye una balda extra, así que suma capacidad respecto al modelo estándar: sirve de asiento para calz…">
-  <meta name="twitter:image" content="https://adios.com.ar/images/og-cover.jpg">
+  <meta name="twitter:image" content="https://adios.com.ar/images/nipasen-banco-1.png">
   <meta name="twitter:image:alt" content="IKEA NIPÅSEN Banco Zapatero Recibidor Negro — con balda extra">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -118,6 +118,12 @@
   "name": "IKEA NIPÅSEN Banco Zapatero Recibidor Negro — con balda extra",
   "url": "https://adios.com.ar/item/155.html",
   "description": "Banco zapatero de recibidor IKEA NIPÅSEN en negro, 79×35×52 cm. Estructura de acero con recubrimiento en polvo, asiento de tablero de fibras y balda de metal expandido que deja pasar la tierra. Incluye una balda extra, así que suma capacidad respecto al modelo estándar: sirve de asiento para calzarse y de zapatero al mismo tiempo.",
+  "image": [
+    "https://adios.com.ar/images/nipasen-banco-1.png",
+    "https://adios.com.ar/images/nipasen-banco-2.png",
+    "https://adios.com.ar/images/nipasen-banco-3.png",
+    "https://www.ikea.com/es/es/images/products/nipasen-banco-zapatero-negro__1390533_pe965441_s5.jpg"
+  ],
   "category": "Muebles",
   "itemCondition": "https://schema.org/UsedCondition",
   "offers": {
@@ -147,8 +153,8 @@
 <main>
   <article class="sheet">
     <div class="gallery">
-      <div class="gallery-main"><span class="ph">📦</span></div>
-      
+      <div class="gallery-main"><img src="../images/nipasen-banco-1.png" alt="IKEA NIPÅSEN Banco Zapatero Recibidor Negro — con balda extra"></div>
+      <div class="thumbs"><img src="../images/nipasen-banco-1.png" alt="IKEA NIPÅSEN Banco Zapatero Recibidor Negro — con balda extra — foto 1" class="active" onclick="swap(this)"><img src="../images/nipasen-banco-2.png" alt="IKEA NIPÅSEN Banco Zapatero Recibidor Negro — con balda extra — foto 2" onclick="swap(this)"><img src="../images/nipasen-banco-3.png" alt="IKEA NIPÅSEN Banco Zapatero Recibidor Negro — con balda extra — foto 3" onclick="swap(this)"><img src="https://www.ikea.com/es/es/images/products/nipasen-banco-zapatero-negro__1390533_pe965441_s5.jpg" alt="IKEA NIPÅSEN Banco Zapatero Recibidor Negro — con balda extra — foto 4" onclick="swap(this)"></div>
     </div>
     <div class="body">
       <div class="cat">🪑 Muebles</div>
@@ -167,6 +173,14 @@
   </article>
 </main>
 
-
+<script>
+function swap(el) {
+  const main = document.querySelector('.gallery-main');
+  main.innerHTML = el.tagName === 'VIDEO'
+    ? '<video src="' + el.getAttribute('src') + '" controls autoplay muted loop playsinline></video>'
+    : '<img src="' + el.getAttribute('src') + '" alt="' + (el.alt || '') + '">';
+  document.querySelectorAll('.thumbs img, .thumbs video').forEach(t => t.classList.toggle('active', t === el));
+}
+</script>
 </body>
 </html>
