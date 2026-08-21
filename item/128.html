@@ -17,15 +17,15 @@
   <meta property="og:url" content="https://adios.com.ar/item/128.html">
   <meta property="og:title" content="Pava Eléctrica Pastalinda Cucina Bollitore 1.7L Acero Inox — $ 50.000">
   <meta property="og:description" content="Pava eléctrica 1.7L de acero inoxidable. Base 360°, indicador de nivel de agua. Buen estado. · $ 50.000 · Buen estado">
-  <meta property="og:image" content="https://http2.mlstatic.com/D_Q_NP_841216-MLA89271832395_082025-R.webp">
-  <meta property="og:image:secure_url" content="https://http2.mlstatic.com/D_Q_NP_841216-MLA89271832395_082025-R.webp">
+  <meta property="og:image" content="https://adios.com.ar/images/pava-pastalinda-real.jpg">
+  <meta property="og:image:secure_url" content="https://adios.com.ar/images/pava-pastalinda-real.jpg">
   <meta property="og:image:alt" content="Pava Eléctrica Pastalinda Cucina Bollitore 1.7L Acero Inox">
 
   <!-- Twitter / X -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Pava Eléctrica Pastalinda Cucina Bollitore 1.7L Acero Inox — $ 50.000">
   <meta name="twitter:description" content="Pava eléctrica 1.7L de acero inoxidable. Base 360°, indicador de nivel de agua. Buen estado. · $ 50.000 · Buen estado">
-  <meta name="twitter:image" content="https://http2.mlstatic.com/D_Q_NP_841216-MLA89271832395_082025-R.webp">
+  <meta name="twitter:image" content="https://adios.com.ar/images/pava-pastalinda-real.jpg">
   <meta name="twitter:image:alt" content="Pava Eléctrica Pastalinda Cucina Bollitore 1.7L Acero Inox">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -119,7 +119,8 @@
   "url": "https://adios.com.ar/item/128.html",
   "description": "Pava eléctrica 1.7L de acero inoxidable. Base 360°, indicador de nivel de agua. Buen estado.",
   "image": [
-    "https://http2.mlstatic.com/D_Q_NP_841216-MLA89271832395_082025-R.webp"
+    "https://adios.com.ar/images/pava-pastalinda-real.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_841216-MLA89271832395_082025-O.webp"
   ],
   "category": "Electrodomésticos",
   "itemCondition": "https://schema.org/UsedCondition",
@@ -150,8 +151,8 @@
 <main>
   <article class="sheet">
     <div class="gallery">
-      <div class="gallery-main"><img src="https://http2.mlstatic.com/D_Q_NP_841216-MLA89271832395_082025-R.webp" alt="Pava Eléctrica Pastalinda Cucina Bollitore 1.7L Acero Inox"></div>
-      
+      <div class="gallery-main"><img src="../images/pava-pastalinda-real.jpg" alt="Pava Eléctrica Pastalinda Cucina Bollitore 1.7L Acero Inox"></div>
+      <div class="thumbs"><img src="../images/pava-pastalinda-real.jpg" alt="Pava Eléctrica Pastalinda Cucina Bollitore 1.7L Acero Inox — foto 1" class="active" onclick="swap(this)"><img src="https://http2.mlstatic.com/D_NQ_NP_841216-MLA89271832395_082025-O.webp" alt="Pava Eléctrica Pastalinda Cucina Bollitore 1.7L Acero Inox — foto 2" onclick="swap(this)"></div>
     </div>
     <div class="body">
       <div class="cat">🔌 Electrodomésticos</div>
@@ -170,6 +171,14 @@
   </article>
 </main>
 
-
+<script>
+function swap(el) {
+  const main = document.querySelector('.gallery-main');
+  main.innerHTML = el.tagName === 'VIDEO'
+    ? '<video src="' + el.getAttribute('src') + '" controls autoplay muted loop playsinline></video>'
+    : '<img src="' + el.getAttribute('src') + '" alt="' + (el.alt || '') + '">';
+  document.querySelectorAll('.thumbs img, .thumbs video').forEach(t => t.classList.toggle('active', t === el));
+}
+</script>
 </body>
 </html>
