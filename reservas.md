@@ -196,8 +196,9 @@
 |----|---------|-----------|-----------|---------------|-----------|
 | 135 | SUNLU Filament Dryer Box S1 Plus — Secador de Filamento para Impresión 3D | $46.000 | ✅ | — | — |
 | 118 | Puff Artesanal de Fibras Naturales — Tejido Trenzado 50 cm | $65.000 | ✅ | — | — |
+| 98 | Estación de Soldadura 60W con Pantalla LED | $55.000 | ✅ | — | — |
 
-**Total: $111.000 ARS**
+**Total: $166.000 ARS**
 
 | Estado | — |
 |--------|---|
