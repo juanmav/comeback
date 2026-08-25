@@ -40,7 +40,9 @@ All items live in the `ITEMS` array near the top of the `<script>` block in `ind
 }
 ```
 
-When the user provides a product reference, search for the official page and a direct CDN image URL before adding the item.
+When the user provides a product reference, search for the official page and its product image before adding the item.
+
+**Regla: siempre bajar la foto.** Never point `imagen` at a third-party CDN URL for a new item — download the photo into `images/` (e.g. `curl -sL -o images/<slug>.jpg <cdn-url>`), reference the local path, and commit the image file. Third-party hosts (Amazon especially) hotlink-block the WhatsApp/Facebook scrapers and the preview loses its photo; serving from our own domain avoids that for good.
 
 ## Per-item pages (`item/<id>.html`) — link previews
 
@@ -61,6 +63,8 @@ The `<head>` of `index.html` carries the Open Graph / Twitter Card tags for the 
 After deploying a change to any preview, refresh the scrapers' caches: Facebook Sharing Debugger and LinkedIn Post Inspector re-scrape on demand; WhatsApp caches per URL, so append a `?v=N` to force a refetch.
 
 ### TODO — only if a preview actually comes back without an image
+
+(For **existing** items only — new items always get their photo downloaded into `images/` from the start, per the rule in "Adding or updating items".)
 
 57 of the 88 available items use a third-party CDN as their `og:image` (36 `m.media-amazon.com`, 13 `http2.mlstatic.com`, plus a few LG / IKEA / Steelcase / Spider Farmer). Those hosts can refuse the scraper's request, and the symptom is a preview with title and description but no photo — Amazon is the likeliest offender.
 
