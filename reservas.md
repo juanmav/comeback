@@ -504,8 +504,12 @@
 |----|---------|-----------|-----------|---------------|-----------|
 | 94 | Velador B.K.Licht nórdico blanco — Lámpara de mesa E14 | $26.000 | ✅ | — | — |
 | 100 | Moleskine Classic Cuaderno Cuadriculado XL Negro (19 × 25 cm) | $30.138 | ✅ | — | — |
+| 164 | Cincel de cuello de cisne LTOOLS para carpintería | $25.000 | ✅ | — | — |
+| 35 | SUIZAN Kanna Cepillo de Mano Japonés 42 mm | $63.300 | ✅ | — | — |
+| 36 | SUIZAN Sierra Japonesa Flush Cut 120 mm Ryoba | $53.500 | ✅ | — | — |
+| 163 | Gramil de marcado Frdhee — cuchilla rodante, precisión 0,2 mm | $50.000 | ✅ | — | — |
 
-**Total: $56.138 ARS**
+**Total: $247.938 ARS**
 
 | Estado | — |
 |--------|---|
