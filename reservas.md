@@ -17,7 +17,6 @@
 | 78 | FOFNON Bebedero Fuente de Agua de Acero Inoxidable 3,2 L para Gatos y Perros, Silencioso | $46.500 | ✅ | — | ✅ |
 | 80 | Invision Brazo Articulado para Monitor MX200, Pantallas 19-32, VESA 75/100 mm | $35.800 | ✅ | — | ✅ |
 | 84 | Muaket Báscula de Precisión Digital 0,1 g/50 g con Pesas de Calibración, Pinzas y Platillo | $20.500 | ✅ | — | ✅ |
-| 9 | Lámpara Xiaomi Mi Computer Monitor Light Bar — Usada | $0 (atención) | ✅ | ✅ | — |
 | 134 | Escritorio eléctrico IKEA BEKANT | $357.500 | ✅ | ✅ | — |
 
 **Total: $1.216.500 ARS**
@@ -26,7 +25,7 @@
 |--------|---|
 | Seña | $633.600 ARS |
 | Entrega | — |
-| Notas | Lámpara Xiaomi usada (id 9) va de regalo — atención. |
+| Notas | 2026-09-01: la lámpara Xiaomi usada (id 9) pasó a la reserva de Lorena Conca. |
 
 ---
 
@@ -197,14 +196,15 @@
 | 135 | SUNLU Filament Dryer Box S1 Plus — Secador de Filamento para Impresión 3D | $46.000 | ✅ | — | — |
 | 118 | Puff Artesanal de Fibras Naturales — Tejido Trenzado 50 cm | $65.000 | ✅ | — | — |
 | 98 | Estación de Soldadura 60W con Pantalla LED | $55.000 | ✅ | — | — |
+| 9 | Lámpara Xiaomi Mi Computer Monitor Light Bar — Usada | $85.000 | ✅ | — | — |
 
-**Total: $166.000 ARS**
+**Total: $251.000 ARS**
 
 | Estado | — |
 |--------|---|
 | Seña | — |
 | Entrega | — |
-| Notas | Lámpara Xiaomi nueva (id 8) pasó a Diego (energía FV) — no confirmó la reserva. |
+| Notas | Lámpara Xiaomi nueva (id 8) pasó a Diego (energía FV) — no confirmó la reserva. Lámpara Xiaomi usada (id 9) movida desde la reserva de Anibal (antes iba de regalo). |
 
 ---
 
