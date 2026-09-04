@@ -128,23 +128,6 @@
 
 ---
 
-## Norma Romero
-**Fecha:** 2026-05-03
-
-| ID | Producto | Precio ARS | Reservado | Entrega tardía | Entregado |
-|----|---------|-----------|-----------|---------------|-----------|
-| 14 | LAUTERS Lámpara de pie fresno/blanco — IKEA | $99.000 | ✅ | ✅ | — |
-
-**Total: $99.000 ARS**
-
-| Estado | — |
-|--------|---|
-| Seña | — |
-| Entrega | — |
-| Notas | — |
-
----
-
 ## Amalia
 **Fecha:** 2026-05-18
 
