@@ -119,7 +119,10 @@
   "url": "https://adios.com.ar/item/176.html",
   "description": "Soporte elevador para monitor Aothia en madera color roble con patas de corcho ecológico antideslizantes. 109,2 × 23,9 cm, soporta hasta 35 kg y deja espacio para guardar teclado y mouse debajo. Usado, en buen estado. Precio de nuevo: 63,99 €.",
   "image": [
-    "https://adios.com.ar/images/aothia-soporte-monitor.jpg"
+    "https://adios.com.ar/images/aothia-soporte-monitor.jpg",
+    "https://adios.com.ar/images/aothia-soporte-monitor-2.jpg",
+    "https://adios.com.ar/images/aothia-soporte-monitor-3.jpg",
+    "https://adios.com.ar/images/aothia-soporte-monitor-4.jpg"
   ],
   "category": "Oficina",
   "itemCondition": "https://schema.org/UsedCondition",
@@ -151,7 +154,7 @@
   <article class="sheet">
     <div class="gallery">
       <div class="gallery-main"><img src="../images/aothia-soporte-monitor.jpg" alt="Aothia Soporte para Monitor Grande — Estante de Madera con Patas de Corcho (Roble, 109 cm)"></div>
-      
+      <div class="thumbs"><img src="../images/aothia-soporte-monitor.jpg" alt="Aothia Soporte para Monitor Grande — Estante de Madera con Patas de Corcho (Roble, 109 cm) — foto 1" class="active" onclick="swap(this)"><img src="../images/aothia-soporte-monitor-2.jpg" alt="Aothia Soporte para Monitor Grande — Estante de Madera con Patas de Corcho (Roble, 109 cm) — foto 2" onclick="swap(this)"><img src="../images/aothia-soporte-monitor-3.jpg" alt="Aothia Soporte para Monitor Grande — Estante de Madera con Patas de Corcho (Roble, 109 cm) — foto 3" onclick="swap(this)"><img src="../images/aothia-soporte-monitor-4.jpg" alt="Aothia Soporte para Monitor Grande — Estante de Madera con Patas de Corcho (Roble, 109 cm) — foto 4" onclick="swap(this)"></div>
     </div>
     <div class="body">
       <div class="cat">🖥️ Oficina</div>
@@ -170,6 +173,14 @@
   </article>
 </main>
 
-
+<script>
+function swap(el) {
+  const main = document.querySelector('.gallery-main');
+  main.innerHTML = el.tagName === 'VIDEO'
+    ? '<video src="' + el.getAttribute('src') + '" controls autoplay muted loop playsinline></video>'
+    : '<img src="' + el.getAttribute('src') + '" alt="' + (el.alt || '') + '">';
+  document.querySelectorAll('.thumbs img, .thumbs video').forEach(t => t.classList.toggle('active', t === el));
+}
+</script>
 </body>
 </html>
