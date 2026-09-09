@@ -284,6 +284,24 @@
 
 ---
 
+## Miguel Angel Rivas — 2ª tanda
+**Fecha:** 2026-09-09
+
+| ID | Producto | Precio ARS | Reservado | Entrega tardía | Entregado | Link |
+|----|---------|-----------|-----------|---------------|-----------|------|
+| 160 | Zapatilla LDNIO SC3604 — 3 tomas universales + 6 puertos USB (2ª unidad) | $21.000 | ✅ | — | — | https://adios.com.ar/item/160.html |
+| 158 | Reloj despertador de madera Duaitek Woodclk con carga inalámbrica | $12.000 | ✅ | — | — | https://adios.com.ar/item/158.html |
+
+**Total: $33.000 ARS**
+
+| Estado | — |
+|--------|---|
+| Seña | — |
+| Entrega | Pendiente |
+| Notas | Segunda tanda, la primera (USD 290) ya está cerrada y entregada. |
+
+---
+
 ## Laureano
 **Fecha:** 2026-08-03
 
