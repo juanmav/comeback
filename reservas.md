@@ -198,16 +198,15 @@
 |----|---------|-----------|-----------|---------------|-----------|
 | 139 | Monitor Samsung Odyssey G6 S27BG650EU — 27" Curvo WQHD 240Hz | $410.000 | ✅ | ✅ | — |
 | 177 | Veladores LED Tiny Impresión 3D (x2) — Tienda Near | $35.000 | ✅ | — | — |
-| 5 | Silla Steelcase Gesture — Blanca marco platino con apoyacabeza | $1.500.000 | ✅ | ✅ | — |
-| 4 | Silla Steelcase Gesture — Negra con apoyacabeza | $1.500.000 | ❌ | ✅ | — |
+| 4 | Silla Steelcase Gesture — Negra con apoyacabeza | $1.500.000 | ✅ | ✅ | — |
 
-**Total reservado: $1.945.000 ARS** (la silla negra id 4 sigue liberada — ver notas)
+**Total reservado: $1.945.000 ARS**
 
 | Estado | — |
 |--------|---|
 | Seña | — |
 | Entrega | — |
-| Notas | 2026-09-09: Franco reserva el monitor Odyssey G6 (139), los veladores 3D x2 (177) y la silla Steelcase Blanca marco platino (id 5). La silla Steelcase Negra (id 4) sigue LIBERADA desde 2026-08-07 (Franco estaba en Rosario) — confirmar si la vuelve a tomar. |
+| Notas | 2026-09-09: Franco reserva el monitor Odyssey G6 (139), los veladores 3D x2 (177) y la silla Steelcase Negra (id 4), que vuelve a reservarse a su nombre tras haber estado liberada desde 2026-08-07. La silla Steelcase Blanca (id 5) queda disponible. |
 
 ---
 
