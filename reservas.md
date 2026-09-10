@@ -448,6 +448,34 @@
 
 ---
 
+## Eugenia Amigo (Manano) — 2ª tanda
+**Fecha:** 2026-09-09
+
+| ID | Producto | Precio ARS | Reservado | Entrega tardía | Entregado | Link |
+|----|---------|-----------|-----------|---------------|-----------|------|
+| 14 | LAUTERS Lámpara de pie fresno/blanco — IKEA | $99.000 | ✅ | — | — | https://adios.com.ar/item/14.html |
+| 156 | Espejo redondo 60 cm marco negro con estante | $65.000 | ✅ | — | — | https://adios.com.ar/item/156.html |
+| 18 | Espejo de pie escandinavo madera maciza | $170.000 | ✅ | — | — | https://adios.com.ar/item/18.html |
+| 54 | Rowenta DW2459 Plancha a Vapor Suela Acero Inoxidable (110V) | $60.000 | ✅ | — | — | https://adios.com.ar/item/54.html |
+| 93 | HOGAR24 Mueble Recibidor Industrial Angi 100 — Madera maciza 100×30×85cm | $90.000 | ✅ | — | — | https://adios.com.ar/item/93.html |
+| 171 | hinrey Set de 6 Organizadores de Ropa Plegables 34×17×12 cm | $33.000 | ✅ | — | — | https://adios.com.ar/item/171.html |
+| 170 | NINGESHOP Set de 10 Organizadores de Cajón Plegables — 3 tamaños | $23.000 | ✅ | — | — | https://adios.com.ar/item/170.html |
+| 185 | Microondas Atma WATDGB23 23 L digital con grill negro | $120.000 | ✅ | — | — | https://adios.com.ar/item/185.html |
+| 130 | Tostadora Eléctrica Pastalinda Cucina Tostapane Negra | $55.000 | ✅ | ✅ | — | https://adios.com.ar/item/130.html |
+| 175 | Perchas de Madera Lustrada Hants — 70 de adulto + 10 de bebé | $40.000 | ✅ | — | — | https://adios.com.ar/item/175.html |
+| 128 | Pava Eléctrica Pastalinda Cucina Bollitore 1.7L Acero Inox | $50.000 | ✅ | ✅ | — | https://adios.com.ar/item/128.html |
+| 155 | IKEA NIPÅSEN Banco Zapatero Recibidor Negro — con balda extra | $60.000 | ✅ | — | — | https://adios.com.ar/item/155.html |
+
+**Total: $865.000 ARS**
+
+| Estado | — |
+|--------|---|
+| Seña | — |
+| Entrega | Pendiente — viene a buscar |
+| Notas | Segunda tanda pedida por WhatsApp el 2026-09-09 (12 ítems). La primera ($629.897 ARS, EUR 200 + USD 180) ya está cerrada y entregada. Tostadora (130) y pava (128) Pastalinda son de entrega tardía (aprox. 7 al 21 de septiembre). |
+
+---
+
 ## Guadalupe
 **Fecha:** 2026-08-11
 
