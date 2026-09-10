@@ -16,11 +16,10 @@ After editing `index.html`, **always regenerate the per-item pages** and then pu
 node build-items.js
 git add index.html item sitemap.xml robots.txt 404.html
 git commit -m "..."
-TOKEN=$(gh auth token) && git remote set-url origin "https://${TOKEN}@github.com/juanmav/comeback.git"
 git push
 ```
 
-SSH is not available in this environment — always use the HTTPS + gh token method above.
+SSH is not available in this environment. The remote is plain HTTPS (`https://github.com/juanmav/comeback.git`) and `gh auth setup-git` has registered `gh` as git's credential helper, so a bare `git push` authenticates on its own. Never embed the token in the remote URL or use `$(gh auth token)` in the push command — command substitution defeats the `Bash(git *)` allow rule and triggers a permission prompt. If a push ever fails with an auth error, run `gh auth setup-git` again.
 
 ## Adding or updating items
 
