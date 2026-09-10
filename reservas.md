@@ -465,14 +465,15 @@
 | 175 | Perchas de Madera Lustrada Hants — 70 de adulto + 10 de bebé | $40.000 | ✅ | — | — | https://adios.com.ar/item/175.html |
 | 128 | Pava Eléctrica Pastalinda Cucina Bollitore 1.7L Acero Inox | $50.000 | ✅ | ✅ | — | https://adios.com.ar/item/128.html |
 | 155 | IKEA NIPÅSEN Banco Zapatero Recibidor Negro — con balda extra | $60.000 | ✅ | — | — | https://adios.com.ar/item/155.html |
+| 166 | Secador de pelo de viaje Rowenta Nomad CV3323 | $30.000 | ✅ | — | — | https://adios.com.ar/item/166.html |
 
-**Total: $865.000 ARS**
+**Total: $895.000 ARS**
 
 | Estado | — |
 |--------|---|
 | Seña | — |
 | Entrega | Pendiente — viene a buscar |
-| Notas | Segunda tanda pedida por WhatsApp el 2026-09-09 (12 ítems). La primera ($629.897 ARS, EUR 200 + USD 180) ya está cerrada y entregada. Tostadora (130) y pava (128) Pastalinda son de entrega tardía (aprox. 7 al 21 de septiembre). |
+| Notas | Segunda tanda pedida por WhatsApp el 2026-09-09 (12 ítems); 2026-09-10 sumó el secador de pelo Rowenta (166). La primera ($629.897 ARS, EUR 200 + USD 180) ya está cerrada y entregada. Tostadora (130) y pava (128) Pastalinda son de entrega tardía (aprox. 7 al 21 de septiembre). |
 
 ---
 
