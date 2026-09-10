@@ -558,11 +558,13 @@
 | 157 | Sillas Susi madera maciza color nogal (x4) | $240.000 | ✅ | ✅ | — |
 | 10 | ENHET Bolsa colada con ruedas — IKEA | $25.000 | ✅ | — | — |
 | 41 | SEEKONE Mini Pistola de Calor 350 W 260°C/450°C | $18.000 | ✅ | — | — |
+| 43 | Lupa con Luz LED Tercera Mano 3X con 4 Brazos Flexibles | $23.000 | ✅ | — | — |
+| 162 | Escuadra de carpintero ZENAKIO 12 en 1 | $40.000 | ✅ | — | — |
 
-**Total: $283.000 ARS**
+**Total: $346.000 ARS**
 
 | Estado | — |
 |--------|---|
 | Seña | — |
 | Entrega | — |
-| Notas | Amigo de Eugenia Amigo. |
+| Notas | Amigo de Eugenia Amigo. 2026-09-10: sumó la lupa tercera mano (43) y la escuadra ZENAKIO (162). |
