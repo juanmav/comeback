@@ -569,6 +569,24 @@
 
 ---
 
+## Matias Damon (regalo)
+**Fecha:** 2026-09-14
+
+| ID | Producto | Precio ARS | Reservado | Entrega tardía | Entregado | Link |
+|----|---------|-----------|-----------|---------------|-----------|------|
+| 33 | SUIZAN Dozuki Sierra Japonesa de Precisión 240 mm | $0 (regalo) | ✅ | — | ✅ | https://adios.com.ar/item/33.html |
+| 190 | SUIZAN Sierra Japonesa Ryoba Doble Filo 240 mm (2ª unidad) | $0 (regalo) | ✅ | — | ✅ | https://adios.com.ar/item/190.html |
+
+**Total: $0 ARS**
+
+| Estado | — |
+|--------|---|
+| Seña | — (sin costo) |
+| Entrega | ✅ **COMPLETADA** 2026-09-14 — entregadas |
+| Notas | **REGALO, sin costo.** Había dos Ryoba 240 mm: se le regaló una (desdoblada como id 190); la otra (id 37) sigue disponible en la web. Valor de lista de lo regalado: $192.900 ARS. |
+
+---
+
 ## Lorenzo (amigo de Eugenia)
 **Fecha:** 2026-08-20
 
