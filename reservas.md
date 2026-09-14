@@ -553,19 +553,18 @@
 | ID | Producto | Precio ARS | Reservado | Entrega tardía | Entregado |
 |----|---------|-----------|-----------|---------------|-----------|
 | 94 | Velador B.K.Licht nórdico blanco — Lámpara de mesa E14 | $26.000 | ✅ | — | — |
-| 100 | Moleskine Classic Cuaderno Cuadriculado XL Negro (19 × 25 cm) | $30.000 | ✅ | — | — |
 | 164 | Cincel de cuello de cisne LTOOLS para carpintería | $25.000 | ✅ | — | — |
 | 35 | SUIZAN Kanna Cepillo de Mano Japonés 42 mm | $63.000 | ✅ | — | — |
 | 36 | SUIZAN Sierra Japonesa Flush Cut 120 mm Ryoba | $53.000 | ✅ | — | — |
 | 163 | Gramil de marcado Frdhee — cuchilla rodante, precisión 0,2 mm | $50.000 | ✅ | — | — |
 
-**Total: $247.000 ARS**
+**Total: $217.000 ARS**
 
 | Estado | — |
 |--------|---|
 | Seña | — |
 | Entrega | — |
-| Notas | Amiga de Eugenia Amigo. |
+| Notas | Amiga de Eugenia Amigo. 2026-09-14: se dio de baja el Moleskine XL (id 100) — se perdió, no lo encontramos; quitado también del catálogo. |
 
 ---
 
