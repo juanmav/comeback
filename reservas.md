@@ -456,7 +456,6 @@
 | 14 | LAUTERS Lámpara de pie fresno/blanco — IKEA | $99.000 | ✅ | — | — | https://adios.com.ar/item/14.html |
 | 156 | Espejo redondo 60 cm marco negro con estante | $65.000 | ✅ | — | — | https://adios.com.ar/item/156.html |
 | 18 | Espejo de pie escandinavo madera maciza | $170.000 | ✅ | — | — | https://adios.com.ar/item/18.html |
-| 54 | Rowenta DW2459 Plancha a Vapor Suela Acero Inoxidable (110V) | $60.000 | ✅ | — | — | https://adios.com.ar/item/54.html |
 | 93 | HOGAR24 Mueble Recibidor Industrial Angi 100 — Madera maciza 100×30×85cm | $90.000 | ✅ | — | — | https://adios.com.ar/item/93.html |
 | 171 | hinrey Set de 6 Organizadores de Ropa Plegables 34×17×12 cm | $33.000 | ✅ | — | — | https://adios.com.ar/item/171.html |
 | 170 | NINGESHOP Set de 10 Organizadores de Cajón Plegables — 3 tamaños | $23.000 | ✅ | — | — | https://adios.com.ar/item/170.html |
@@ -467,13 +466,31 @@
 | 155 | IKEA NIPÅSEN Banco Zapatero Recibidor Negro — con balda extra | $60.000 | ✅ | — | — | https://adios.com.ar/item/155.html |
 | 166 | Secador de pelo de viaje Rowenta Nomad CV3323 | $30.000 | ✅ | — | — | https://adios.com.ar/item/166.html |
 
-**Total: $895.000 ARS**
+**Total: $835.000 ARS**
 
 | Estado | — |
 |--------|---|
 | Seña | — |
 | Entrega | Pendiente — viene a buscar |
-| Notas | Segunda tanda pedida por WhatsApp el 2026-09-09 (12 ítems); 2026-09-10 sumó el secador de pelo Rowenta (166). La primera ($629.897 ARS, EUR 200 + USD 180) ya está cerrada y entregada. Tostadora (130) y pava (128) Pastalinda son de entrega tardía (aprox. 7 al 21 de septiembre). |
+| Notas | Segunda tanda pedida por WhatsApp el 2026-09-09 (12 ítems); 2026-09-10 sumó el secador de pelo Rowenta (166). La plancha Rowenta (54) salió de esta tanda: se la llevó Sergio (su pareja), ver sección aparte. La primera ($629.897 ARS, EUR 200 + USD 180) ya está cerrada y entregada. Tostadora (130) y pava (128) Pastalinda son de entrega tardía (aprox. 7 al 21 de septiembre). |
+
+---
+
+## Sergio (pareja de Eugenia)
+**Fecha:** 2026-09-14
+
+| ID | Producto | Precio ARS | Reservado | Entrega tardía | Entregado | Link |
+|----|---------|-----------|-----------|---------------|-----------|------|
+| 54 | Rowenta DW2459 Plancha a Vapor Suela Acero Inoxidable (110V) | $60.000 | ✅ | — | ✅ | https://adios.com.ar/item/54.html |
+| — | Cosas varias fuera del listado | $40.000 | ✅ | — | ✅ | — |
+
+**Total: $100.000 ARS**
+
+| Estado | — |
+|--------|---|
+| Seña | ✅ $100.000 ARS (pagó el total) |
+| Entrega | ✅ **COMPLETADA** 2026-09-14 — se llevó todo |
+| Notas | **OPERACIÓN CERRADA Y PAGADA: $100.000 ARS.** Pareja de Eugenia Amigo. La plancha (54) estaba reservada en la 2ª tanda de Eugenia y se la terminó llevando él al precio de lista. Además se llevó cosas varias que no estaban en el listado por $40.000. |
 
 ---
 
