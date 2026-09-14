@@ -465,14 +465,15 @@
 | 128 | Pava Eléctrica Pastalinda Cucina Bollitore 1.7L Acero Inox | $50.000 | ✅ | ✅ | — | https://adios.com.ar/item/128.html |
 | 155 | IKEA NIPÅSEN Banco Zapatero Recibidor Negro — con balda extra | $60.000 | ✅ | — | — | https://adios.com.ar/item/155.html |
 | 166 | Secador de pelo de viaje Rowenta Nomad CV3323 | $30.000 | ✅ | — | — | https://adios.com.ar/item/166.html |
+| 187 | Sartén IKEA HEMKOMST 28 cm acero inoxidable antiadherente | $15.000 | ✅ | — | — | https://adios.com.ar/item/187.html |
 
-**Total: $835.000 ARS**
+**Total: $850.000 ARS**
 
 | Estado | — |
 |--------|---|
 | Seña | — |
 | Entrega | Pendiente — viene a buscar |
-| Notas | Segunda tanda pedida por WhatsApp el 2026-09-09 (12 ítems); 2026-09-10 sumó el secador de pelo Rowenta (166). La plancha Rowenta (54) salió de esta tanda: se la llevó Sergio (su pareja), ver sección aparte. La primera ($629.897 ARS, EUR 200 + USD 180) ya está cerrada y entregada. Tostadora (130) y pava (128) Pastalinda son de entrega tardía (aprox. 7 al 21 de septiembre). |
+| Notas | Segunda tanda pedida por WhatsApp el 2026-09-09 (12 ítems); 2026-09-10 sumó el secador de pelo Rowenta (166). La plancha Rowenta (54) salió de esta tanda: se la llevó Sergio (su pareja), ver sección aparte. 2026-09-14 sumó la sartén HEMKOMST 28 cm (187). La primera ($629.897 ARS, EUR 200 + USD 180) ya está cerrada y entregada. Tostadora (130) y pava (128) Pastalinda son de entrega tardía (aprox. 7 al 21 de septiembre). |
 
 ---
 
