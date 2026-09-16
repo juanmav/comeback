@@ -608,3 +608,21 @@
 | Seña | — |
 | Entrega | Parcial: 2026-09-16 se llevó la Niimbot (191) y las luces (192). Resto pendiente. |
 | Notas | Amigo de Eugenia Amigo. 2026-09-10: sumó la lupa tercera mano (43) y la escuadra ZENAKIO (162). 2026-09-16: compró la impresora Niimbot D110 (191, $24.000) y las luces LED de bici (192, $10.000), **pagadas y entregadas** ese día ($34.000). |
+
+---
+
+## Lauti
+**Fecha:** 2026-09-16
+
+| ID | Producto | Precio ARS | Reservado | Entrega tardía | Entregado | Link |
+|----|---------|-----------|-----------|---------------|-----------|------|
+| 119 | Milcea Fascia Massage Gun — Kit con Maletín y 6 Cabezales | $45.000 | ✅ | — | — | https://adios.com.ar/item/119.html |
+| 101 | FLSUN Q5 Impresora 3D Delta | $200.000 | ✅ | — | — | https://adios.com.ar/item/101.html |
+
+**Total: $245.000 ARS**
+
+| Estado | — |
+|--------|---|
+| Seña | — |
+| Entrega | — |
+| Notas | Reserva del 2026-09-16: pistola de masaje (119) e impresora 3D FLSUN Q5 (101). |
