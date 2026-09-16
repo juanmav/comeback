@@ -596,11 +596,13 @@
 | 41 | SEEKONE Mini Pistola de Calor 350 W 260°C/450°C | $18.000 | ✅ | — | — |
 | 43 | Lupa con Luz LED Tercera Mano 3X con 4 Brazos Flexibles | $23.000 | ✅ | — | — |
 | 162 | Escuadra de carpintero ZENAKIO 12 en 1 | $40.000 | ✅ | — | — |
+| 191 | Impresora de etiquetas Niimbot D110 | $24.000 | ✅ | — | ✅ |
+| 192 | Luces LED para bicicleta (delantera y trasera) | $10.000 | ✅ | — | ✅ |
 
-**Total: $346.000 ARS**
+**Total: $380.000 ARS**
 
 | Estado | — |
 |--------|---|
 | Seña | — |
-| Entrega | — |
-| Notas | Amigo de Eugenia Amigo. 2026-09-10: sumó la lupa tercera mano (43) y la escuadra ZENAKIO (162). |
+| Entrega | Parcial: 2026-09-16 se llevó la Niimbot (191) y las luces (192). Resto pendiente. |
+| Notas | Amigo de Eugenia Amigo. 2026-09-10: sumó la lupa tercera mano (43) y la escuadra ZENAKIO (162). 2026-09-16: compró la impresora Niimbot D110 (191, $24.000) y las luces LED de bici (192, $10.000), **pagadas y entregadas** ese día ($34.000). |
