@@ -479,6 +479,28 @@
 
 ---
 
+## Eugenia Amigo (Manano) — 3ª tanda
+**Fecha:** 2026-09-17
+
+| ID | Producto | Precio ARS | Reservado | Entrega tardía | Entregado | Link |
+|----|---------|-----------|-----------|---------------|-----------|------|
+| 129 | Heladera No Frost Hisense RB3P422NEB 417L Negra | $530.000 | ✅ | ✅ | — | https://adios.com.ar/item/129.html |
+| 127 | GRÄLVIKEN Sofá cama 3 plazas, gris | $350.000 | ✅ | ✅ | — | https://adios.com.ar/item/127.html |
+| 193 | Silla de comedor Bali en madera de petiribí macizo — Marco Muebles (unidad 1 de 3) | $110.000 | ✅ | — | — | https://adios.com.ar/item/193.html |
+| 194 | Silla de comedor Bali en madera de petiribí macizo — Marco Muebles (unidad 2 de 3) | $110.000 | ✅ | — | — | https://adios.com.ar/item/194.html |
+| 195 | Silla de comedor Bali en madera de petiribí macizo — Marco Muebles (unidad 3 de 3) | $110.000 | ✅ | — | — | https://adios.com.ar/item/195.html |
+| 5 | Silla Steelcase Gesture — Blanca con apoyacabeza | $1.500.000 | ✅ | ✅ | — | https://adios.com.ar/item/5.html |
+
+**Total: $2.710.000 ARS**
+
+| Estado | — |
+|--------|---|
+| Seña | — |
+| Entrega | Pendiente |
+| Notas | Tercera tanda, reservada el 2026-09-17: heladera Hisense (129 — la misma que había dado de baja el 2026-08-06 en la 1ª tanda), sofá cama GRÄLVIKEN (127), las 3 sillas Bali de petiribí (193, 194, 195) y la silla Steelcase Blanca (5; la Negra, id 4, está reservada por Franco). Heladera, sofá y Steelcase son de entrega tardía. La 1ª tanda ($629.897 ARS) está cerrada y entregada; la 2ª ($1.030.000 ARS) sigue con entrega parcial. |
+
+---
+
 ## Sergio (pareja de Eugenia)
 **Fecha:** 2026-09-14
 
