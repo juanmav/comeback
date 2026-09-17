@@ -427,16 +427,15 @@
 
 | ID | Producto | Precio ARS | Reservado | Entrega tardía | Entregado |
 |----|---------|-----------|-----------|---------------|-----------|
-| 89 | IKEA BROR Banco de Trabajo con 5 Cajoneras — Tablero de Pino | $1.051.050 | ✅ | — | — |
-| 95 | VASAGLE LLS44X Estantería escalera 4 niveles — Industrial rustic brown | $66.000 | ✅ | — | — |
+| — | (sin ítems — reserva dada de baja) | — | — | — | — |
 
-**Total: $1.117.050 ARS**
+**Total: $0 ARS**
 
 | Estado | — |
 |--------|---|
 | Seña | — |
 | Entrega | — |
-| Notas | Reserva cargada el 2026-05-26; comprador registrado a posteriori. |
+| Notas | **RESERVA DADA DE BAJA 2026-09-17:** no va a venir a buscar nada. Se liberaron el banco de trabajo IKEA BROR (id 89, $1.051.050) y la estantería escalera VASAGLE (id 95, $66.000); vuelven a estar disponibles en la web. No había dejado seña. Reserva cargada el 2026-05-26; comprador registrado a posteriori. |
 
 ---
 
@@ -654,11 +653,11 @@
 
 | ID | Producto | Precio ARS | Reservado | Entrega tardía | Entregado |
 |----|---------|-----------|-----------|---------------|-----------|
-| 157 | Sillas Susi madera maciza color nogal (x4) | $240.000 | ✅ | ✅ | — |
-| 10 | ENHET Bolsa colada con ruedas — IKEA | $25.000 | ✅ | — | — |
-| 41 | SEEKONE Mini Pistola de Calor 350 W 260°C/450°C | $18.000 | ✅ | — | — |
-| 43 | Lupa con Luz LED Tercera Mano 3X con 4 Brazos Flexibles | $23.000 | ✅ | — | — |
-| 162 | Escuadra de carpintero ZENAKIO 12 en 1 | $40.000 | ✅ | — | — |
+| 157 | Sillas Susi madera maciza color nogal (x4) | $240.000 | ✅ | ✅ | ✅ |
+| 10 | ENHET Bolsa colada con ruedas — IKEA | $25.000 | ✅ | — | ✅ |
+| 41 | SEEKONE Mini Pistola de Calor 350 W 260°C/450°C | $18.000 | ✅ | — | ✅ |
+| 43 | Lupa con Luz LED Tercera Mano 3X con 4 Brazos Flexibles | $23.000 | ✅ | — | ✅ |
+| 162 | Escuadra de carpintero ZENAKIO 12 en 1 | $40.000 | ✅ | — | ✅ |
 | 191 | Impresora de etiquetas Niimbot D110 | $24.000 | ✅ | — | ✅ |
 | 192 | Luces LED para bicicleta (delantera y trasera) | $10.000 | ✅ | — | ✅ |
 
@@ -666,9 +665,9 @@
 
 | Estado | — |
 |--------|---|
-| Seña | — |
-| Entrega | Parcial: 2026-09-16 se llevó la Niimbot (191) y las luces (192). Resto pendiente. |
-| Notas | Amigo de Eugenia Amigo. 2026-09-10: sumó la lupa tercera mano (43) y la escuadra ZENAKIO (162). 2026-09-16: compró la impresora Niimbot D110 (191, $24.000) y las luces LED de bici (192, $10.000), **pagadas y entregadas** ese día ($34.000). |
+| Seña | ✅ $380.000 ARS (pagó el total) |
+| Entrega | ✅ **COMPLETADA** 2026-09-17 — se llevó todo (la Niimbot y las luces ya se las había llevado el 2026-09-16) |
+| Notas | **OPERACIÓN CERRADA Y PAGADA: $380.000 ARS.** Amigo de Eugenia Amigo. 2026-09-10: sumó la lupa tercera mano (43) y la escuadra ZENAKIO (162). 2026-09-16: compró la impresora Niimbot D110 (191, $24.000) y las luces LED de bici (192, $10.000), **pagadas y entregadas** ese día ($34.000). |
 
 ---
 
