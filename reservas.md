@@ -504,14 +504,15 @@
 | 188 | BROGRUND Cubo con tapa a presión 4 L acero inoxidable (x2) — IKEA | $15.000 | ✅ | — | — | https://adios.com.ar/item/188.html |
 | 99 | Garmin Index S2 Báscula Inteligente Blanca (precio acordado; lista $159.122) | $130.000 | ✅ | — | ✅ | https://adios.com.ar/item/99.html |
 | — | Cosas varias no catalogadas (lote) | $50.000 | ✅ | — | ✅ | — |
+| 173 | HALFLEMART Tríptico de Cuadros Abstractos Beige/Gris 30×40 cm (x3) | $0 (regalo) | ✅ | — | ✅ | https://adios.com.ar/item/173.html |
 
 **Total: $1.030.000 ARS**
 
 | Estado | — |
 |--------|---|
 | Seña | — |
-| Entrega | Parcial: 2026-09-16 se llevó la balanza Garmin (99) y el lote de cosas varias ($180.000 en total). Resto pendiente — viene a buscar. |
-| Notas | Segunda tanda pedida por WhatsApp el 2026-09-09 (12 ítems); 2026-09-10 sumó el secador de pelo Rowenta (166). La plancha Rowenta (54) salió de esta tanda: se la llevó Sergio (su pareja), ver sección aparte. 2026-09-16 sumó los cubos BROGRUND x2 (188) y dio de baja la sartén HEMKOMST 28 cm (187), que había sumado el 2026-09-14 — vuelve a estar disponible. 2026-09-16 también se llevó la balanza Garmin Index S2 (99) a $130.000 (rebaja sobre los $159.122 de lista) y un lote de cosas varias no catalogadas por $50.000: $180.000 por esas dos líneas. La primera ($629.897 ARS, EUR 200 + USD 180) ya está cerrada y entregada. Tostadora (130) y pava (128) Pastalinda son de entrega tardía (aprox. 7 al 21 de septiembre). |
+| Entrega | Parcial: 2026-09-16 se llevó la balanza Garmin (99) y el lote de cosas varias ($180.000 en total), más el tríptico HALFLEMART (173) de regalo. Resto pendiente — viene a buscar. |
+| Notas | Segunda tanda pedida por WhatsApp el 2026-09-09 (12 ítems); 2026-09-10 sumó el secador de pelo Rowenta (166). La plancha Rowenta (54) salió de esta tanda: se la llevó Sergio (su pareja), ver sección aparte. 2026-09-16 sumó los cubos BROGRUND x2 (188) y dio de baja la sartén HEMKOMST 28 cm (187), que había sumado el 2026-09-14 — vuelve a estar disponible. 2026-09-16 también se llevó la balanza Garmin Index S2 (99) a $130.000 (rebaja sobre los $159.122 de lista) y un lote de cosas varias no catalogadas por $50.000: $180.000 por esas dos líneas. Además se llevó de regalo — atención — el tríptico de cuadros HALFLEMART (173, lista $23.000); no suma al total. La primera ($629.897 ARS, EUR 200 + USD 180) ya está cerrada y entregada. Tostadora (130) y pava (128) Pastalinda son de entrega tardía (aprox. 7 al 21 de septiembre). |
 
 ---
 
