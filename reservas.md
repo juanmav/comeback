@@ -656,7 +656,8 @@
 
 | ID | Producto | Precio ARS | Reservado | Entrega tardía | Entregado | Link |
 |----|---------|-----------|-----------|---------------|-----------|------|
-| 23 | Roland TD-17KVX2 PRO V2 — Kit batería electrónica completo (precio acordado; lista $4.500.000 ARS / EUR 1.982) | USD 2.500 | ✅ | — | ✅ | https://adios.com.ar/item/23.html |
+| 23 | Roland TD-17KVX2 PRO V2 — Kit batería electrónica completo (lista $4.500.000 ARS / EUR 1.982) | USD 2.500 (paquete con la banqueta) | ✅ | — | ✅ | https://adios.com.ar/item/23.html |
+| 24 | Roland RDT-SHV — Banqueta sillín para batería (lista $271.800 ARS / EUR 165) | incluida en los USD 2.500 | ✅ | — | ✅ | https://adios.com.ar/item/24.html |
 | 196 | Pad de práctica para batería (no estaba publicado) | $75.000 | ✅ | — | ✅ | https://adios.com.ar/item/196.html |
 
 **Total: USD 2.500 + $75.000 ARS**
@@ -665,4 +666,4 @@
 |--------|---|
 | Seña | ✅ USD 2.500 + $75.000 ARS (pagó el total) |
 | Entrega | ✅ **COMPLETADA** 2026-09-17 |
-| Notas | **OPERACIÓN CERRADA Y PAGADA: USD 2.500 + $75.000 ARS.** Ernesto, de Santa Teresita. Batería Roland cerrada en USD 2.500. Además compró un pad de práctica por $75.000 que no estaba publicado en la web (se creó el ítem 196 ya vendido). La banqueta Roland RDT-SHV (id 24) no entró en la operación — sigue disponible. |
+| Notas | **OPERACIÓN CERRADA Y PAGADA: USD 2.500 + $75.000 ARS.** Ernesto, de Santa Teresita. Batería Roland (23) + banqueta Roland RDT-SHV (24) cerradas como paquete en USD 2.500 (lista del combo: $4.771.800 ARS / EUR 2.147). Además compró un pad de práctica por $75.000 que no estaba publicado en la web (se creó el ítem 196 ya vendido). |
