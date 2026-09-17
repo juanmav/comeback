@@ -65,6 +65,24 @@
 
 ---
 
+## Alichu (cuñada de Ariel)
+**Fecha:** 2026-09-17
+
+| ID | Producto | Precio ARS | Reservado | Entrega tardía | Entregado | Link |
+|----|---------|-----------|-----------|---------------|-----------|------|
+| 165 | Máquina de humo 600 W con flash LED RGB y control inalámbrico | $30.000 | ✅ | — | — | https://adios.com.ar/item/165.html |
+| 172 | PROIRON Pelota de Pilates 65 cm Antiestallido Extra Gruesa | $27.000 | ✅ | — | — | https://adios.com.ar/item/172.html |
+
+**Total: $57.000 ARS**
+
+| Estado | — |
+|--------|---|
+| Seña | — |
+| Entrega | — |
+| Notas | Cuñada de Ariel. Reserva del 2026-09-17: máquina de humo (165) y pelota de pilates PROIRON (172), a precio de lista. |
+
+---
+
 ## Hugo (suegro de Ariel)
 **Fecha:** 2026-07-23
 
