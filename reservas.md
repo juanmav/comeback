@@ -54,16 +54,16 @@
 |----|---------|-----------|-----------|---------------|-----------|------|
 | 168 | Cama king Luna del Sur Gold Series — 2 sommiers + 2 colchones 200×100 | $600.000 | ✅ | — | — | https://adios.com.ar/item/168.html |
 | 159 | Zapatilla LDNIO SC3604 — 3 tomas universales + 6 puertos USB (precio acordado; lista $30.000) | $10.000 | ✅ | — | — | https://adios.com.ar/item/159.html |
-| 136 | Impresora Láser HP LaserJet M111a Monocromática USB | $85.000 | ✅ | — | ✅ | https://adios.com.ar/item/136.html |
-| 137 | Impresora HP LaserJet Pro M15w Monocromática Inalámbrica | $101.000 | ✅ | — | ✅ | https://adios.com.ar/item/137.html |
+| 136 | Impresora Láser HP LaserJet M111a Monocromática USB (precio acordado; lista $85.000) | $75.000 | ✅ | — | ✅ | https://adios.com.ar/item/136.html |
+| 137 | Impresora HP LaserJet Pro M15w Monocromática Inalámbrica (precio acordado; lista $101.000) | $75.000 | ✅ | — | ✅ | https://adios.com.ar/item/137.html |
 
-**Total: $796.000 ARS**
+**Total: $760.000 ARS**
 
 | Estado | — |
 |--------|---|
 | Seña | — |
 | Entrega | Parcial: 2026-09-17 se llevó las dos impresoras HP (136 y 137). Resto pendiente. |
-| Notas | Segunda compra de Ariel (2026-09-17): cama king Luna del Sur (168) a precio de lista, zapatilla LDNIO (159) rebajada a $10.000 y las dos impresoras láser HP — LaserJet M111a (136, $85.000) y LaserJet Pro M15w (137, $101.000) — a precio de lista, que ya se llevó. **Pendiente de pago: $796.000 ARS**, que se suman al saldo de la 1ª compra (USD 650 + $350.000 ARS del lavarropas). |
+| Notas | Segunda compra de Ariel (2026-09-17): cama king Luna del Sur (168) a precio de lista, zapatilla LDNIO (159) rebajada a $10.000 y las dos impresoras láser HP — LaserJet M111a (136) y LaserJet Pro M15w (137) — rebajadas a $75.000 cada una (lista $85.000 y $101.000), que ya se llevó. **Pendiente de pago: $760.000 ARS**, que se suman al saldo de la 1ª compra (USD 650 + $350.000 ARS del lavarropas). |
 
 ---
 
