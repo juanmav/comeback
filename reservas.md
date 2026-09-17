@@ -637,7 +637,7 @@
 | ID | Producto | Precio ARS | Reservado | Entrega tardía | Entregado | Link |
 |----|---------|-----------|-----------|---------------|-----------|------|
 | 33 | SUIZAN Dozuki Sierra Japonesa de Precisión 240 mm | $0 (regalo) | ✅ | — | ✅ | https://adios.com.ar/item/33.html |
-| 190 | SUIZAN Sierra Japonesa Ryoba Doble Filo 240 mm (2ª unidad) | $0 (regalo) | ✅ | — | ✅ | https://adios.com.ar/item/190.html |
+| 37 | SUIZAN Sierra Japonesa Ryoba Doble Filo 240 mm | $0 (regalo) | ✅ | — | ✅ | https://adios.com.ar/item/37.html |
 
 **Total: $0 ARS**
 
@@ -645,7 +645,7 @@
 |--------|---|
 | Seña | — (sin costo) |
 | Entrega | ✅ **COMPLETADA** 2026-09-14 — entregadas |
-| Notas | **REGALO, sin costo.** Había dos Ryoba 240 mm: se le regaló una (desdoblada como id 190); la otra (id 37) sigue disponible en la web. Valor de lista de lo regalado: $192.900 ARS. |
+| Notas | **REGALO, sin costo.** 2026-09-17: corrección — había una sola Ryoba 240 mm (id 37), que es la que se le regaló; se eliminó el ítem duplicado 190 ("2ª unidad", que no existía) y la 37 quedó marcada como vendida en la web. Valor de lista de lo regalado: $192.900 ARS. |
 
 ---
 
