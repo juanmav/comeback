@@ -47,6 +47,24 @@
 
 ---
 
+## Ariel — 2ª compra
+**Fecha:** 2026-09-17
+
+| ID | Producto | Precio ARS | Reservado | Entrega tardía | Entregado | Link |
+|----|---------|-----------|-----------|---------------|-----------|------|
+| 168 | Cama king Luna del Sur Gold Series — 2 sommiers + 2 colchones 200×100 | $600.000 | ✅ | — | — | https://adios.com.ar/item/168.html |
+| 159 | Zapatilla LDNIO SC3604 — 3 tomas universales + 6 puertos USB (precio acordado; lista $30.000) | $10.000 | ✅ | — | — | https://adios.com.ar/item/159.html |
+
+**Total: $610.000 ARS**
+
+| Estado | — |
+|--------|---|
+| Seña | — |
+| Entrega | — |
+| Notas | Segunda compra de Ariel (2026-09-17): cama king Luna del Sur (168) a precio de lista y zapatilla LDNIO (159) rebajada a $10.000. **Pendiente de pago: $610.000 ARS**, que se suman al saldo de la 1ª compra (USD 650 + $350.000 ARS del lavarropas). |
+
+---
+
 ## Hugo (suegro de Ariel)
 **Fecha:** 2026-07-23
 
