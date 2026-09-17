@@ -648,3 +648,21 @@
 | Seña | — |
 | Entrega | — |
 | Notas | Reserva del 2026-09-16: pistola de masaje (119) e impresora 3D FLSUN Q5 (101). |
+
+---
+
+## Ernesto (Santa Teresita)
+**Fecha:** 2026-09-17
+
+| ID | Producto | Precio ARS | Reservado | Entrega tardía | Entregado | Link |
+|----|---------|-----------|-----------|---------------|-----------|------|
+| 23 | Roland TD-17KVX2 PRO V2 — Kit batería electrónica completo (precio acordado; lista $4.500.000 ARS / EUR 1.982) | USD 2.500 | ✅ | — | ✅ | https://adios.com.ar/item/23.html |
+| 196 | Pad de práctica para batería (no estaba publicado) | $75.000 | ✅ | — | ✅ | https://adios.com.ar/item/196.html |
+
+**Total: USD 2.500 + $75.000 ARS**
+
+| Estado | — |
+|--------|---|
+| Seña | ✅ USD 2.500 + $75.000 ARS (pagó el total) |
+| Entrega | ✅ **COMPLETADA** 2026-09-17 |
+| Notas | **OPERACIÓN CERRADA Y PAGADA: USD 2.500 + $75.000 ARS.** Ernesto, de Santa Teresita. Batería Roland cerrada en USD 2.500. Además compró un pad de práctica por $75.000 que no estaba publicado en la web (se creó el ítem 196 ya vendido). La banqueta Roland RDT-SHV (id 24) no entró en la operación — sigue disponible. |
