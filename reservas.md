@@ -35,15 +35,15 @@
 | ID | Producto | Precio ARS | Reservado | Entrega tardía | Entregado |
 |----|---------|-----------|-----------|---------------|-----------|
 | 7 | Bambu Lab X1 Carbon (X1C) Combo + AMS | USD 1.150 | ✅ | — | ✅ |
-| 132 | Lavarropas Hisense WFQP8014T 8kg 1400RPM Inverter | $350.000 | ✅ | ✅ | — |
+| 132 | Lavarropas Hisense WFQP8014T 8kg 1400RPM Inverter | $350.000 | ✅ | ✅ | ✅ |
 
 **Total: USD 1.150 + $350.000 ARS**
 
 | Estado | — |
 |--------|---|
 | Seña | USD 500 + $350.000 ARS (lavarropas pagado en su totalidad el 2026-09-22) |
-| Entrega | — |
-| Notas | Precio de la Bambu Lab cerrado en USD 1.150 (2026-07-31). 2026-09-22: pagó el lavarropas Hisense (132, $350.000) en su totalidad — es para su hermano; sigue pendiente de retiro (entrega tardía). **Saldo pendiente: USD 650** (Bambu Lab). |
+| Entrega | ✅ **COMPLETADA** 2026-09-22 — retiró el lavarropas (la Bambu Lab ya se la había llevado) |
+| Notas | Precio de la Bambu Lab cerrado en USD 1.150 (2026-07-31). 2026-09-22: pagó el lavarropas Hisense (132, $350.000) en su totalidad — es para su hermano; lo retiró ese mismo día. **Saldo pendiente: USD 650** (Bambu Lab). |
 
 ---
 
