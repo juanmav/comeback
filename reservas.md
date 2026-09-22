@@ -6,26 +6,26 @@
 | ID | Producto | Precio ARS | Reservado | Entrega tardía | Entregado |
 |----|---------|-----------|-----------|---------------|--------|
 | 15 | SKURUP Flexo de trabajo negro (x2) + kit TRÅDFRI — IKEA | $99.000 | ✅ | — | ✅ |
-| 40 | Bosch GO 2 Atornillador Inalámbrico 3,6 V + 25 puntas + L-BOXX Mini | $130.700 | ✅ | ✅ | — |
+| 40 | Bosch GO 2 Atornillador Inalámbrico 3,6 V + 25 puntas + L-BOXX Mini | $130.700 | ✅ | ✅ | ✅ |
 | 55 | CHILDIKE Juego de 6 Tazas de Capuchino de Porcelana con Platillos y Soporte Metálico | $27.400 | ✅ | — | ✅ |
 | 56 | E·Durable Set de 9 Destornilladores de Precisión con Punta Magnética | $22.800 | ✅ | — | ✅ |
 | 59 | SONGMICS Silla de Escritorio Giratoria Transpirable Gris OBG019G01 | $91.300 | ✅ | — | ✅ |
-| 61 | ieGeek Cámara de Vigilancia Exterior WiFi 3MP, Rotación 360° y Visión Nocturna | $94.700 | ✅ | ✅ | — |
+| 61 | ieGeek Cámara de Vigilancia Exterior WiFi 3MP, Rotación 360° y Visión Nocturna | $94.700 | ✅ | ✅ | ✅ |
 | 73 | SONGMICS Silla de Escritorio Giratoria Negra OBG919B01 | $91.300 | ✅ | — | ✅ |
 | 74 | [en.casa] Butaca Tapizada en Poliéster con Respaldo y Reposabrazos Acolchados 83×73×75 cm Beige | $144.200 | ✅ | — | ✅ |
 | 75 | tectake Puf con Almacenaje 32,5×32,5×36,5 cm, Tapizado Efecto Lino, Color Arena | $54.800 | ✅ | — | ✅ |
 | 78 | FOFNON Bebedero Fuente de Agua de Acero Inoxidable 3,2 L para Gatos y Perros, Silencioso | $46.500 | ✅ | — | ✅ |
 | 80 | Invision Brazo Articulado para Monitor MX200, Pantallas 19-32, VESA 75/100 mm | $35.800 | ✅ | — | ✅ |
 | 84 | Muaket Báscula de Precisión Digital 0,1 g/50 g con Pesas de Calibración, Pinzas y Platillo | $20.500 | ✅ | — | ✅ |
-| 134 | Escritorio eléctrico IKEA BEKANT | $357.500 | ✅ | ✅ | — |
+| 134 | Escritorio eléctrico IKEA BEKANT | $357.500 | ✅ | ✅ | ✅ |
 
 **Total: $1.216.500 ARS**
 
 | Estado | — |
 |--------|---|
-| Seña | $633.600 ARS |
-| Entrega | — |
-| Notas | 2026-09-01: la lámpara Xiaomi usada (id 9) pasó a la reserva de Lorena Conca. |
+| Seña | ✅ $1.216.500 ARS (seña $633.600 + saldo $582.900 pagado el 2026-09-22) |
+| Entrega | ✅ **COMPLETADA** 2026-09-22 — retiró el escritorio BEKANT (134), la cámara ieGeek (61) y el atornillador Bosch GO 2 (40); el resto ya lo tenía |
+| Notas | **OPERACIÓN CERRADA Y PAGADA: $1.216.500 ARS** (2026-09-22). 2026-09-01: la lámpara Xiaomi usada (id 9) pasó a la reserva de Lorena Conca. |
 
 ---
 
@@ -614,19 +614,19 @@
 
 | ID | Producto | Precio ARS | Reservado | Entrega tardía | Entregado |
 |----|---------|-----------|-----------|---------------|-----------|
-| 94 | Velador B.K.Licht nórdico blanco — Lámpara de mesa E14 | $26.000 | ✅ | — | — |
-| 164 | Cincel de cuello de cisne LTOOLS para carpintería | $25.000 | ✅ | — | — |
-| 35 | SUIZAN Kanna Cepillo de Mano Japonés 42 mm | $63.000 | ✅ | — | — |
-| 36 | SUIZAN Sierra Japonesa Flush Cut 120 mm Ryoba | $53.000 | ✅ | — | — |
-| 163 | Gramil de marcado Frdhee — cuchilla rodante, precisión 0,2 mm | $50.000 | ✅ | — | — |
+| 94 | Velador B.K.Licht nórdico blanco — Lámpara de mesa E14 | $26.000 | ✅ | — | ✅ |
+| 164 | Cincel de cuello de cisne LTOOLS para carpintería | $25.000 | ✅ | — | ✅ |
+| 35 | SUIZAN Kanna Cepillo de Mano Japonés 42 mm | $63.000 | ✅ | — | ✅ |
+| 36 | SUIZAN Sierra Japonesa Flush Cut 120 mm Ryoba | $53.000 | ✅ | — | ✅ |
+| 163 | Gramil de marcado Frdhee — cuchilla rodante, precisión 0,2 mm | $50.000 | ✅ | — | ✅ |
 
 **Total: $217.000 ARS**
 
 | Estado | — |
 |--------|---|
-| Seña | — |
-| Entrega | — |
-| Notas | Amiga de Eugenia Amigo. 2026-09-14: se dio de baja el Moleskine XL (id 100) — se perdió, no lo encontramos; quitado también del catálogo. |
+| Seña | ✅ $217.000 ARS (pagó el total) |
+| Entrega | ✅ **COMPLETADA** 2026-09-22 — se llevó todo |
+| Notas | **OPERACIÓN CERRADA Y PAGADA: $217.000 ARS** (2026-09-22). Amiga de Eugenia Amigo. 2026-09-14: se dio de baja el Moleskine XL (id 100) — se perdió, no lo encontramos; quitado también del catálogo. |
 
 ---
 
