@@ -41,9 +41,9 @@
 
 | Estado | — |
 |--------|---|
-| Seña | USD 500 |
+| Seña | USD 500 + $350.000 ARS (lavarropas pagado en su totalidad el 2026-09-22) |
 | Entrega | — |
-| Notas | Precio de la Bambu Lab cerrado en USD 1.150 (2026-07-31). Saldo pendiente: USD 650 + $350.000 ARS (lavarropas). |
+| Notas | Precio de la Bambu Lab cerrado en USD 1.150 (2026-07-31). 2026-09-22: pagó el lavarropas Hisense (132, $350.000) en su totalidad — es para su hermano; sigue pendiente de retiro (entrega tardía). **Saldo pendiente: USD 650** (Bambu Lab). |
 
 ---
 
@@ -63,7 +63,7 @@
 |--------|---|
 | Seña | — |
 | Entrega | Parcial: 2026-09-17 se llevó las dos impresoras HP (136 y 137). Resto pendiente. |
-| Notas | Segunda compra de Ariel (2026-09-17): cama king Luna del Sur (168) a precio de lista, zapatilla LDNIO (159) rebajada a $10.000 y las dos impresoras láser HP — LaserJet M111a (136) y LaserJet Pro M15w (137) — rebajadas a $75.000 cada una (lista $85.000 y $101.000), que ya se llevó. **Pendiente de pago: $760.000 ARS**, que se suman al saldo de la 1ª compra (USD 650 + $350.000 ARS del lavarropas). |
+| Notas | Segunda compra de Ariel (2026-09-17): cama king Luna del Sur (168) a precio de lista, zapatilla LDNIO (159) rebajada a $10.000 y las dos impresoras láser HP — LaserJet M111a (136) y LaserJet Pro M15w (137) — rebajadas a $75.000 cada una (lista $85.000 y $101.000), que ya se llevó. **Pendiente de pago: $760.000 ARS**, que se suman al saldo de la 1ª compra (USD 650 de la Bambu Lab; el lavarropas ya lo pagó el 2026-09-22). |
 
 ---
 
@@ -490,19 +490,19 @@
 
 | ID | Producto | Precio ARS | Reservado | Entrega tardía | Entregado | Link |
 |----|---------|-----------|-----------|---------------|-----------|------|
-| 14 | LAUTERS Lámpara de pie fresno/blanco — IKEA | $99.000 | ✅ | — | — | https://adios.com.ar/item/14.html |
-| 156 | Espejo redondo 60 cm marco negro con estante | $65.000 | ✅ | — | — | https://adios.com.ar/item/156.html |
-| 18 | Espejo de pie escandinavo madera maciza | $170.000 | ✅ | — | — | https://adios.com.ar/item/18.html |
-| 93 | HOGAR24 Mueble Recibidor Industrial Angi 100 — Madera maciza 100×30×85cm | $90.000 | ✅ | — | — | https://adios.com.ar/item/93.html |
-| 171 | hinrey Set de 6 Organizadores de Ropa Plegables 34×17×12 cm | $33.000 | ✅ | — | — | https://adios.com.ar/item/171.html |
-| 170 | NINGESHOP Set de 10 Organizadores de Cajón Plegables — 3 tamaños | $23.000 | ✅ | — | — | https://adios.com.ar/item/170.html |
-| 185 | Microondas Atma WATDGB23 23 L digital con grill negro | $120.000 | ✅ | — | — | https://adios.com.ar/item/185.html |
-| 130 | Tostadora Eléctrica Pastalinda Cucina Tostapane Negra | $55.000 | ✅ | ✅ | — | https://adios.com.ar/item/130.html |
-| 175 | Perchas de Madera Lustrada Hants — 70 de adulto + 10 de bebé | $40.000 | ✅ | — | — | https://adios.com.ar/item/175.html |
-| 128 | Pava Eléctrica Pastalinda Cucina Bollitore 1.7L Acero Inox | $50.000 | ✅ | ✅ | — | https://adios.com.ar/item/128.html |
-| 155 | IKEA NIPÅSEN Banco Zapatero Recibidor Negro — con balda extra | $60.000 | ✅ | — | — | https://adios.com.ar/item/155.html |
-| 166 | Secador de pelo de viaje Rowenta Nomad CV3323 | $30.000 | ✅ | — | — | https://adios.com.ar/item/166.html |
-| 188 | BROGRUND Cubo con tapa a presión 4 L acero inoxidable (x2) — IKEA | $15.000 | ✅ | — | — | https://adios.com.ar/item/188.html |
+| 14 | LAUTERS Lámpara de pie fresno/blanco — IKEA | $99.000 | ✅ | — | ✅ | https://adios.com.ar/item/14.html |
+| 156 | Espejo redondo 60 cm marco negro con estante | $65.000 | ✅ | — | ✅ | https://adios.com.ar/item/156.html |
+| 18 | Espejo de pie escandinavo madera maciza | $170.000 | ✅ | — | ✅ | https://adios.com.ar/item/18.html |
+| 93 | HOGAR24 Mueble Recibidor Industrial Angi 100 — Madera maciza 100×30×85cm | $90.000 | ✅ | — | ✅ | https://adios.com.ar/item/93.html |
+| 171 | hinrey Set de 6 Organizadores de Ropa Plegables 34×17×12 cm | $33.000 | ✅ | — | ✅ | https://adios.com.ar/item/171.html |
+| 170 | NINGESHOP Set de 10 Organizadores de Cajón Plegables — 3 tamaños | $23.000 | ✅ | — | ✅ | https://adios.com.ar/item/170.html |
+| 185 | Microondas Atma WATDGB23 23 L digital con grill negro | $120.000 | ✅ | — | ✅ | https://adios.com.ar/item/185.html |
+| 130 | Tostadora Eléctrica Pastalinda Cucina Tostapane Negra | $55.000 | ✅ | ✅ | ✅ | https://adios.com.ar/item/130.html |
+| 175 | Perchas de Madera Lustrada Hants — 70 de adulto + 10 de bebé | $40.000 | ✅ | — | ✅ | https://adios.com.ar/item/175.html |
+| 128 | Pava Eléctrica Pastalinda Cucina Bollitore 1.7L Acero Inox | $50.000 | ✅ | ✅ | ✅ | https://adios.com.ar/item/128.html |
+| 155 | IKEA NIPÅSEN Banco Zapatero Recibidor Negro — con balda extra | $60.000 | ✅ | — | ✅ | https://adios.com.ar/item/155.html |
+| 166 | Secador de pelo de viaje Rowenta Nomad CV3323 | $30.000 | ✅ | — | ✅ | https://adios.com.ar/item/166.html |
+| 188 | BROGRUND Cubo con tapa a presión 4 L acero inoxidable (x2) — IKEA | $15.000 | ✅ | — | ✅ | https://adios.com.ar/item/188.html |
 | 99 | Garmin Index S2 Báscula Inteligente Blanca (precio acordado; lista $159.122) | $130.000 | ✅ | — | ✅ | https://adios.com.ar/item/99.html |
 | — | Cosas varias no catalogadas (lote) | $50.000 | ✅ | — | ✅ | — |
 | 173 | HALFLEMART Tríptico de Cuadros Abstractos Beige/Gris 30×40 cm (x3) | $0 (regalo) | ✅ | — | ✅ | https://adios.com.ar/item/173.html |
@@ -511,9 +511,9 @@
 
 | Estado | — |
 |--------|---|
-| Seña | — |
-| Entrega | Parcial: 2026-09-16 se llevó la balanza Garmin (99) y el lote de cosas varias ($180.000 en total), más el tríptico HALFLEMART (173) de regalo. Resto pendiente — viene a buscar. |
-| Notas | Segunda tanda pedida por WhatsApp el 2026-09-09 (12 ítems); 2026-09-10 sumó el secador de pelo Rowenta (166). La plancha Rowenta (54) salió de esta tanda: se la llevó Sergio (su pareja), ver sección aparte. 2026-09-16 sumó los cubos BROGRUND x2 (188) y dio de baja la sartén HEMKOMST 28 cm (187), que había sumado el 2026-09-14 — vuelve a estar disponible. 2026-09-16 también se llevó la balanza Garmin Index S2 (99) a $130.000 (rebaja sobre los $159.122 de lista) y un lote de cosas varias no catalogadas por $50.000: $180.000 por esas dos líneas. Además se llevó de regalo — atención — el tríptico de cuadros HALFLEMART (173, lista $23.000); no suma al total. La primera ($629.897 ARS, EUR 200 + USD 180) ya está cerrada y entregada. Tostadora (130) y pava (128) Pastalinda son de entrega tardía (aprox. 7 al 21 de septiembre). |
+| Seña | ✅ USD 600 + $280.000 ARS (pagó el total) |
+| Entrega | ✅ **COMPLETADA** 2026-09-22 — se llevó todo (la balanza Garmin (99), el lote de cosas varias y el tríptico HALFLEMART (173) ya se los había llevado el 2026-09-16) |
+| Notas | **OPERACIÓN CERRADA Y PAGADA: USD 600 + $280.000 ARS** (2026-09-22; equivale al total de $1.030.000 a $1.250/USD). Segunda tanda pedida por WhatsApp el 2026-09-09 (12 ítems); 2026-09-10 sumó el secador de pelo Rowenta (166). La plancha Rowenta (54) salió de esta tanda: se la llevó Sergio (su pareja), ver sección aparte. 2026-09-16 sumó los cubos BROGRUND x2 (188) y dio de baja la sartén HEMKOMST 28 cm (187), que había sumado el 2026-09-14 — vuelve a estar disponible. 2026-09-16 también se llevó la balanza Garmin Index S2 (99) a $130.000 (rebaja sobre los $159.122 de lista) y un lote de cosas varias no catalogadas por $50.000: $180.000 por esas dos líneas. Además se llevó de regalo — atención — el tríptico de cuadros HALFLEMART (173, lista $23.000); no suma al total. La primera ($629.897 ARS, EUR 200 + USD 180) ya está cerrada y entregada. Tostadora (130) y pava (128) Pastalinda son de entrega tardía (aprox. 7 al 21 de septiembre). |
 
 ---
 
@@ -522,20 +522,20 @@
 
 | ID | Producto | Precio ARS | Reservado | Entrega tardía | Entregado | Link |
 |----|---------|-----------|-----------|---------------|-----------|------|
-| 129 | Heladera No Frost Hisense RB3P422NEB 417L Negra | $530.000 | ✅ | ✅ | — | https://adios.com.ar/item/129.html |
-| 127 | GRÄLVIKEN Sofá cama 3 plazas, gris | $350.000 | ✅ | ✅ | — | https://adios.com.ar/item/127.html |
-| 193 | Silla de comedor Bali en madera de petiribí macizo — Marco Muebles (unidad 1 de 3) | $110.000 | ✅ | — | — | https://adios.com.ar/item/193.html |
-| 194 | Silla de comedor Bali en madera de petiribí macizo — Marco Muebles (unidad 2 de 3) | $110.000 | ✅ | — | — | https://adios.com.ar/item/194.html |
-| 195 | Silla de comedor Bali en madera de petiribí macizo — Marco Muebles (unidad 3 de 3) | $110.000 | ✅ | — | — | https://adios.com.ar/item/195.html |
-| 5 | Silla Steelcase Gesture — Blanca con apoyacabeza | $1.500.000 | ✅ | ✅ | — | https://adios.com.ar/item/5.html |
+| 129 | Heladera No Frost Hisense RB3P422NEB 417L Negra | $530.000 | ✅ | ✅ | ✅ | https://adios.com.ar/item/129.html |
+| 127 | GRÄLVIKEN Sofá cama 3 plazas, gris | $350.000 | ✅ | ✅ | ✅ | https://adios.com.ar/item/127.html |
+| 193 | Silla de comedor Bali en madera de petiribí macizo — Marco Muebles (unidad 1 de 3) | $110.000 | ✅ | — | ✅ | https://adios.com.ar/item/193.html |
+| 194 | Silla de comedor Bali en madera de petiribí macizo — Marco Muebles (unidad 2 de 3) | $110.000 | ✅ | — | ✅ | https://adios.com.ar/item/194.html |
+| 195 | Silla de comedor Bali en madera de petiribí macizo — Marco Muebles (unidad 3 de 3) | $110.000 | ✅ | — | ✅ | https://adios.com.ar/item/195.html |
+| 5 | Silla Steelcase Gesture — Blanca con apoyacabeza | $1.500.000 | ✅ | ✅ | ✅ | https://adios.com.ar/item/5.html |
 
 **Total: $2.710.000 ARS**
 
 | Estado | — |
 |--------|---|
-| Seña | — |
-| Entrega | Pendiente |
-| Notas | Tercera tanda, reservada el 2026-09-17: heladera Hisense (129 — la misma que había dado de baja el 2026-08-06 en la 1ª tanda), sofá cama GRÄLVIKEN (127), las 3 sillas Bali de petiribí (193, 194, 195) y la silla Steelcase Blanca (5; la Negra, id 4, está reservada por Franco). Heladera, sofá y Steelcase son de entrega tardía. La 1ª tanda ($629.897 ARS) está cerrada y entregada; la 2ª ($1.030.000 ARS) sigue con entrega parcial. |
+| Seña | ✅ $2.710.000 ARS (pagó el total) |
+| Entrega | ✅ **COMPLETADA** 2026-09-22 — se llevó todo |
+| Notas | **OPERACIÓN CERRADA Y PAGADA: $2.710.000 ARS** (2026-09-22). Tercera tanda, reservada el 2026-09-17: heladera Hisense (129 — la misma que había dado de baja el 2026-08-06 en la 1ª tanda), sofá cama GRÄLVIKEN (127), las 3 sillas Bali de petiribí (193, 194, 195) y la silla Steelcase Blanca (5; la Negra, id 4, está reservada por Franco). Heladera, sofá y Steelcase son de entrega tardía. La 1ª tanda ($629.897 ARS) está cerrada y entregada; la 2ª ($1.030.000 ARS, pagada como USD 600 + $280.000) también quedó cerrada y entregada el 2026-09-22. |
 
 ---
 
