@@ -705,3 +705,21 @@
 | Seña | ✅ USD 2.500 + $75.000 ARS (pagó el total) |
 | Entrega | ✅ **COMPLETADA** 2026-09-17 |
 | Notas | **OPERACIÓN CERRADA Y PAGADA: USD 2.500 + $75.000 ARS.** Ernesto, de Santa Teresita. Batería Roland (23) + banqueta Roland RDT-SHV (24) cerradas como paquete en USD 2.500 (lista del combo: $4.771.800 ARS / EUR 2.147). Además compró un pad de práctica por $75.000 que no estaba publicado en la web (se creó el ítem 196 ya vendido). |
+
+---
+
+## Francisco (amigo del Chino)
+**Fecha:** 2026-09-22
+
+| ID | Producto | Precio ARS | Reservado | Entrega tardía | Entregado | Link |
+|----|---------|-----------|-----------|---------------|-----------|------|
+| 138 | Monitor AOC Gaming CQ27G2SE — 27" Curvo QHD 165Hz | $281.000 | ✅ | — | ✅ | https://adios.com.ar/item/138.html |
+| 38 | SHARPAL 156N Piedra Afiladora Diamante 325/1200 Grit | $86.400 | ✅ | — | ✅ | https://adios.com.ar/item/38.html |
+
+**Total: $367.400 ARS**
+
+| Estado | — |
+|--------|---|
+| Seña | ✅ $367.400 ARS (pagó el total) |
+| Entrega | ✅ **COMPLETADA** 2026-09-22 — se llevó todo |
+| Notas | **OPERACIÓN CERRADA Y PAGADA: $367.400 ARS.** Amigo del Chino. Monitor AOC (138) y piedra de afilar SHARPAL (38), pagados y retirados el mismo día. |
