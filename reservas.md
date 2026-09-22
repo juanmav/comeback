@@ -725,3 +725,20 @@
 | Seña | ✅ $367.400 ARS (pagó el total) |
 | Entrega | ✅ **COMPLETADA** 2026-09-22 — se llevó todo |
 | Notas | **OPERACIÓN CERRADA Y PAGADA: $367.400 ARS.** Amigo del Chino. Monitor AOC (138) y piedra de afilar SHARPAL (38), pagados y retirados el mismo día. |
+
+---
+
+## Gimnasio de Haras 3 (donación)
+**Fecha:** 2026-09-22
+
+| ID | Producto | Precio ARS | Reservado | Entrega tardía | Entregado | Link |
+|----|---------|-----------|-----------|---------------|-----------|------|
+| 122 | Cajón de Salto Crossfit 3 Alturas — Pliométrico 50×60×70 cm | $0 (donación) | ✅ | — | ✅ | https://adios.com.ar/item/122.html |
+
+**Total: $0 ARS**
+
+| Estado | — |
+|--------|---|
+| Seña | — (sin costo) |
+| Entrega | ✅ **COMPLETADA** 2026-09-22 — entregado |
+| Notas | **DONACIÓN, sin costo.** Cajón de salto pliométrico (122) donado al gimnasio de Haras 3. Valor de lista: $45.000 ARS. |
