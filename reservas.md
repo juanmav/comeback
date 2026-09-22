@@ -637,14 +637,15 @@
 |----|---------|-----------|-----------|---------------|-----------|------|
 | 33 | SUIZAN Dozuki Sierra Japonesa de Precisión 240 mm | $0 (regalo) | ✅ | — | ✅ | https://adios.com.ar/item/33.html |
 | 37 | SUIZAN Sierra Japonesa Ryoba Doble Filo 240 mm | $0 (regalo) | ✅ | — | ✅ | https://adios.com.ar/item/37.html |
+| 39 | Extensión Flexible Hex 1/4" para Destornillador 300 mm (2 uds) | $0 (regalo) | ✅ | — | ✅ | https://adios.com.ar/item/39.html |
 
 **Total: $0 ARS**
 
 | Estado | — |
 |--------|---|
 | Seña | — (sin costo) |
-| Entrega | ✅ **COMPLETADA** 2026-09-14 — entregadas |
-| Notas | **REGALO, sin costo.** 2026-09-17: corrección — había una sola Ryoba 240 mm (id 37), que es la que se le regaló; se eliminó el ítem duplicado 190 ("2ª unidad", que no existía) y la 37 quedó marcada como vendida en la web. Valor de lista de lo regalado: $192.900 ARS. |
+| Entrega | ✅ **COMPLETADA** 2026-09-14 — entregadas (la extensión flexible, 39, el 2026-09-22) |
+| Notas | **REGALO, sin costo.** 2026-09-17: corrección — había una sola Ryoba 240 mm (id 37), que es la que se le regaló; se eliminó el ítem duplicado 190 ("2ª unidad", que no existía) y la 37 quedó marcada como vendida en la web. 2026-09-22: se le regaló también la extensión flexible hex 1/4" 300 mm x2 (id 39, lista $8.100). Valor de lista de lo regalado: $201.000 ARS. |
 
 ---
 
