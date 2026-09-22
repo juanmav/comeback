@@ -127,16 +127,16 @@
 
 | ID | Producto | Precio ARS | Reservado | Entrega tardía | Entregado |
 |----|---------|-----------|-----------|---------------|-----------|
-| 42 | Kynup Calibre Digital Acero Inoxidable 200 mm | $37.500 | ✅ | — | — |
-| 87 | Lámpara Banquero Bronce con Pantalla de Vidrio Verde — Velador Apto LED | $82.800 | ✅ | — | — |
+| ~~42~~ | ~~Kynup Calibre Digital Acero Inoxidable 200 mm~~ | ~~$37.500~~ | ❌ liberado | — | — |
+| ~~87~~ | ~~Lámpara Banquero Bronce con Pantalla de Vidrio Verde — Velador Apto LED~~ | ~~$82.800~~ | ❌ liberado | — | — |
 
-**Total: $120.300 ARS**
+**Total: $0 ARS** (reserva dada de baja)
 
 | Estado | — |
 |--------|---|
 | Seña | — |
 | Entrega | — |
-| Notas | 2026-08-02: el multímetro (id 44) pasó a la reserva de Juan Molina (Manano) — Ruben venía demorando el retiro. 2026-09-22: el mueble sobre inodoro Dielfe (id 88, $50.000) se le regaló a Eugenia como atención en su última entrega; sale de esta reserva y el total baja a $120.300. |
+| Notas | **RESERVA DADA DE BAJA 2026-09-22:** está muy lejos y no nos vamos a cruzar. Se liberaron el calibre Kynup (id 42, $37.500) y la lámpara banquero (id 87, $82.800); vuelven a estar disponibles en la web. No había dejado seña. 2026-08-02: el multímetro (id 44) pasó a la reserva de Juan Molina (Manano) — Ruben venía demorando el retiro. 2026-09-22: el mueble sobre inodoro Dielfe (id 88, $50.000) se le regaló a Eugenia como atención en su última entrega; sale de esta reserva y el total baja a $120.300. |
 
 ---
 
