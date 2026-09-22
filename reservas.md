@@ -528,6 +528,7 @@
 | 194 | Silla de comedor Bali en madera de petiribí macizo — Marco Muebles (unidad 2 de 3) | $110.000 | ✅ | — | ✅ | https://adios.com.ar/item/194.html |
 | 195 | Silla de comedor Bali en madera de petiribí macizo — Marco Muebles (unidad 3 de 3) | $110.000 | ✅ | — | ✅ | https://adios.com.ar/item/195.html |
 | 5 | Silla Steelcase Gesture — Blanca con apoyacabeza | $1.500.000 | ✅ | ✅ | ✅ | https://adios.com.ar/item/5.html |
+| 169 | YheenLf Set de 5 Cajas Organizadoras Plegables 38×15,5×13 cm — Gris/Blanco | $0 (atención) | ✅ | — | ✅ | https://adios.com.ar/item/169.html |
 
 **Total: $2.710.000 ARS**
 
@@ -535,7 +536,7 @@
 |--------|---|
 | Seña | ✅ $2.710.000 ARS (pagó el total) |
 | Entrega | ✅ **COMPLETADA** 2026-09-22 — se llevó todo |
-| Notas | **OPERACIÓN CERRADA Y PAGADA: $2.710.000 ARS** (2026-09-22). Tercera tanda, reservada el 2026-09-17: heladera Hisense (129 — la misma que había dado de baja el 2026-08-06 en la 1ª tanda), sofá cama GRÄLVIKEN (127), las 3 sillas Bali de petiribí (193, 194, 195) y la silla Steelcase Blanca (5; la Negra, id 4, está reservada por Franco). Heladera, sofá y Steelcase son de entrega tardía. La 1ª tanda ($629.897 ARS) está cerrada y entregada; la 2ª ($1.030.000 ARS, pagada como USD 600 + $280.000) también quedó cerrada y entregada el 2026-09-22. |
+| Notas | **OPERACIÓN CERRADA Y PAGADA: $2.710.000 ARS** (2026-09-22). Se le regaló de atención el set de 5 cajas organizadoras YheenLf (169, lista $48.000); no suma al total. Tercera tanda, reservada el 2026-09-17: heladera Hisense (129 — la misma que había dado de baja el 2026-08-06 en la 1ª tanda), sofá cama GRÄLVIKEN (127), las 3 sillas Bali de petiribí (193, 194, 195) y la silla Steelcase Blanca (5; la Negra, id 4, está reservada por Franco). Heladera, sofá y Steelcase son de entrega tardía. La 1ª tanda ($629.897 ARS) está cerrada y entregada; la 2ª ($1.030.000 ARS, pagada como USD 600 + $280.000) también quedó cerrada y entregada el 2026-09-22. |
 
 ---
 
