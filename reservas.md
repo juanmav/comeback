@@ -175,18 +175,18 @@
 | 120 | G-Fitness Mancuerna Hexagonal Engomada 2,5 kg — Par (x2) | $50.000 | ✅ | — | ✅ |
 | 30 | Bosch Nivel Láser de Líneas Cruzadas Quigo Verde + Trípode | $127.700 | ✅ | — | ✅ |
 | 45 | Ergosolid Brazo Soporte Monitor 17–30" VESA 75/100 Giratorio | $48.900 | ✅ | — | ✅ |
-| 46 | Duronic DML2 Bandeja VESA para Portátil/Tablet hasta 8 kg | $27.700 | ✅ | ✅ | — |
+| 46 | Duronic DML2 Bandeja VESA para Portátil/Tablet hasta 8 kg | $27.700 | ✅ | ✅ | ✅ |
 | 112 | Amazon Basics Reposapiés 39 × 30 × 8,5 cm Negro | $24.470 | ✅ | — | ✅ |
-| 6 | Escritorio eléctrico IKEA BEKANT | $357.500 | ✅ | ✅ | — |
+| 6 | Escritorio eléctrico IKEA BEKANT | $357.500 | ✅ | ✅ | ✅ |
 | 31 | Bosch MM 3 Pinza Universal con Rosca 1/4" | $0 (atención) | ✅ | — | ✅ |
 
 **Total: $745.316 ARS**
 
 | Estado | — |
 |--------|---|
-| Seña | $360.116 ARS |
-| Entrega | — |
-| Notas | Saldo pendiente: $385.200 ARS (escritorio BEKANT 6 y bandeja Duronic 46, ambos de entrega tardía). Bosch MM 3 sin costo, de regalo como atención. 2026-09-22: dio de baja el soporte cuello de cisne LONZOTH (id 113, $24.446) — vuelve a estar disponible en la web. |
+| Seña | ✅ $745.316 ARS (seña $360.116 + saldo $385.200 pagado el 2026-09-22) |
+| Entrega | ✅ **COMPLETADA** 2026-09-22 — retiró el escritorio BEKANT (6) y la bandeja Duronic (46); el resto ya lo tenía |
+| Notas | **OPERACIÓN CERRADA Y PAGADA: $745.316 ARS** (2026-09-22). Bosch MM 3 sin costo, de regalo como atención. 2026-09-22: dio de baja el soporte cuello de cisne LONZOTH (id 113, $24.446) — vuelve a estar disponible en la web. |
 
 ---
 
