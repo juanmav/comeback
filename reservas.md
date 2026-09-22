@@ -212,18 +212,18 @@
 
 | ID | Producto | Precio ARS | Reservado | Entrega tardía | Entregado |
 |----|---------|-----------|-----------|---------------|-----------|
-| 135 | SUNLU Filament Dryer Box S1 Plus — Secador de Filamento para Impresión 3D | $46.000 | ✅ | — | — |
-| 118 | Puff Artesanal de Fibras Naturales — Tejido Trenzado 50 cm | $65.000 | ✅ | — | — |
-| 98 | Estación de Soldadura 60W con Pantalla LED | $55.000 | ✅ | — | — |
-| 9 | Lámpara Xiaomi Mi Computer Monitor Light Bar — Usada | $85.000 | ✅ | — | — |
+| 135 | SUNLU Filament Dryer Box S1 Plus — Secador de Filamento para Impresión 3D | $46.000 | ✅ | — | ✅ |
+| 118 | Puff Artesanal de Fibras Naturales — Tejido Trenzado 50 cm | $65.000 | ✅ | — | ✅ |
+| 98 | Estación de Soldadura 60W con Pantalla LED | $55.000 | ✅ | — | ✅ |
+| 9 | Lámpara Xiaomi Mi Computer Monitor Light Bar — Usada | $85.000 | ✅ | — | ✅ |
 
 **Total: $251.000 ARS**
 
 | Estado | — |
 |--------|---|
-| Seña | — |
-| Entrega | — |
-| Notas | Lámpara Xiaomi nueva (id 8) pasó a Diego (energía FV) — no confirmó la reserva. Lámpara Xiaomi usada (id 9) movida desde la reserva de Anibal (antes iba de regalo). |
+| Seña | ✅ $251.000 ARS pagados en la cuenta de Natu (2026-09-22) |
+| Entrega | ✅ **COMPLETADA** 2026-09-22 — retiró todo |
+| Notas | **OPERACIÓN CERRADA Y PAGADA: $251.000 ARS** (2026-09-22, cuenta de Natu). Lámpara Xiaomi nueva (id 8) pasó a Diego (energía FV) — no confirmó la reserva. Lámpara Xiaomi usada (id 9) movida desde la reserva de Anibal (antes iba de regalo). |
 
 ---
 
@@ -232,17 +232,17 @@
 
 | ID | Producto | Precio ARS | Reservado | Entrega tardía | Entregado |
 |----|---------|-----------|-----------|---------------|-----------|
-| 139 | Monitor Samsung Odyssey G6 S27BG650EU — 27" Curvo WQHD 240Hz | $410.000 | ✅ | ✅ | — |
-| 177 | Veladores LED Tiny Impresión 3D (x2) — Tienda Near | $35.000 | ✅ | — | — |
-| 4 | Silla Steelcase Gesture — Negra con apoyacabeza | $1.500.000 | ✅ | ✅ | — |
+| 139 | Monitor Samsung Odyssey G6 S27BG650EU — 27" Curvo WQHD 240Hz | $410.000 | ✅ | ✅ | ✅ |
+| 177 | Veladores LED Tiny Impresión 3D (x2) — Tienda Near | $35.000 | ✅ | — | ✅ |
+| 4 | Silla Steelcase Gesture — Negra con apoyacabeza | $1.500.000 | ✅ | ✅ | ✅ |
 
-**Total reservado: $1.945.000 ARS**
+**Total: $1.945.000 ARS (lista)**
 
 | Estado | — |
 |--------|---|
-| Seña | — |
-| Entrega | — |
-| Notas | 2026-09-09: Franco reserva el monitor Odyssey G6 (139), los veladores 3D x2 (177) y la silla Steelcase Negra (id 4), que vuelve a reservarse a su nombre tras haber estado liberada desde 2026-08-07. La silla Steelcase Blanca (id 5) queda disponible. |
+| Seña | ✅ **USD 1.272,29** pagados en la cuenta de Natu (2026-09-22) |
+| Entrega | ✅ **COMPLETADA** 2026-09-22 — retiró todo |
+| Notas | **OPERACIÓN CERRADA Y PAGADA: USD 1.272,29** (2026-09-22, cuenta de Natu; lista $1.945.000 ARS). 2026-09-09: Franco reserva el monitor Odyssey G6 (139), los veladores 3D x2 (177) y la silla Steelcase Negra (id 4), que vuelve a reservarse a su nombre tras haber estado liberada desde 2026-08-07. La silla Steelcase Blanca (id 5) queda disponible. |
 
 ---
 
