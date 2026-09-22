@@ -72,16 +72,16 @@
 
 | ID | Producto | Precio ARS | Reservado | Entrega tardía | Entregado | Link |
 |----|---------|-----------|-----------|---------------|-----------|------|
-| 165 | Máquina de humo 600 W con flash LED RGB y control inalámbrico | $30.000 | ✅ | — | — | https://adios.com.ar/item/165.html |
-| 172 | PROIRON Pelota de Pilates 65 cm Antiestallido Extra Gruesa | $27.000 | ✅ | — | — | https://adios.com.ar/item/172.html |
+| 165 | Máquina de humo 600 W con flash LED RGB y control inalámbrico | $30.000 | ✅ | — | ✅ | https://adios.com.ar/item/165.html |
+| 172 | PROIRON Pelota de Pilates 65 cm Antiestallido Extra Gruesa | $27.000 | ✅ | — | ✅ | https://adios.com.ar/item/172.html |
 
 **Total: $57.000 ARS**
 
 | Estado | — |
 |--------|---|
-| Seña | — |
-| Entrega | — |
-| Notas | Cuñada de Ariel. Reserva del 2026-09-17: máquina de humo (165) y pelota de pilates PROIRON (172), a precio de lista. |
+| Seña | ✅ $57.000 ARS (pagó el total) |
+| Entrega | ✅ **COMPLETADA** 2026-09-22 — se llevó todo |
+| Notas | **OPERACIÓN CERRADA Y PAGADA: $57.000 ARS** (2026-09-22). Cuñada de Ariel. Reserva del 2026-09-17: máquina de humo (165) y pelota de pilates PROIRON (172), a precio de lista. |
 
 ---
 
@@ -272,15 +272,15 @@
 
 | ID | Producto | Precio ARS | Reservado | Entrega tardía | Entregado |
 |----|---------|-----------|-----------|---------------|-----------|
-| 126 | Gadnic Q-Pelu Quitapelusas Recargable — 3 Velocidades, USB, Crema | $12.000 | ✅ | — | — |
+| 126 | Gadnic Q-Pelu Quitapelusas Recargable — 3 Velocidades, USB, Crema | $12.000 | ✅ | — | ✅ |
 
 **Total: $12.000 ARS**
 
 | Estado | — |
 |--------|---|
-| Seña | — |
-| Entrega | — |
-| Notas | 2026-07-29: dio de baja el velador Ches (ID 19) y el sillón esquinero (ID 114); vuelven a estar disponibles en la web. |
+| Seña | ✅ $12.000 ARS (pagó el total) |
+| Entrega | ✅ **COMPLETADA** 2026-09-22 — se llevó el quitapelusas |
+| Notas | **OPERACIÓN CERRADA Y PAGADA: $12.000 ARS** (2026-09-22). 2026-07-29: dio de baja el velador Ches (ID 19) y el sillón esquinero (ID 114); vuelven a estar disponibles en la web. |
 
 ---
 
