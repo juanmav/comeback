@@ -673,7 +673,7 @@
 ---
 
 ## Lauti
-**Fecha:** 2026-09-16
+**Fecha:** 2026-09-16 (actualizado 2026-09-23)
 
 | ID | Producto | Precio ARS | Reservado | Entrega tardía | Entregado | Link |
 |----|---------|-----------|-----------|---------------|-----------|------|
@@ -684,9 +684,9 @@
 
 | Estado | — |
 |--------|---|
-| Seña | — |
-| Entrega | — |
-| Notas | Reserva del 2026-09-16: pistola de masaje (119) e impresora 3D FLSUN Q5 (101). |
+| Seña | ✅ $245.000 ARS (pagó el total, cuenta de Natu, 2026-09-23) |
+| Entrega | ⏳ Pendiente de retiro |
+| Notas | Reserva del 2026-09-16: pistola de masaje (119) e impresora 3D FLSUN Q5 (101). 2026-09-23: pagó el total ($245.000) a Natu; falta que retire. |
 
 ---
 
