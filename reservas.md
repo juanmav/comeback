@@ -677,16 +677,16 @@
 
 | ID | Producto | Precio ARS | Reservado | Entrega tardía | Entregado | Link |
 |----|---------|-----------|-----------|---------------|-----------|------|
-| 119 | Milcea Fascia Massage Gun — Kit con Maletín y 6 Cabezales | $45.000 | ✅ | — | — | https://adios.com.ar/item/119.html |
-| 101 | FLSUN Q5 Impresora 3D Delta | $200.000 | ✅ | — | — | https://adios.com.ar/item/101.html |
+| 119 | Milcea Fascia Massage Gun — Kit con Maletín y 6 Cabezales | $45.000 | ✅ | — | ✅ | https://adios.com.ar/item/119.html |
+| 101 | FLSUN Q5 Impresora 3D Delta | $200.000 | ✅ | — | ✅ | https://adios.com.ar/item/101.html |
 
 **Total: $245.000 ARS**
 
 | Estado | — |
 |--------|---|
 | Seña | ✅ **USD 160,13** pagados en la cuenta de Natu (2026-09-23) — cubre el total (lista $245.000 ARS) |
-| Entrega | ⏳ Pendiente de retiro |
-| Notas | Reserva del 2026-09-16: pistola de masaje (119) e impresora 3D FLSUN Q5 (101). 2026-09-23: pagó el total en dólares, **USD 160,13** (lista $245.000 ARS), en la cuenta de Natu; falta que retire. |
+| Entrega | ✅ **COMPLETADA** 2026-09-23 — retiró todo |
+| Notas | **OPERACIÓN CERRADA Y PAGADA: USD 160,13** (2026-09-23, cuenta de Natu; lista $245.000 ARS). Reserva del 2026-09-16: pistola de masaje (119) e impresora 3D FLSUN Q5 (101). 2026-09-23: pagó en dólares y retiró todo. |
 
 ---
 
