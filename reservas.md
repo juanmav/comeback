@@ -52,8 +52,8 @@
 
 | ID | Producto | Precio ARS | Reservado | Entrega tardía | Entregado | Link |
 |----|---------|-----------|-----------|---------------|-----------|------|
-| 168 | Cama king Luna del Sur Gold Series — 2 sommiers + 2 colchones 200×100 | $600.000 | ✅ | — | — | https://adios.com.ar/item/168.html |
-| 159 | Zapatilla LDNIO SC3604 — 3 tomas universales + 6 puertos USB (precio acordado; lista $30.000) | $10.000 | ✅ | — | — | https://adios.com.ar/item/159.html |
+| 168 | Cama king Luna del Sur Gold Series — 2 sommiers + 2 colchones 200×100 | $600.000 | ✅ | — | ✅ | https://adios.com.ar/item/168.html |
+| 159 | Zapatilla LDNIO SC3604 — 3 tomas universales + 6 puertos USB (precio acordado; lista $30.000) | $10.000 | ✅ | — | ✅ | https://adios.com.ar/item/159.html |
 | 136 | Impresora Láser HP LaserJet M111a Monocromática USB (precio acordado; lista $85.000) | $75.000 | ✅ | — | ✅ | https://adios.com.ar/item/136.html |
 | 137 | Impresora HP LaserJet Pro M15w Monocromática Inalámbrica (precio acordado; lista $101.000) | $75.000 | ✅ | — | ✅ | https://adios.com.ar/item/137.html |
 
@@ -62,8 +62,8 @@
 | Estado | — |
 |--------|---|
 | Seña | — |
-| Entrega | Parcial: 2026-09-17 se llevó las dos impresoras HP (136 y 137). Resto pendiente. |
-| Notas | Segunda compra de Ariel (2026-09-17): cama king Luna del Sur (168) a precio de lista, zapatilla LDNIO (159) rebajada a $10.000 y las dos impresoras láser HP — LaserJet M111a (136) y LaserJet Pro M15w (137) — rebajadas a $75.000 cada una (lista $85.000 y $101.000), que ya se llevó. **Pendiente de pago: $760.000 ARS**, que se suman al saldo de la 1ª compra (USD 650 de la Bambu Lab; el lavarropas ya lo pagó el 2026-09-22). |
+| Entrega | ✅ **COMPLETADA** 2026-09-23 — retiró la cama (168) y la zapatilla (159); las impresoras HP se las había llevado el 2026-09-17 |
+| Notas | Segunda compra de Ariel (2026-09-17): cama king Luna del Sur (168) a precio de lista, zapatilla LDNIO (159) rebajada a $10.000 y las dos impresoras láser HP — LaserJet M111a (136) y LaserJet Pro M15w (137) — rebajadas a $75.000 cada una (lista $85.000 y $101.000), que se llevó ese día. 2026-09-23: retiró la cama y la zapatilla; entrega completa. **Pendiente de pago: $760.000 ARS**, que se suman al saldo de la 1ª compra (USD 650 de la Bambu Lab; el lavarropas ya lo pagó el 2026-09-22). |
 
 ---
 
@@ -90,16 +90,16 @@
 
 | ID | Producto | Precio ARS | Reservado | Entrega tardía | Entregado |
 |----|---------|-----------|-----------|---------------|-----------|
-| 2 | Heladera Samsung RS70F64KETEF | USD 1.350 | ✅ | — | — |
-| 131 | Smart TV LG OLED Evo 55" 4K ThinQ AI OLED55C3PSA | $1.100.000 | ✅ | ✅ | — |
+| 2 | Heladera Samsung RS70F64KETEF | USD 1.350 | ✅ | — | ✅ |
+| 131 | Smart TV LG OLED Evo 55" 4K ThinQ AI OLED55C3PSA | $1.100.000 | ✅ | ✅ | ✅ |
 
 **Total: USD 1.350 + $1.100.000 ARS**
 
 | Estado | — |
 |--------|---|
 | Seña | USD 1.000 |
-| Entrega | — |
-| Notas | Heladera movida desde la reserva de Ariel. Precio cerrado en USD 1.350 (2026-07-31). Saldo pendiente: USD 350 + $1.100.000 ARS (TV). |
+| Entrega | ✅ **COMPLETADA** 2026-09-23 — retiró la heladera y el TV |
+| Notas | Heladera movida desde la reserva de Ariel. Precio cerrado en USD 1.350 (2026-07-31). 2026-09-23: retiró la heladera y el TV; entrega completa. **Saldo pendiente: USD 350 + $1.100.000 ARS (TV).** |
 
 ---
 
