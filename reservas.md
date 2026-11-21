@@ -41,9 +41,9 @@
 
 | Estado | — |
 |--------|---|
-| Seña | USD 500 + $350.000 ARS (lavarropas pagado en su totalidad el 2026-09-22) |
+| Seña | ✅ USD 1.150 + $350.000 ARS (seña USD 500 + saldo USD 650 pagado, registrado el 2026-11-21; lavarropas pagado en su totalidad el 2026-09-22) |
 | Entrega | ✅ **COMPLETADA** 2026-09-22 — retiró el lavarropas (la Bambu Lab ya se la había llevado) |
-| Notas | Precio de la Bambu Lab cerrado en USD 1.150 (2026-07-31). 2026-09-22: pagó el lavarropas Hisense (132, $350.000) en su totalidad — es para su hermano; lo retiró ese mismo día. **Saldo pendiente: USD 650** (Bambu Lab). |
+| Notas | **OPERACIÓN CERRADA Y PAGADA: USD 1.150 + $350.000 ARS.** Precio de la Bambu Lab cerrado en USD 1.150 (2026-07-31). 2026-09-22: pagó el lavarropas Hisense (132, $350.000) en su totalidad — es para su hermano; lo retiró ese mismo día. Saldo de USD 650 (Bambu Lab) pagado, registrado el 2026-11-21. |
 
 ---
 
@@ -57,13 +57,13 @@
 | 136 | Impresora Láser HP LaserJet M111a Monocromática USB (precio acordado; lista $85.000) | $75.000 | ✅ | — | ✅ | https://adios.com.ar/item/136.html |
 | 137 | Impresora HP LaserJet Pro M15w Monocromática Inalámbrica (precio acordado; lista $101.000) | $75.000 | ✅ | — | ✅ | https://adios.com.ar/item/137.html |
 
-**Total: $760.000 ARS**
+**Total: $760.000 ARS (lista) — pagado en USD 495**
 
 | Estado | — |
 |--------|---|
-| Seña | — |
+| Seña | ✅ **USD 495** por los $760.000 ARS (pagó el total, registrado el 2026-11-21) |
 | Entrega | ✅ **COMPLETADA** 2026-09-23 — retiró la cama (168) y la zapatilla (159); las impresoras HP se las había llevado el 2026-09-17 |
-| Notas | Segunda compra de Ariel (2026-09-17): cama king Luna del Sur (168) a precio de lista, zapatilla LDNIO (159) rebajada a $10.000 y las dos impresoras láser HP — LaserJet M111a (136) y LaserJet Pro M15w (137) — rebajadas a $75.000 cada una (lista $85.000 y $101.000), que se llevó ese día. 2026-09-23: retiró la cama y la zapatilla; entrega completa. **Pendiente de pago: $760.000 ARS**, que se suman al saldo de la 1ª compra (USD 650 de la Bambu Lab; el lavarropas ya lo pagó el 2026-09-22). |
+| Notas | **OPERACIÓN CERRADA Y PAGADA: USD 495** (equivalente a los $760.000 ARS; registrado el 2026-11-21). Segunda compra de Ariel (2026-09-17): cama king Luna del Sur (168) a precio de lista, zapatilla LDNIO (159) rebajada a $10.000 y las dos impresoras láser HP — LaserJet M111a (136) y LaserJet Pro M15w (137) — rebajadas a $75.000 cada una (lista $85.000 y $101.000), que se llevó ese día. 2026-09-23: retiró la cama y la zapatilla; entrega completa. 2026-11-21: pagó los $760.000 en dólares (USD 495), junto con el saldo de USD 650 de la 1ª compra. |
 
 ---
 
@@ -97,9 +97,9 @@
 
 | Estado | — |
 |--------|---|
-| Seña | USD 1.000 |
+| Seña | ✅ **USD 2.065** (seña USD 1.000 + saldo heladera USD 350 + TV USD 715, registrado el 2026-11-21) |
 | Entrega | ✅ **COMPLETADA** 2026-09-23 — retiró la heladera y el TV |
-| Notas | Heladera movida desde la reserva de Ariel. Precio cerrado en USD 1.350 (2026-07-31). 2026-09-23: retiró la heladera y el TV; entrega completa. **Saldo pendiente: USD 350 + $1.100.000 ARS (TV).** |
+| Notas | **OPERACIÓN CERRADA Y PAGADA: USD 2.065** (heladera USD 1.350 + TV USD 715, equivalente a los $1.100.000 ARS de lista). Heladera movida desde la reserva de Ariel. Precio cerrado en USD 1.350 (2026-07-31). 2026-09-23: retiró la heladera y el TV; entrega completa. 2026-11-21: pagó el saldo de USD 350 de la heladera y el TV en dólares (USD 715). |
 
 ---
 
@@ -327,16 +327,16 @@
 
 | ID | Producto | Precio ARS | Reservado | Entrega tardía | Entregado | Link |
 |----|---------|-----------|-----------|---------------|-----------|------|
-| 160 | Zapatilla LDNIO SC3604 — 3 tomas universales + 6 puertos USB (2ª unidad) | $21.000 | ✅ | — | — | https://adios.com.ar/item/160.html |
-| 158 | Reloj despertador de madera Duaitek Woodclk con carga inalámbrica | $12.000 | ✅ | — | — | https://adios.com.ar/item/158.html |
+| ~~160~~ | ~~Zapatilla LDNIO SC3604 — 3 tomas universales + 6 puertos USB (2ª unidad)~~ | ~~$21.000~~ | ❌ liberado | — | — | https://adios.com.ar/item/160.html |
+| ~~158~~ | ~~Reloj despertador de madera Duaitek Woodclk con carga inalámbrica~~ | ~~$12.000~~ | ❌ liberado | — | — | https://adios.com.ar/item/158.html |
 
-**Total: $33.000 ARS**
+**Total: $0 ARS** (tanda dada de baja)
 
 | Estado | — |
 |--------|---|
 | Seña | — |
-| Entrega | Pendiente |
-| Notas | Segunda tanda, la primera (USD 290) ya está cerrada y entregada. |
+| Entrega | — |
+| Notas | **TANDA DADA DE BAJA 2026-11-21:** no pagó ni retiró. Se liberaron la zapatilla LDNIO (160, $21.000) y el reloj Duaitek (158, $12.000); vuelven a estar disponibles en la web. La primera tanda (USD 290) ya está cerrada y entregada. |
 
 ---
 
