@@ -63,3 +63,11 @@ _Los totales se calculan sin redondear; sumando las filas redondeadas puede habe
 | **Termina recibiendo** | **USD 8.137,62** | **USD 9.544,19** |
 
 Control: 8.137,62 + 9.544,19 = 17.681,81 = total general ✅
+
+## 5. Pago
+
+| Fecha | De | A | Medio | Monto |
+|-------|----|---|-------|-------|
+| 2026-11-27 | Juanma | Natu | Wise | **USD 7.950,00** |
+
+✅ **LIQUIDACIÓN CERRADA Y PAGADA** (2026-11-27). Se pagó USD 7.950,00 contra USD 7.949,83 adeudados (redondeo a favor de Natu: USD 0,17).
