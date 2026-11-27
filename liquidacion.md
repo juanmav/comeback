@@ -27,10 +27,10 @@ Cobrado por Natu: Lorena Conca ($251.000), Franco (USD 1.272,29) y Lauti (USD 16
 | 23 + 24 | Batería Roland TD-17KVX2 + banqueta | Ernesto | Natu | 2.500,00 | Paquete cerrado en USD |
 | 196 | Pad de práctica para batería | Ernesto | Natu | 48,39 | $75.000 a $1.550 |
 | 138 | Monitor AOC CQ27G2SE | Francisco | Natu | 181,29 | $281.000 a $1.550 |
-| 26 | Monitor LG 27UN83A-W 4K | Miguel Angel | Natu | 197,43 | Proporcional a la lista dentro del paquete de USD 290 ($350.000 de $514.119) |
+| 26 | Monitor LG 27UN83A-W 4K | Miguel Angel | Natu | 225,81 | $350.000 a $1.550 (valor real del monitor; el resto del paquete se vendió por menos) |
 
 - **Propios de Juanma:** USD 1.548,91
-- **Propios de Natu:** USD 2.927,10
+- **Propios de Natu:** USD 2.955,48
 
 ## 3. Reparto
 
@@ -38,15 +38,15 @@ Cobrado por Natu: Lorena Conca ($251.000), Franco (USD 1.272,29) y Lauti (USD 16
 |----------|-----|
 | Total general | 17.681,81 |
 | − Propios de Juanma | 1.548,91 |
-| − Propios de Natu | 2.927,10 |
-| **Pozo común** | **13.205,79** |
-| Mitad del pozo | 6.602,90 |
+| − Propios de Natu | 2.955,48 |
+| **Pozo común** | **13.177,42** |
+| Mitad del pozo | 6.588,71 |
 
 | | Juanma | Natu |
 |---|---|---|
-| Mitad del pozo | 6.602,90 | 6.602,90 |
-| + Propios | 1.548,91 | 2.927,10 |
-| **Le corresponde** | **8.151,81** | **9.530,00** |
+| Mitad del pozo | 6.588,71 | 6.588,71 |
+| + Propios | 1.548,91 | 2.955,48 |
+| **Le corresponde** | **8.137,62** | **9.544,19** |
 | Ya cobró | 16.087,45 | 1.594,36 |
 
-## ➡️ Juanma le debe a Natu: **USD 7.935,64**
+## ➡️ Juanma le debe a Natu: **USD 7.949,83**
