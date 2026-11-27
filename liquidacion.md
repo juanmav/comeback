@@ -1,6 +1,6 @@
 # Liquidación de ventas — Juanma / Natu
 
-**Fecha:** 2026-11-21
+**Fecha:** 2026-11-21 · **Actualizado:** 2026-11-27 (monitor LG a valor real)
 **Cotización:** $1.550 ARS = USD 1 · EUR 1 = USD 1,15
 **Fuente:** `reservas.md`. Todo lo que no figura como "cuenta de Natu" se cuenta como cobrado por Juanma.
 
@@ -32,6 +32,8 @@ Cobrado por Natu: Lorena Conca ($251.000), Franco (USD 1.272,29) y Lauti (USD 16
 - **Propios de Juanma:** USD 1.548,91
 - **Propios de Natu:** USD 2.955,48
 
+_Los totales se calculan sin redondear; sumando las filas redondeadas puede haber ±0,01 de diferencia (ej. Natu: 2.955,49)._
+
 ## 3. Reparto
 
 | Concepto | USD |
@@ -47,6 +49,17 @@ Cobrado por Natu: Lorena Conca ($251.000), Franco (USD 1.272,29) y Lauti (USD 16
 | Mitad del pozo | 6.588,71 | 6.588,71 |
 | + Propios | 1.548,91 | 2.955,48 |
 | **Le corresponde** | **8.137,62** | **9.544,19** |
-| Ya cobró | 16.087,45 | 1.594,36 |
+| − Ya cobró | 16.087,45 | 1.594,36 |
+| **Diferencia** | **+7.949,83 (cobró de más)** | **−7.949,83 (le falta cobrar)** |
+
+## 4. Resultado
 
 ## ➡️ Juanma le debe a Natu: **USD 7.949,83**
+
+| | Juanma | Natu |
+|---|---|---|
+| Cobró | 16.087,45 | 1.594,36 |
+| Transferencia | − 7.949,83 | + 7.949,83 |
+| **Termina recibiendo** | **USD 8.137,62** | **USD 9.544,19** |
+
+Control: 8.137,62 + 9.544,19 = 17.681,81 = total general ✅
